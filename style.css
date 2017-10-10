@@ -4,6 +4,7 @@ body, html, #app-container {
   font-family: 'Open Sans', sans-serif;
   background-color: #f3f3f3;
   font-size: 14px;
+  overflow: hidden;
 }
 
 #app-view-single {
@@ -46,7 +47,7 @@ body, html, #app-container {
   box-shadow: 0 4px 4px #dadada;
 }
 
-.event-calling-card {
+#scroll-header {
   background-color: #9b59b6;
   color: #fff;
   font-size: 1.6em;

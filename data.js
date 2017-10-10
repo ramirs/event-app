@@ -5,7 +5,7 @@ var eventFeed = [
   	"end": 930,
   	"title": "Keynote 1",
     "location": "3rd Floor Conference Center",
-  	"description": "Cornhole consequat etsy gluten-free crucifix. Occupy single-origin coffee labore anim affogato migas jianbing ea YOLO et. Salvia prism la croix, kinfolk pop-up deserunt butcher keytar tilde sunt four dollar toast biodiesel blue bottle.",
+  	"description": "Cornhole consequat etsy gluten-free crucifix. Occupy single-origin coffee labore anim affogato migas jianbing ea YOLO et. Salvia prism la croix, kinfolk pop-up deserunt butcher keytar tilde sunt four dollar toast biodiesel blue bottle.Cornhole consequat etsy gluten-free crucifix. Occupy single-origin coffee labore anim affogato migas jianbing ea YOLO et. Salvia prism la croix, kinfolk pop-up deserunt butcher keytar tilde sunt four dollar toast biodiesel blue bottle.Cornhole consequat etsy gluten-free crucifix. Occupy single-origin coffee labore anim affogato migas jianbing ea YOLO et. Salvia prism la croix, kinfolk pop-up deserunt butcher keytar tilde sunt four dollar toast biodiesel blue bottle.Cornhole consequat etsy gluten-free crucifix. Occupy single-origin coffee labore anim affogato migas jianbing ea YOLO et. Salvia prism la croix, kinfolk pop-up deserunt butcher keytar tilde sunt four dollar toast biodiesel blue bottle.",
   	"track": 0
   },
   {
