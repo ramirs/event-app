@@ -1,0 +1,42 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>SIX: Disrupt</title>
+  <script src="https://unpkg.com/vue"></script>
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"></script>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="layout.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+  <div id="app-container">
+    <div id="app-ui-header"><div class="app-ui-toggle" v-bind:class="{ activeTab: listToggle }" v-on:click="toggleList(true)"><i class="fa fa-list" aria-hidden="true"></i> View Full Schedule</div><div class="app-ui-toggle" v-bind:class="{ activeTab: !listToggle }" v-on:click="toggleList(false)"><i class="fa fa-user" aria-hidden="true"></i> {{userEvents.length}} Events Saved</div></div>
+    <div id="app-view-schedule">
+      <div v-show="listToggle" class="event-list-container">
+        <div v-for="ev in events" v-on:click="showSingleEventView(ev)" class="event-list-item">{{ev.title}} - {{ev.start}}</div>
+      </div>
+      <div v-show="!listToggle" class="event-list-container">
+        <div>{{initMsg}}</div>
+        <div v-for="ev in userEvents" v-on:click="showSingleEventView(ev)" class="event-list-item">{{ev.id}}: {{ev.title}} - {{ev.start}}</div>
+      </div>
+    </div>
+    <div id="app-view-single" v-show="singleToggle">
+      <div class="event-calling-card">
+        <div v-on:click="closeSingleEventView()" class="action-btn btn-back"><i class="fa fa-angle-left" aria-hidden="true"></i> back</div>
+        <div>{{singleEvent.title}} ({{singleEvent.id}})</div>
+      </div>
+      <div class="event-information">
+        <div><i class="fa fa-clock-o" aria-hidden="true"></i> {{singleEvent.start}} - {{singleEvent.end}}</div>
+        <div><i class="fa fa-map-marker" aria-hidden="true"></i> {{singleEvent.location}}</div>
+        <div>{{singleEvent.description}}</div>
+      </div>
+      <div v-if="listToggle" v-on:click="saveEvent()" class="ui-btn btn-save"><i class="fa fa-plus fa-2x" aria-hidden="true"></i></div>
+      <div v-if="!listToggle" v-on:click="deleteEvent(singleEvent)" class="ui-btn btn-delete"><i class="fa fa-times fa-2x" aria-hidden="true"></i></div>
+    </div>
+  </div>
+  <script type="text/javascript" src="schedule.js"></script>
+  <script type="text/javascript" src="data.js"></script>
+  <script type="text/javascript" src="app.js" async defer></script>
+</body>
+</html>

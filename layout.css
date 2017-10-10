@@ -1,0 +1,46 @@
+
+#app-view-single {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+  z-index: 1;
+}
+
+.app-ui-toggle {
+  display: inline-block;
+  width: 50%;
+  padding: 20px 25px;
+  box-sizing: border-box;
+}
+
+#app-view-single .ui-btn {
+  position: absolute;
+  right: 80px;
+  bottom: 75px;
+}
+
+.event-list-container {
+  padding: 20px 25px;
+}
+.event-list-item {
+  padding: 5px 10px;
+  margin-bottom: 7px;
+}
+
+.event-calling-card {
+  padding: 100px;
+}
+.event-information {
+  padding: 25px;
+}
+
+.action-btn {
+  position: absolute;
+}
+
+.btn-back {
+  top: 25px;
+  left: 20px;
+}
