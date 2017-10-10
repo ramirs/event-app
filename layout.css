@@ -11,14 +11,14 @@
 .app-ui-toggle {
   display: inline-block;
   width: 50%;
-  padding: 20px 25px;
+  padding: 15px 10px;
   box-sizing: border-box;
 }
 
 #app-view-single .ui-btn {
   position: absolute;
-  right: 80px;
-  bottom: 75px;
+  right: 45px;
+  bottom: 40px;
 }
 
 .event-list-container {
@@ -30,8 +30,10 @@
 }
 
 .event-calling-card {
-  padding: 100px;
+  text-align: center;
+  line-height: 200px;
 }
+
 .event-information {
   padding: 25px;
 }
@@ -43,4 +45,5 @@
 .btn-back {
   top: 25px;
   left: 20px;
+  line-height: initial;
 }

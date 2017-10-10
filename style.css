@@ -3,6 +3,7 @@ body, html, #app-container {
   padding: 0;
   font-family: 'Open Sans', sans-serif;
   background-color: #f3f3f3;
+  font-size: 14px;
 }
 
 #app-view-single {
@@ -11,6 +12,7 @@ body, html, #app-container {
 
 #app-ui-header {
   background-color: #fff;
+  font-size: 0.9em;
   -webkit-box-shadow: 0 4px 6px -6px #dadada;
   -moz-box-shadow: 0 4px 6px -6px #dadada;
   box-shadow: 0 4px 6px -6px #dadada;
@@ -47,10 +49,10 @@ body, html, #app-container {
 .event-calling-card {
   background-color: #9b59b6;
   color: #fff;
-  font-size: 24px;
+  font-size: 1.6em;
 }
 .event-information {
-  font-size: 18px;
+  font-size: 1.1em;
   color: #232323;
 }
 .event-information i {
@@ -84,4 +86,8 @@ body, html, #app-container {
 }
 .btn-delete {
   background-color: #e74c3c;
+}
+
+.btn-back {
+  font-size: 0.9em;
 }
