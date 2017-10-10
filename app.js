@@ -49,6 +49,7 @@
         if(uniqueEvent) {
           this.userEvents.push(this.singleEvent);
           scheduleManager.setSchedule(this.userEvents);
+          this.userEvents.sort(startTimeSort);
           this.closeSingleEventView();
         } else {
           console.log('youve already saved this event! :)');
