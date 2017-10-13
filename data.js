@@ -479,7 +479,7 @@ var eventFeed = [
     "start": "1545",
     "end": "1645",
     "location": "3rd Floor Conference Center",
-    "title": "CLosing Panel",
+    "title": "Closing Panel",
     "subtitle":"with Gerri and Guests",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris semper at justo eu varius. Integer imperdiet enim non lacus imperdiet tristique. Donec elementum at velit sit amet convallis. Praesent accumsan dapibus tempor. Duis orci enim, rutrum et risus ut, interdum varius urna. Sed quis dui fringilla, hendrerit velit quis, imperdiet eros. Nullam quis ex ac dui malesuada placerat id ac urna. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec mi nisl, porttitor et finibus id, aliquet fermentum lorem. Integer sed ex ac orci rhoncus posuere nec in velit. Nunc interdum, est et aliquet sollicitudin, odio lectus maximus tellus, non molestie justo dui id mi. Nam accumsan porta augue, nec posuere ante rutrum a. Suspendisse gravida mauris id sapien rhoncus lacinia. Donec nec vestibulum erat.",
     "organizations": [
