@@ -6,7 +6,14 @@ var eventFeed = [
     "location": "Kona East",
     "title": "EY",
     "subtitle":"_subtitle",
-    "description": "_desc",
+    "description": "Laboris esse XOXO cred enim dolore paleo ea slow-carb skateboard. Eu dolore nostrud PBR&B. Iceland eu quis, offal ennui tattooed tousled. VHS nisi minim taxidermy velit 8-bit, lomo reprehenderit dolor seitan glossier farm-to-table ut helvetica. Mustache kale chips microdosing salvia tofu velit ut lyft actually 3 wolf moon DIY. Affogato ex reprehenderit wolf elit hoodie semiotics pork belly. Lyft portland live-edge waistcoat ramps ex",
+    "organizations": [
+      {
+        "name": "_org_name",
+        "url": "_org_url",
+        "type": "_org_type"
+      }
+    ],
     "speakers": [
       {
         "name": "John De Yonge",
@@ -25,7 +32,14 @@ var eventFeed = [
     "location": "Kona East",
     "title": "Intel",
     "subtitle":"_subtitle",
-    "description": "_desc",
+    "description": "Laboris esse XOXO cred enim dolore paleo ea slow-carb skateboard. Eu dolore nostrud PBR&B. Iceland eu quis, offal ennui tattooed tousled. VHS nisi minim taxidermy velit 8-bit, lomo reprehenderit dolor seitan glossier farm-to-table ut helvetica. Mustache kale chips microdosing salvia tofu velit ut lyft actually 3 wolf moon DIY. Affogato ex reprehenderit wolf elit hoodie semiotics pork belly. Lyft portland live-edge waistcoat ramps ex",
+    "organizations": [
+      {
+        "name": "_org_name",
+        "url": "_org_url",
+        "type": "_org_type"
+      }
+    ],
     "speakers": [
       {
         "name": "Roz Hudnell",
@@ -44,7 +58,14 @@ var eventFeed = [
     "location": "Kona East",
     "title": "Zillow",
     "subtitle":"_subtitle",
-    "description": "_desc",
+    "description": "Laboris esse XOXO cred enim dolore paleo ea slow-carb skateboard. Eu dolore nostrud PBR&B. Iceland eu quis, offal ennui tattooed tousled. VHS nisi minim taxidermy velit 8-bit, lomo reprehenderit dolor seitan glossier farm-to-table ut helvetica. Mustache kale chips microdosing salvia tofu velit ut lyft actually 3 wolf moon DIY. Affogato ex reprehenderit wolf elit hoodie semiotics pork belly. Lyft portland live-edge waistcoat ramps ex",
+    "organizations": [
+      {
+        "name": "_org_name",
+        "url": "_org_url",
+        "type": "_org_type"
+      }
+    ],
     "speakers": [
       {
         "name": "Rebekah Bastian",
@@ -63,7 +84,14 @@ var eventFeed = [
     "location": "Origins",
     "title": "MOP Value Stream",
     "subtitle":"_subtitle",
-    "description": "_desc",
+    "description": "Laboris esse XOXO cred enim dolore paleo ea slow-carb skateboard. Eu dolore nostrud PBR&B. Iceland eu quis, offal ennui tattooed tousled. VHS nisi minim taxidermy velit 8-bit, lomo reprehenderit dolor seitan glossier farm-to-table ut helvetica. Mustache kale chips microdosing salvia tofu velit ut lyft actually 3 wolf moon DIY. Affogato ex reprehenderit wolf elit hoodie semiotics pork belly. Lyft portland live-edge waistcoat ramps ex",
+    "organizations": [
+      {
+        "name": "_org_name",
+        "url": "_org_url",
+        "type": "_org_type"
+      }
+    ],
     "speakers": [
       {
         "name": "_name",
@@ -82,7 +110,14 @@ var eventFeed = [
     "location": "Origins",
     "title": "Devops",
     "subtitle":"Pager Duty",
-    "description": "_desc",
+    "description": "Laboris esse XOXO cred enim dolore paleo ea slow-carb skateboard. Eu dolore nostrud PBR&B. Iceland eu quis, offal ennui tattooed tousled. VHS nisi minim taxidermy velit 8-bit, lomo reprehenderit dolor seitan glossier farm-to-table ut helvetica. Mustache kale chips microdosing salvia tofu velit ut lyft actually 3 wolf moon DIY. Affogato ex reprehenderit wolf elit hoodie semiotics pork belly. Lyft portland live-edge waistcoat ramps ex",
+    "organizations": [
+      {
+        "name": "_org_name",
+        "url": "_org_url",
+        "type": "_org_type"
+      }
+    ],
     "speakers": [
       {
         "name": "_name",
@@ -101,7 +136,14 @@ var eventFeed = [
     "location": "Talent Lab (4043)",
     "title": "Data Driven Decision Making",
     "subtitle":"_subtitle",
-    "description": "_desc",
+    "description": "Laboris esse XOXO cred enim dolore paleo ea slow-carb skateboard. Eu dolore nostrud PBR&B. Iceland eu quis, offal ennui tattooed tousled. VHS nisi minim taxidermy velit 8-bit, lomo reprehenderit dolor seitan glossier farm-to-table ut helvetica. Mustache kale chips microdosing salvia tofu velit ut lyft actually 3 wolf moon DIY. Affogato ex reprehenderit wolf elit hoodie semiotics pork belly. Lyft portland live-edge waistcoat ramps ex",
+    "organizations": [
+      {
+        "name": "_org_name",
+        "url": "_org_url",
+        "type": "_org_type"
+      }
+    ],
     "speakers": [
       {
         "name": "Patrick O'hagen",
@@ -120,7 +162,14 @@ var eventFeed = [
     "location": "Tanzania",
     "title": "Application Security",
     "subtitle":"Bug Bounty",
-    "description": "_desc",
+    "description": "Laboris esse XOXO cred enim dolore paleo ea slow-carb skateboard. Eu dolore nostrud PBR&B. Iceland eu quis, offal ennui tattooed tousled. VHS nisi minim taxidermy velit 8-bit, lomo reprehenderit dolor seitan glossier farm-to-table ut helvetica. Mustache kale chips microdosing salvia tofu velit ut lyft actually 3 wolf moon DIY. Affogato ex reprehenderit wolf elit hoodie semiotics pork belly. Lyft portland live-edge waistcoat ramps ex",
+    "organizations": [
+      {
+        "name": "_org_name",
+        "url": "_org_url",
+        "type": "_org_type"
+      }
+    ],
     "speakers": [
       {
         "name": "_name",
@@ -139,7 +188,14 @@ var eventFeed = [
     "location": "Tanzania",
     "title": "IOT Security",
     "subtitle":"_subtitle",
-    "description": "_desc",
+    "description": "Laboris esse XOXO cred enim dolore paleo ea slow-carb skateboard. Eu dolore nostrud PBR&B. Iceland eu quis, offal ennui tattooed tousled. VHS nisi minim taxidermy velit 8-bit, lomo reprehenderit dolor seitan glossier farm-to-table ut helvetica. Mustache kale chips microdosing salvia tofu velit ut lyft actually 3 wolf moon DIY. Affogato ex reprehenderit wolf elit hoodie semiotics pork belly. Lyft portland live-edge waistcoat ramps ex",
+    "organizations": [
+      {
+        "name": "_org_name",
+        "url": "_org_url",
+        "type": "_org_type"
+      }
+    ],
     "speakers": [
       {
         "name": "_name",
@@ -158,7 +214,14 @@ var eventFeed = [
     "location": "Kimodo Dragon",
     "title": "Build A Blockchain",
     "subtitle":"_subtitle",
-    "description": "_desc",
+    "description": "Laboris esse XOXO cred enim dolore paleo ea slow-carb skateboard. Eu dolore nostrud PBR&B. Iceland eu quis, offal ennui tattooed tousled. VHS nisi minim taxidermy velit 8-bit, lomo reprehenderit dolor seitan glossier farm-to-table ut helvetica. Mustache kale chips microdosing salvia tofu velit ut lyft actually 3 wolf moon DIY. Affogato ex reprehenderit wolf elit hoodie semiotics pork belly. Lyft portland live-edge waistcoat ramps ex",
+    "organizations": [
+      {
+        "name": "_org_name",
+        "url": "_org_url",
+        "type": "_org_type"
+      }
+    ],
     "speakers": [
       {
         "name": "_name",
@@ -177,7 +240,14 @@ var eventFeed = [
     "location": "Kimodo Dragon",
     "title": "Build A Blockchain",
     "subtitle":"_subtitle",
-    "description": "_desc",
+    "description": "Laboris esse XOXO cred enim dolore paleo ea slow-carb skateboard. Eu dolore nostrud PBR&B. Iceland eu quis, offal ennui tattooed tousled. VHS nisi minim taxidermy velit 8-bit, lomo reprehenderit dolor seitan glossier farm-to-table ut helvetica. Mustache kale chips microdosing salvia tofu velit ut lyft actually 3 wolf moon DIY. Affogato ex reprehenderit wolf elit hoodie semiotics pork belly. Lyft portland live-edge waistcoat ramps ex",
+    "organizations": [
+      {
+        "name": "_org_name",
+        "url": "_org_url",
+        "type": "_org_type"
+      }
+    ],
     "speakers": [
       {
         "name": "_name",
@@ -196,7 +266,14 @@ var eventFeed = [
     "location": "PDC",
     "title": "Validate Your Great Idea",
     "subtitle":"_subtitle",
-    "description": "_desc",
+    "description": "Laboris esse XOXO cred enim dolore paleo ea slow-carb skateboard. Eu dolore nostrud PBR&B. Iceland eu quis, offal ennui tattooed tousled. VHS nisi minim taxidermy velit 8-bit, lomo reprehenderit dolor seitan glossier farm-to-table ut helvetica. Mustache kale chips microdosing salvia tofu velit ut lyft actually 3 wolf moon DIY. Affogato ex reprehenderit wolf elit hoodie semiotics pork belly. Lyft portland live-edge waistcoat ramps ex",
+    "organizations": [
+      {
+        "name": "_org_name",
+        "url": "_org_url",
+        "type": "_org_type"
+      }
+    ],
     "speakers": [
       {
         "name": "Ben Gilbert",
@@ -215,7 +292,14 @@ var eventFeed = [
     "location": "PDC",
     "title": "Pitch Your Great Idea",
     "subtitle":"_subtitle",
-    "description": "_desc",
+    "description": "Laboris esse XOXO cred enim dolore paleo ea slow-carb skateboard. Eu dolore nostrud PBR&B. Iceland eu quis, offal ennui tattooed tousled. VHS nisi minim taxidermy velit 8-bit, lomo reprehenderit dolor seitan glossier farm-to-table ut helvetica. Mustache kale chips microdosing salvia tofu velit ut lyft actually 3 wolf moon DIY. Affogato ex reprehenderit wolf elit hoodie semiotics pork belly. Lyft portland live-edge waistcoat ramps ex",
+    "organizations": [
+      {
+        "name": "_org_name",
+        "url": "_org_url",
+        "type": "_org_type"
+      }
+    ],
     "speakers": [
       {
         "name": "Ryan Bruels",
@@ -234,7 +318,14 @@ var eventFeed = [
     "location": "Kona West",
     "title": "ASU",
     "subtitle":"_subtitle",
-    "description": "_desc",
+    "description": "Laboris esse XOXO cred enim dolore paleo ea slow-carb skateboard. Eu dolore nostrud PBR&B. Iceland eu quis, offal ennui tattooed tousled. VHS nisi minim taxidermy velit 8-bit, lomo reprehenderit dolor seitan glossier farm-to-table ut helvetica. Mustache kale chips microdosing salvia tofu velit ut lyft actually 3 wolf moon DIY. Affogato ex reprehenderit wolf elit hoodie semiotics pork belly. Lyft portland live-edge waistcoat ramps ex",
+    "organizations": [
+      {
+        "name": "_org_name",
+        "url": "_org_url",
+        "type": "_org_type"
+      }
+    ],
     "speakers": [
       {
         "name": "_name",
@@ -253,7 +344,14 @@ var eventFeed = [
     "location": "Kona West",
     "title": "ASU",
     "subtitle":"_subtitle",
-    "description": "_desc",
+    "description": "Laboris esse XOXO cred enim dolore paleo ea slow-carb skateboard. Eu dolore nostrud PBR&B. Iceland eu quis, offal ennui tattooed tousled. VHS nisi minim taxidermy velit 8-bit, lomo reprehenderit dolor seitan glossier farm-to-table ut helvetica. Mustache kale chips microdosing salvia tofu velit ut lyft actually 3 wolf moon DIY. Affogato ex reprehenderit wolf elit hoodie semiotics pork belly. Lyft portland live-edge waistcoat ramps ex",
+    "organizations": [
+      {
+        "name": "_org_name",
+        "url": "_org_url",
+        "type": "_org_type"
+      }
+    ],
     "speakers": [
       {
         "name": "_name",
@@ -272,7 +370,14 @@ var eventFeed = [
     "location": "Kona West",
     "title": "AR/VR",
     "subtitle":"_subtitle",
-    "description": "_desc",
+    "description": "Laboris esse XOXO cred enim dolore paleo ea slow-carb skateboard. Eu dolore nostrud PBR&B. Iceland eu quis, offal ennui tattooed tousled. VHS nisi minim taxidermy velit 8-bit, lomo reprehenderit dolor seitan glossier farm-to-table ut helvetica. Mustache kale chips microdosing salvia tofu velit ut lyft actually 3 wolf moon DIY. Affogato ex reprehenderit wolf elit hoodie semiotics pork belly. Lyft portland live-edge waistcoat ramps ex",
+    "organizations": [
+      {
+        "name": "_org_name",
+        "url": "_org_url",
+        "type": "_org_type"
+      }
+    ],
     "speakers": [
       {
         "name": "_name",
@@ -291,7 +396,14 @@ var eventFeed = [
     "location": "Kona West",
     "title": "Blockchain",
     "subtitle":"_subtitle",
-    "description": "_desc",
+    "description": "Laboris esse XOXO cred enim dolore paleo ea slow-carb skateboard. Eu dolore nostrud PBR&B. Iceland eu quis, offal ennui tattooed tousled. VHS nisi minim taxidermy velit 8-bit, lomo reprehenderit dolor seitan glossier farm-to-table ut helvetica. Mustache kale chips microdosing salvia tofu velit ut lyft actually 3 wolf moon DIY. Affogato ex reprehenderit wolf elit hoodie semiotics pork belly. Lyft portland live-edge waistcoat ramps ex",
+    "organizations": [
+      {
+        "name": "_org_name",
+        "url": "_org_url",
+        "type": "_org_type"
+      }
+    ],
     "speakers": [
       {
         "name": "Joe Roets",
@@ -310,7 +422,14 @@ var eventFeed = [
     "location": "Muan Jai",
     "title": "Cloud Lounge",
     "subtitle":"CICD Workshop",
-    "description": "_desc",
+    "description": "Laboris esse XOXO cred enim dolore paleo ea slow-carb skateboard. Eu dolore nostrud PBR&B. Iceland eu quis, offal ennui tattooed tousled. VHS nisi minim taxidermy velit 8-bit, lomo reprehenderit dolor seitan glossier farm-to-table ut helvetica. Mustache kale chips microdosing salvia tofu velit ut lyft actually 3 wolf moon DIY. Affogato ex reprehenderit wolf elit hoodie semiotics pork belly. Lyft portland live-edge waistcoat ramps ex",
+    "organizations": [
+      {
+        "name": "_org_name",
+        "url": "_org_url",
+        "type": "_org_type"
+      }
+    ],
     "speakers": [
       {
         "name": "_name",
@@ -329,7 +448,14 @@ var eventFeed = [
     "location": "Muan Jai",
     "title": "Cloud Lounge",
     "subtitle":"Security Workshop",
-    "description": "_desc",
+    "description": "Laboris esse XOXO cred enim dolore paleo ea slow-carb skateboard. Eu dolore nostrud PBR&B. Iceland eu quis, offal ennui tattooed tousled. VHS nisi minim taxidermy velit 8-bit, lomo reprehenderit dolor seitan glossier farm-to-table ut helvetica. Mustache kale chips microdosing salvia tofu velit ut lyft actually 3 wolf moon DIY. Affogato ex reprehenderit wolf elit hoodie semiotics pork belly. Lyft portland live-edge waistcoat ramps ex",
+    "organizations": [
+      {
+        "name": "_org_name",
+        "url": "_org_url",
+        "type": "_org_type"
+      }
+    ],
     "speakers": [
       {
         "name": "_name",
@@ -355,7 +481,14 @@ var eventFeed = [
     "location": "3rd Floor Conference Center",
     "title": "CLosing Panel",
     "subtitle":"with Gerri and Guests",
-    "description": "_desc",
+    "description": "Laboris esse XOXO cred enim dolore paleo ea slow-carb skateboard. Eu dolore nostrud PBR&B. Iceland eu quis, offal ennui tattooed tousled. VHS nisi minim taxidermy velit 8-bit, lomo reprehenderit dolor seitan glossier farm-to-table ut helvetica. Mustache kale chips microdosing salvia tofu velit ut lyft actually 3 wolf moon DIY. Affogato ex reprehenderit wolf elit hoodie semiotics pork belly. Lyft portland live-edge waistcoat ramps ex",
+    "organizations": [
+      {
+        "name": "_org_name",
+        "url": "_org_url",
+        "type": "_org_type"
+      }
+    ],
     "speakers": [
       {
         "name": "_name",
@@ -395,7 +528,14 @@ var eventFeed = [
     "location": "3rd Floor Commons",
     "title": "Closing Keynote",
     "subtitle":"Artificial Intelligence",
-    "description": "_desc",
+    "description": "Laboris esse XOXO cred enim dolore paleo ea slow-carb skateboard. Eu dolore nostrud PBR&B. Iceland eu quis, offal ennui tattooed tousled. VHS nisi minim taxidermy velit 8-bit, lomo reprehenderit dolor seitan glossier farm-to-table ut helvetica. Mustache kale chips microdosing salvia tofu velit ut lyft actually 3 wolf moon DIY. Affogato ex reprehenderit wolf elit hoodie semiotics pork belly. Lyft portland live-edge waistcoat ramps ex",
+    "organizations": [
+      {
+        "name": "_org_name",
+        "url": "_org_url",
+        "type": "_org_type"
+      }
+    ],
     "speakers": [
       {
         "name": "Harry Shum",
@@ -414,7 +554,14 @@ var eventFeed = [
     "location": "_location",
     "title": "Hack Your Lunch",
     "subtitle":"_subtitle",
-    "description": "_desc",
+    "description": "Laboris esse XOXO cred enim dolore paleo ea slow-carb skateboard. Eu dolore nostrud PBR&B. Iceland eu quis, offal ennui tattooed tousled. VHS nisi minim taxidermy velit 8-bit, lomo reprehenderit dolor seitan glossier farm-to-table ut helvetica. Mustache kale chips microdosing salvia tofu velit ut lyft actually 3 wolf moon DIY. Affogato ex reprehenderit wolf elit hoodie semiotics pork belly. Lyft portland live-edge waistcoat ramps ex",
+    "organizations": [
+      {
+        "name": "_org_name",
+        "url": "_org_url",
+        "type": "_org_type"
+      }
+    ],
     "speakers": [
       {
         "name": "_name",
@@ -433,7 +580,14 @@ var eventFeed = [
     "title": "Trade Show",
     "subtitle":"_subtitle",
     "location": "4th Floor Commons",
-    "description": "_desc",
+    "description": "Laboris esse XOXO cred enim dolore paleo ea slow-carb skateboard. Eu dolore nostrud PBR&B. Iceland eu quis, offal ennui tattooed tousled. VHS nisi minim taxidermy velit 8-bit, lomo reprehenderit dolor seitan glossier farm-to-table ut helvetica. Mustache kale chips microdosing salvia tofu velit ut lyft actually 3 wolf moon DIY. Affogato ex reprehenderit wolf elit hoodie semiotics pork belly. Lyft portland live-edge waistcoat ramps ex",
+    "organizations": [
+      {
+        "name": "_org_name",
+        "url": "_org_url",
+        "type": "_org_type"
+      }
+    ],
     "speakers": [
       {
         "name": "_name",
@@ -480,7 +634,14 @@ var eventFeed = [
     "location": "3rd Floor Conference Center",
     "title": "Morning Keynote",
     "subtitle":"_subtitle",
-    "description": "_desc",
+    "description": "Laboris esse XOXO cred enim dolore paleo ea slow-carb skateboard. Eu dolore nostrud PBR&B. Iceland eu quis, offal ennui tattooed tousled. VHS nisi minim taxidermy velit 8-bit, lomo reprehenderit dolor seitan glossier farm-to-table ut helvetica. Mustache kale chips microdosing salvia tofu velit ut lyft actually 3 wolf moon DIY. Affogato ex reprehenderit wolf elit hoodie semiotics pork belly. Lyft portland live-edge waistcoat ramps ex",
+    "organizations": [
+      {
+        "name": "_org_name",
+        "url": "_org_url",
+        "type": "_org_type"
+      }
+    ],
     "speakers": [
       {
         "name": "_name",
@@ -499,7 +660,14 @@ var eventFeed = [
     "location": "3rd Floor Conference Center",
     "title": "CTO Welcome",
     "subtitle":"_subtitle",
-    "description": "_desc",
+    "description": "Laboris esse XOXO cred enim dolore paleo ea slow-carb skateboard. Eu dolore nostrud PBR&B. Iceland eu quis, offal ennui tattooed tousled. VHS nisi minim taxidermy velit 8-bit, lomo reprehenderit dolor seitan glossier farm-to-table ut helvetica. Mustache kale chips microdosing salvia tofu velit ut lyft actually 3 wolf moon DIY. Affogato ex reprehenderit wolf elit hoodie semiotics pork belly. Lyft portland live-edge waistcoat ramps ex",
+    "organizations": [
+      {
+        "name": "_org_name",
+        "url": "_org_url",
+        "type": "_org_type"
+      }
+    ],
     "speakers": [
       {
         "name": "Gerri",
