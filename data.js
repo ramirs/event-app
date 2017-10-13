@@ -6,7 +6,7 @@ var eventFeed = [
     "location": "Kona East",
     "title": "EY",
     "subtitle":"_subtitle",
-    "description": "Laboris esse XOXO cred enim dolore paleo ea slow-carb skateboard. Eu dolore nostrud PBR&B. Iceland eu quis, offal ennui tattooed tousled. VHS nisi minim taxidermy velit 8-bit, lomo reprehenderit dolor seitan glossier farm-to-table ut helvetica. Mustache kale chips microdosing salvia tofu velit ut lyft actually 3 wolf moon DIY. Affogato ex reprehenderit wolf elit hoodie semiotics pork belly. Lyft portland live-edge waistcoat ramps ex",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris semper at justo eu varius. Integer imperdiet enim non lacus imperdiet tristique. Donec elementum at velit sit amet convallis. Praesent accumsan dapibus tempor. Duis orci enim, rutrum et risus ut, interdum varius urna. Sed quis dui fringilla, hendrerit velit quis, imperdiet eros. Nullam quis ex ac dui malesuada placerat id ac urna. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec mi nisl, porttitor et finibus id, aliquet fermentum lorem. Integer sed ex ac orci rhoncus posuere nec in velit. Nunc interdum, est et aliquet sollicitudin, odio lectus maximus tellus, non molestie justo dui id mi. Nam accumsan porta augue, nec posuere ante rutrum a. Suspendisse gravida mauris id sapien rhoncus lacinia. Donec nec vestibulum erat.",
     "organizations": [
       {
         "name": "_org_name",
@@ -32,7 +32,7 @@ var eventFeed = [
     "location": "Kona East",
     "title": "Intel",
     "subtitle":"_subtitle",
-    "description": "Laboris esse XOXO cred enim dolore paleo ea slow-carb skateboard. Eu dolore nostrud PBR&B. Iceland eu quis, offal ennui tattooed tousled. VHS nisi minim taxidermy velit 8-bit, lomo reprehenderit dolor seitan glossier farm-to-table ut helvetica. Mustache kale chips microdosing salvia tofu velit ut lyft actually 3 wolf moon DIY. Affogato ex reprehenderit wolf elit hoodie semiotics pork belly. Lyft portland live-edge waistcoat ramps ex",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris semper at justo eu varius. Integer imperdiet enim non lacus imperdiet tristique. Donec elementum at velit sit amet convallis. Praesent accumsan dapibus tempor. Duis orci enim, rutrum et risus ut, interdum varius urna. Sed quis dui fringilla, hendrerit velit quis, imperdiet eros. Nullam quis ex ac dui malesuada placerat id ac urna. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec mi nisl, porttitor et finibus id, aliquet fermentum lorem. Integer sed ex ac orci rhoncus posuere nec in velit. Nunc interdum, est et aliquet sollicitudin, odio lectus maximus tellus, non molestie justo dui id mi. Nam accumsan porta augue, nec posuere ante rutrum a. Suspendisse gravida mauris id sapien rhoncus lacinia. Donec nec vestibulum erat.",
     "organizations": [
       {
         "name": "_org_name",
@@ -58,7 +58,7 @@ var eventFeed = [
     "location": "Kona East",
     "title": "Zillow",
     "subtitle":"_subtitle",
-    "description": "Laboris esse XOXO cred enim dolore paleo ea slow-carb skateboard. Eu dolore nostrud PBR&B. Iceland eu quis, offal ennui tattooed tousled. VHS nisi minim taxidermy velit 8-bit, lomo reprehenderit dolor seitan glossier farm-to-table ut helvetica. Mustache kale chips microdosing salvia tofu velit ut lyft actually 3 wolf moon DIY. Affogato ex reprehenderit wolf elit hoodie semiotics pork belly. Lyft portland live-edge waistcoat ramps ex",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris semper at justo eu varius. Integer imperdiet enim non lacus imperdiet tristique. Donec elementum at velit sit amet convallis. Praesent accumsan dapibus tempor. Duis orci enim, rutrum et risus ut, interdum varius urna. Sed quis dui fringilla, hendrerit velit quis, imperdiet eros. Nullam quis ex ac dui malesuada placerat id ac urna. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec mi nisl, porttitor et finibus id, aliquet fermentum lorem. Integer sed ex ac orci rhoncus posuere nec in velit. Nunc interdum, est et aliquet sollicitudin, odio lectus maximus tellus, non molestie justo dui id mi. Nam accumsan porta augue, nec posuere ante rutrum a. Suspendisse gravida mauris id sapien rhoncus lacinia. Donec nec vestibulum erat.",
     "organizations": [
       {
         "name": "_org_name",
@@ -84,7 +84,7 @@ var eventFeed = [
     "location": "Origins",
     "title": "MOP Value Stream",
     "subtitle":"_subtitle",
-    "description": "Laboris esse XOXO cred enim dolore paleo ea slow-carb skateboard. Eu dolore nostrud PBR&B. Iceland eu quis, offal ennui tattooed tousled. VHS nisi minim taxidermy velit 8-bit, lomo reprehenderit dolor seitan glossier farm-to-table ut helvetica. Mustache kale chips microdosing salvia tofu velit ut lyft actually 3 wolf moon DIY. Affogato ex reprehenderit wolf elit hoodie semiotics pork belly. Lyft portland live-edge waistcoat ramps ex",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris semper at justo eu varius. Integer imperdiet enim non lacus imperdiet tristique. Donec elementum at velit sit amet convallis. Praesent accumsan dapibus tempor. Duis orci enim, rutrum et risus ut, interdum varius urna. Sed quis dui fringilla, hendrerit velit quis, imperdiet eros. Nullam quis ex ac dui malesuada placerat id ac urna. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec mi nisl, porttitor et finibus id, aliquet fermentum lorem. Integer sed ex ac orci rhoncus posuere nec in velit. Nunc interdum, est et aliquet sollicitudin, odio lectus maximus tellus, non molestie justo dui id mi. Nam accumsan porta augue, nec posuere ante rutrum a. Suspendisse gravida mauris id sapien rhoncus lacinia. Donec nec vestibulum erat.",
     "organizations": [
       {
         "name": "_org_name",
@@ -110,7 +110,7 @@ var eventFeed = [
     "location": "Origins",
     "title": "Devops",
     "subtitle":"Pager Duty",
-    "description": "Laboris esse XOXO cred enim dolore paleo ea slow-carb skateboard. Eu dolore nostrud PBR&B. Iceland eu quis, offal ennui tattooed tousled. VHS nisi minim taxidermy velit 8-bit, lomo reprehenderit dolor seitan glossier farm-to-table ut helvetica. Mustache kale chips microdosing salvia tofu velit ut lyft actually 3 wolf moon DIY. Affogato ex reprehenderit wolf elit hoodie semiotics pork belly. Lyft portland live-edge waistcoat ramps ex",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris semper at justo eu varius. Integer imperdiet enim non lacus imperdiet tristique. Donec elementum at velit sit amet convallis. Praesent accumsan dapibus tempor. Duis orci enim, rutrum et risus ut, interdum varius urna. Sed quis dui fringilla, hendrerit velit quis, imperdiet eros. Nullam quis ex ac dui malesuada placerat id ac urna. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec mi nisl, porttitor et finibus id, aliquet fermentum lorem. Integer sed ex ac orci rhoncus posuere nec in velit. Nunc interdum, est et aliquet sollicitudin, odio lectus maximus tellus, non molestie justo dui id mi. Nam accumsan porta augue, nec posuere ante rutrum a. Suspendisse gravida mauris id sapien rhoncus lacinia. Donec nec vestibulum erat.",
     "organizations": [
       {
         "name": "_org_name",
@@ -136,7 +136,7 @@ var eventFeed = [
     "location": "Talent Lab (4043)",
     "title": "Data Driven Decision Making",
     "subtitle":"_subtitle",
-    "description": "Laboris esse XOXO cred enim dolore paleo ea slow-carb skateboard. Eu dolore nostrud PBR&B. Iceland eu quis, offal ennui tattooed tousled. VHS nisi minim taxidermy velit 8-bit, lomo reprehenderit dolor seitan glossier farm-to-table ut helvetica. Mustache kale chips microdosing salvia tofu velit ut lyft actually 3 wolf moon DIY. Affogato ex reprehenderit wolf elit hoodie semiotics pork belly. Lyft portland live-edge waistcoat ramps ex",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris semper at justo eu varius. Integer imperdiet enim non lacus imperdiet tristique. Donec elementum at velit sit amet convallis. Praesent accumsan dapibus tempor. Duis orci enim, rutrum et risus ut, interdum varius urna. Sed quis dui fringilla, hendrerit velit quis, imperdiet eros. Nullam quis ex ac dui malesuada placerat id ac urna. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec mi nisl, porttitor et finibus id, aliquet fermentum lorem. Integer sed ex ac orci rhoncus posuere nec in velit. Nunc interdum, est et aliquet sollicitudin, odio lectus maximus tellus, non molestie justo dui id mi. Nam accumsan porta augue, nec posuere ante rutrum a. Suspendisse gravida mauris id sapien rhoncus lacinia. Donec nec vestibulum erat.",
     "organizations": [
       {
         "name": "_org_name",
@@ -162,7 +162,7 @@ var eventFeed = [
     "location": "Tanzania",
     "title": "Application Security",
     "subtitle":"Bug Bounty",
-    "description": "Laboris esse XOXO cred enim dolore paleo ea slow-carb skateboard. Eu dolore nostrud PBR&B. Iceland eu quis, offal ennui tattooed tousled. VHS nisi minim taxidermy velit 8-bit, lomo reprehenderit dolor seitan glossier farm-to-table ut helvetica. Mustache kale chips microdosing salvia tofu velit ut lyft actually 3 wolf moon DIY. Affogato ex reprehenderit wolf elit hoodie semiotics pork belly. Lyft portland live-edge waistcoat ramps ex",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris semper at justo eu varius. Integer imperdiet enim non lacus imperdiet tristique. Donec elementum at velit sit amet convallis. Praesent accumsan dapibus tempor. Duis orci enim, rutrum et risus ut, interdum varius urna. Sed quis dui fringilla, hendrerit velit quis, imperdiet eros. Nullam quis ex ac dui malesuada placerat id ac urna. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec mi nisl, porttitor et finibus id, aliquet fermentum lorem. Integer sed ex ac orci rhoncus posuere nec in velit. Nunc interdum, est et aliquet sollicitudin, odio lectus maximus tellus, non molestie justo dui id mi. Nam accumsan porta augue, nec posuere ante rutrum a. Suspendisse gravida mauris id sapien rhoncus lacinia. Donec nec vestibulum erat.",
     "organizations": [
       {
         "name": "_org_name",
@@ -188,7 +188,7 @@ var eventFeed = [
     "location": "Tanzania",
     "title": "IOT Security",
     "subtitle":"_subtitle",
-    "description": "Laboris esse XOXO cred enim dolore paleo ea slow-carb skateboard. Eu dolore nostrud PBR&B. Iceland eu quis, offal ennui tattooed tousled. VHS nisi minim taxidermy velit 8-bit, lomo reprehenderit dolor seitan glossier farm-to-table ut helvetica. Mustache kale chips microdosing salvia tofu velit ut lyft actually 3 wolf moon DIY. Affogato ex reprehenderit wolf elit hoodie semiotics pork belly. Lyft portland live-edge waistcoat ramps ex",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris semper at justo eu varius. Integer imperdiet enim non lacus imperdiet tristique. Donec elementum at velit sit amet convallis. Praesent accumsan dapibus tempor. Duis orci enim, rutrum et risus ut, interdum varius urna. Sed quis dui fringilla, hendrerit velit quis, imperdiet eros. Nullam quis ex ac dui malesuada placerat id ac urna. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec mi nisl, porttitor et finibus id, aliquet fermentum lorem. Integer sed ex ac orci rhoncus posuere nec in velit. Nunc interdum, est et aliquet sollicitudin, odio lectus maximus tellus, non molestie justo dui id mi. Nam accumsan porta augue, nec posuere ante rutrum a. Suspendisse gravida mauris id sapien rhoncus lacinia. Donec nec vestibulum erat.",
     "organizations": [
       {
         "name": "_org_name",
@@ -214,7 +214,7 @@ var eventFeed = [
     "location": "Kimodo Dragon",
     "title": "Build A Blockchain",
     "subtitle":"_subtitle",
-    "description": "Laboris esse XOXO cred enim dolore paleo ea slow-carb skateboard. Eu dolore nostrud PBR&B. Iceland eu quis, offal ennui tattooed tousled. VHS nisi minim taxidermy velit 8-bit, lomo reprehenderit dolor seitan glossier farm-to-table ut helvetica. Mustache kale chips microdosing salvia tofu velit ut lyft actually 3 wolf moon DIY. Affogato ex reprehenderit wolf elit hoodie semiotics pork belly. Lyft portland live-edge waistcoat ramps ex",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris semper at justo eu varius. Integer imperdiet enim non lacus imperdiet tristique. Donec elementum at velit sit amet convallis. Praesent accumsan dapibus tempor. Duis orci enim, rutrum et risus ut, interdum varius urna. Sed quis dui fringilla, hendrerit velit quis, imperdiet eros. Nullam quis ex ac dui malesuada placerat id ac urna. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec mi nisl, porttitor et finibus id, aliquet fermentum lorem. Integer sed ex ac orci rhoncus posuere nec in velit. Nunc interdum, est et aliquet sollicitudin, odio lectus maximus tellus, non molestie justo dui id mi. Nam accumsan porta augue, nec posuere ante rutrum a. Suspendisse gravida mauris id sapien rhoncus lacinia. Donec nec vestibulum erat.",
     "organizations": [
       {
         "name": "_org_name",
@@ -240,7 +240,7 @@ var eventFeed = [
     "location": "Kimodo Dragon",
     "title": "Build A Blockchain",
     "subtitle":"_subtitle",
-    "description": "Laboris esse XOXO cred enim dolore paleo ea slow-carb skateboard. Eu dolore nostrud PBR&B. Iceland eu quis, offal ennui tattooed tousled. VHS nisi minim taxidermy velit 8-bit, lomo reprehenderit dolor seitan glossier farm-to-table ut helvetica. Mustache kale chips microdosing salvia tofu velit ut lyft actually 3 wolf moon DIY. Affogato ex reprehenderit wolf elit hoodie semiotics pork belly. Lyft portland live-edge waistcoat ramps ex",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris semper at justo eu varius. Integer imperdiet enim non lacus imperdiet tristique. Donec elementum at velit sit amet convallis. Praesent accumsan dapibus tempor. Duis orci enim, rutrum et risus ut, interdum varius urna. Sed quis dui fringilla, hendrerit velit quis, imperdiet eros. Nullam quis ex ac dui malesuada placerat id ac urna. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec mi nisl, porttitor et finibus id, aliquet fermentum lorem. Integer sed ex ac orci rhoncus posuere nec in velit. Nunc interdum, est et aliquet sollicitudin, odio lectus maximus tellus, non molestie justo dui id mi. Nam accumsan porta augue, nec posuere ante rutrum a. Suspendisse gravida mauris id sapien rhoncus lacinia. Donec nec vestibulum erat.",
     "organizations": [
       {
         "name": "_org_name",
@@ -266,7 +266,7 @@ var eventFeed = [
     "location": "PDC",
     "title": "Validate Your Great Idea",
     "subtitle":"_subtitle",
-    "description": "Laboris esse XOXO cred enim dolore paleo ea slow-carb skateboard. Eu dolore nostrud PBR&B. Iceland eu quis, offal ennui tattooed tousled. VHS nisi minim taxidermy velit 8-bit, lomo reprehenderit dolor seitan glossier farm-to-table ut helvetica. Mustache kale chips microdosing salvia tofu velit ut lyft actually 3 wolf moon DIY. Affogato ex reprehenderit wolf elit hoodie semiotics pork belly. Lyft portland live-edge waistcoat ramps ex",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris semper at justo eu varius. Integer imperdiet enim non lacus imperdiet tristique. Donec elementum at velit sit amet convallis. Praesent accumsan dapibus tempor. Duis orci enim, rutrum et risus ut, interdum varius urna. Sed quis dui fringilla, hendrerit velit quis, imperdiet eros. Nullam quis ex ac dui malesuada placerat id ac urna. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec mi nisl, porttitor et finibus id, aliquet fermentum lorem. Integer sed ex ac orci rhoncus posuere nec in velit. Nunc interdum, est et aliquet sollicitudin, odio lectus maximus tellus, non molestie justo dui id mi. Nam accumsan porta augue, nec posuere ante rutrum a. Suspendisse gravida mauris id sapien rhoncus lacinia. Donec nec vestibulum erat.",
     "organizations": [
       {
         "name": "_org_name",
@@ -292,7 +292,7 @@ var eventFeed = [
     "location": "PDC",
     "title": "Pitch Your Great Idea",
     "subtitle":"_subtitle",
-    "description": "Laboris esse XOXO cred enim dolore paleo ea slow-carb skateboard. Eu dolore nostrud PBR&B. Iceland eu quis, offal ennui tattooed tousled. VHS nisi minim taxidermy velit 8-bit, lomo reprehenderit dolor seitan glossier farm-to-table ut helvetica. Mustache kale chips microdosing salvia tofu velit ut lyft actually 3 wolf moon DIY. Affogato ex reprehenderit wolf elit hoodie semiotics pork belly. Lyft portland live-edge waistcoat ramps ex",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris semper at justo eu varius. Integer imperdiet enim non lacus imperdiet tristique. Donec elementum at velit sit amet convallis. Praesent accumsan dapibus tempor. Duis orci enim, rutrum et risus ut, interdum varius urna. Sed quis dui fringilla, hendrerit velit quis, imperdiet eros. Nullam quis ex ac dui malesuada placerat id ac urna. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec mi nisl, porttitor et finibus id, aliquet fermentum lorem. Integer sed ex ac orci rhoncus posuere nec in velit. Nunc interdum, est et aliquet sollicitudin, odio lectus maximus tellus, non molestie justo dui id mi. Nam accumsan porta augue, nec posuere ante rutrum a. Suspendisse gravida mauris id sapien rhoncus lacinia. Donec nec vestibulum erat.",
     "organizations": [
       {
         "name": "_org_name",
@@ -318,7 +318,7 @@ var eventFeed = [
     "location": "Kona West",
     "title": "ASU",
     "subtitle":"_subtitle",
-    "description": "Laboris esse XOXO cred enim dolore paleo ea slow-carb skateboard. Eu dolore nostrud PBR&B. Iceland eu quis, offal ennui tattooed tousled. VHS nisi minim taxidermy velit 8-bit, lomo reprehenderit dolor seitan glossier farm-to-table ut helvetica. Mustache kale chips microdosing salvia tofu velit ut lyft actually 3 wolf moon DIY. Affogato ex reprehenderit wolf elit hoodie semiotics pork belly. Lyft portland live-edge waistcoat ramps ex",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris semper at justo eu varius. Integer imperdiet enim non lacus imperdiet tristique. Donec elementum at velit sit amet convallis. Praesent accumsan dapibus tempor. Duis orci enim, rutrum et risus ut, interdum varius urna. Sed quis dui fringilla, hendrerit velit quis, imperdiet eros. Nullam quis ex ac dui malesuada placerat id ac urna. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec mi nisl, porttitor et finibus id, aliquet fermentum lorem. Integer sed ex ac orci rhoncus posuere nec in velit. Nunc interdum, est et aliquet sollicitudin, odio lectus maximus tellus, non molestie justo dui id mi. Nam accumsan porta augue, nec posuere ante rutrum a. Suspendisse gravida mauris id sapien rhoncus lacinia. Donec nec vestibulum erat.",
     "organizations": [
       {
         "name": "_org_name",
@@ -344,7 +344,7 @@ var eventFeed = [
     "location": "Kona West",
     "title": "ASU",
     "subtitle":"_subtitle",
-    "description": "Laboris esse XOXO cred enim dolore paleo ea slow-carb skateboard. Eu dolore nostrud PBR&B. Iceland eu quis, offal ennui tattooed tousled. VHS nisi minim taxidermy velit 8-bit, lomo reprehenderit dolor seitan glossier farm-to-table ut helvetica. Mustache kale chips microdosing salvia tofu velit ut lyft actually 3 wolf moon DIY. Affogato ex reprehenderit wolf elit hoodie semiotics pork belly. Lyft portland live-edge waistcoat ramps ex",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris semper at justo eu varius. Integer imperdiet enim non lacus imperdiet tristique. Donec elementum at velit sit amet convallis. Praesent accumsan dapibus tempor. Duis orci enim, rutrum et risus ut, interdum varius urna. Sed quis dui fringilla, hendrerit velit quis, imperdiet eros. Nullam quis ex ac dui malesuada placerat id ac urna. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec mi nisl, porttitor et finibus id, aliquet fermentum lorem. Integer sed ex ac orci rhoncus posuere nec in velit. Nunc interdum, est et aliquet sollicitudin, odio lectus maximus tellus, non molestie justo dui id mi. Nam accumsan porta augue, nec posuere ante rutrum a. Suspendisse gravida mauris id sapien rhoncus lacinia. Donec nec vestibulum erat.",
     "organizations": [
       {
         "name": "_org_name",
@@ -370,7 +370,7 @@ var eventFeed = [
     "location": "Kona West",
     "title": "AR/VR",
     "subtitle":"_subtitle",
-    "description": "Laboris esse XOXO cred enim dolore paleo ea slow-carb skateboard. Eu dolore nostrud PBR&B. Iceland eu quis, offal ennui tattooed tousled. VHS nisi minim taxidermy velit 8-bit, lomo reprehenderit dolor seitan glossier farm-to-table ut helvetica. Mustache kale chips microdosing salvia tofu velit ut lyft actually 3 wolf moon DIY. Affogato ex reprehenderit wolf elit hoodie semiotics pork belly. Lyft portland live-edge waistcoat ramps ex",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris semper at justo eu varius. Integer imperdiet enim non lacus imperdiet tristique. Donec elementum at velit sit amet convallis. Praesent accumsan dapibus tempor. Duis orci enim, rutrum et risus ut, interdum varius urna. Sed quis dui fringilla, hendrerit velit quis, imperdiet eros. Nullam quis ex ac dui malesuada placerat id ac urna. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec mi nisl, porttitor et finibus id, aliquet fermentum lorem. Integer sed ex ac orci rhoncus posuere nec in velit. Nunc interdum, est et aliquet sollicitudin, odio lectus maximus tellus, non molestie justo dui id mi. Nam accumsan porta augue, nec posuere ante rutrum a. Suspendisse gravida mauris id sapien rhoncus lacinia. Donec nec vestibulum erat.",
     "organizations": [
       {
         "name": "_org_name",
@@ -396,7 +396,7 @@ var eventFeed = [
     "location": "Kona West",
     "title": "Blockchain",
     "subtitle":"_subtitle",
-    "description": "Laboris esse XOXO cred enim dolore paleo ea slow-carb skateboard. Eu dolore nostrud PBR&B. Iceland eu quis, offal ennui tattooed tousled. VHS nisi minim taxidermy velit 8-bit, lomo reprehenderit dolor seitan glossier farm-to-table ut helvetica. Mustache kale chips microdosing salvia tofu velit ut lyft actually 3 wolf moon DIY. Affogato ex reprehenderit wolf elit hoodie semiotics pork belly. Lyft portland live-edge waistcoat ramps ex",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris semper at justo eu varius. Integer imperdiet enim non lacus imperdiet tristique. Donec elementum at velit sit amet convallis. Praesent accumsan dapibus tempor. Duis orci enim, rutrum et risus ut, interdum varius urna. Sed quis dui fringilla, hendrerit velit quis, imperdiet eros. Nullam quis ex ac dui malesuada placerat id ac urna. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec mi nisl, porttitor et finibus id, aliquet fermentum lorem. Integer sed ex ac orci rhoncus posuere nec in velit. Nunc interdum, est et aliquet sollicitudin, odio lectus maximus tellus, non molestie justo dui id mi. Nam accumsan porta augue, nec posuere ante rutrum a. Suspendisse gravida mauris id sapien rhoncus lacinia. Donec nec vestibulum erat.",
     "organizations": [
       {
         "name": "_org_name",
@@ -422,7 +422,7 @@ var eventFeed = [
     "location": "Muan Jai",
     "title": "Cloud Lounge",
     "subtitle":"CICD Workshop",
-    "description": "Laboris esse XOXO cred enim dolore paleo ea slow-carb skateboard. Eu dolore nostrud PBR&B. Iceland eu quis, offal ennui tattooed tousled. VHS nisi minim taxidermy velit 8-bit, lomo reprehenderit dolor seitan glossier farm-to-table ut helvetica. Mustache kale chips microdosing salvia tofu velit ut lyft actually 3 wolf moon DIY. Affogato ex reprehenderit wolf elit hoodie semiotics pork belly. Lyft portland live-edge waistcoat ramps ex",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris semper at justo eu varius. Integer imperdiet enim non lacus imperdiet tristique. Donec elementum at velit sit amet convallis. Praesent accumsan dapibus tempor. Duis orci enim, rutrum et risus ut, interdum varius urna. Sed quis dui fringilla, hendrerit velit quis, imperdiet eros. Nullam quis ex ac dui malesuada placerat id ac urna. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec mi nisl, porttitor et finibus id, aliquet fermentum lorem. Integer sed ex ac orci rhoncus posuere nec in velit. Nunc interdum, est et aliquet sollicitudin, odio lectus maximus tellus, non molestie justo dui id mi. Nam accumsan porta augue, nec posuere ante rutrum a. Suspendisse gravida mauris id sapien rhoncus lacinia. Donec nec vestibulum erat.",
     "organizations": [
       {
         "name": "_org_name",
@@ -448,7 +448,7 @@ var eventFeed = [
     "location": "Muan Jai",
     "title": "Cloud Lounge",
     "subtitle":"Security Workshop",
-    "description": "Laboris esse XOXO cred enim dolore paleo ea slow-carb skateboard. Eu dolore nostrud PBR&B. Iceland eu quis, offal ennui tattooed tousled. VHS nisi minim taxidermy velit 8-bit, lomo reprehenderit dolor seitan glossier farm-to-table ut helvetica. Mustache kale chips microdosing salvia tofu velit ut lyft actually 3 wolf moon DIY. Affogato ex reprehenderit wolf elit hoodie semiotics pork belly. Lyft portland live-edge waistcoat ramps ex",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris semper at justo eu varius. Integer imperdiet enim non lacus imperdiet tristique. Donec elementum at velit sit amet convallis. Praesent accumsan dapibus tempor. Duis orci enim, rutrum et risus ut, interdum varius urna. Sed quis dui fringilla, hendrerit velit quis, imperdiet eros. Nullam quis ex ac dui malesuada placerat id ac urna. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec mi nisl, porttitor et finibus id, aliquet fermentum lorem. Integer sed ex ac orci rhoncus posuere nec in velit. Nunc interdum, est et aliquet sollicitudin, odio lectus maximus tellus, non molestie justo dui id mi. Nam accumsan porta augue, nec posuere ante rutrum a. Suspendisse gravida mauris id sapien rhoncus lacinia. Donec nec vestibulum erat.",
     "organizations": [
       {
         "name": "_org_name",
@@ -481,7 +481,7 @@ var eventFeed = [
     "location": "3rd Floor Conference Center",
     "title": "CLosing Panel",
     "subtitle":"with Gerri and Guests",
-    "description": "Laboris esse XOXO cred enim dolore paleo ea slow-carb skateboard. Eu dolore nostrud PBR&B. Iceland eu quis, offal ennui tattooed tousled. VHS nisi minim taxidermy velit 8-bit, lomo reprehenderit dolor seitan glossier farm-to-table ut helvetica. Mustache kale chips microdosing salvia tofu velit ut lyft actually 3 wolf moon DIY. Affogato ex reprehenderit wolf elit hoodie semiotics pork belly. Lyft portland live-edge waistcoat ramps ex",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris semper at justo eu varius. Integer imperdiet enim non lacus imperdiet tristique. Donec elementum at velit sit amet convallis. Praesent accumsan dapibus tempor. Duis orci enim, rutrum et risus ut, interdum varius urna. Sed quis dui fringilla, hendrerit velit quis, imperdiet eros. Nullam quis ex ac dui malesuada placerat id ac urna. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec mi nisl, porttitor et finibus id, aliquet fermentum lorem. Integer sed ex ac orci rhoncus posuere nec in velit. Nunc interdum, est et aliquet sollicitudin, odio lectus maximus tellus, non molestie justo dui id mi. Nam accumsan porta augue, nec posuere ante rutrum a. Suspendisse gravida mauris id sapien rhoncus lacinia. Donec nec vestibulum erat.",
     "organizations": [
       {
         "name": "_org_name",
@@ -528,7 +528,7 @@ var eventFeed = [
     "location": "3rd Floor Commons",
     "title": "Closing Keynote",
     "subtitle":"Artificial Intelligence",
-    "description": "Laboris esse XOXO cred enim dolore paleo ea slow-carb skateboard. Eu dolore nostrud PBR&B. Iceland eu quis, offal ennui tattooed tousled. VHS nisi minim taxidermy velit 8-bit, lomo reprehenderit dolor seitan glossier farm-to-table ut helvetica. Mustache kale chips microdosing salvia tofu velit ut lyft actually 3 wolf moon DIY. Affogato ex reprehenderit wolf elit hoodie semiotics pork belly. Lyft portland live-edge waistcoat ramps ex",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris semper at justo eu varius. Integer imperdiet enim non lacus imperdiet tristique. Donec elementum at velit sit amet convallis. Praesent accumsan dapibus tempor. Duis orci enim, rutrum et risus ut, interdum varius urna. Sed quis dui fringilla, hendrerit velit quis, imperdiet eros. Nullam quis ex ac dui malesuada placerat id ac urna. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec mi nisl, porttitor et finibus id, aliquet fermentum lorem. Integer sed ex ac orci rhoncus posuere nec in velit. Nunc interdum, est et aliquet sollicitudin, odio lectus maximus tellus, non molestie justo dui id mi. Nam accumsan porta augue, nec posuere ante rutrum a. Suspendisse gravida mauris id sapien rhoncus lacinia. Donec nec vestibulum erat.",
     "organizations": [
       {
         "name": "_org_name",
@@ -554,7 +554,7 @@ var eventFeed = [
     "location": "_location",
     "title": "Hack Your Lunch",
     "subtitle":"_subtitle",
-    "description": "Laboris esse XOXO cred enim dolore paleo ea slow-carb skateboard. Eu dolore nostrud PBR&B. Iceland eu quis, offal ennui tattooed tousled. VHS nisi minim taxidermy velit 8-bit, lomo reprehenderit dolor seitan glossier farm-to-table ut helvetica. Mustache kale chips microdosing salvia tofu velit ut lyft actually 3 wolf moon DIY. Affogato ex reprehenderit wolf elit hoodie semiotics pork belly. Lyft portland live-edge waistcoat ramps ex",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris semper at justo eu varius. Integer imperdiet enim non lacus imperdiet tristique. Donec elementum at velit sit amet convallis. Praesent accumsan dapibus tempor. Duis orci enim, rutrum et risus ut, interdum varius urna. Sed quis dui fringilla, hendrerit velit quis, imperdiet eros. Nullam quis ex ac dui malesuada placerat id ac urna. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec mi nisl, porttitor et finibus id, aliquet fermentum lorem. Integer sed ex ac orci rhoncus posuere nec in velit. Nunc interdum, est et aliquet sollicitudin, odio lectus maximus tellus, non molestie justo dui id mi. Nam accumsan porta augue, nec posuere ante rutrum a. Suspendisse gravida mauris id sapien rhoncus lacinia. Donec nec vestibulum erat.",
     "organizations": [
       {
         "name": "_org_name",
@@ -580,7 +580,7 @@ var eventFeed = [
     "title": "Trade Show",
     "subtitle":"_subtitle",
     "location": "4th Floor Commons",
-    "description": "Laboris esse XOXO cred enim dolore paleo ea slow-carb skateboard. Eu dolore nostrud PBR&B. Iceland eu quis, offal ennui tattooed tousled. VHS nisi minim taxidermy velit 8-bit, lomo reprehenderit dolor seitan glossier farm-to-table ut helvetica. Mustache kale chips microdosing salvia tofu velit ut lyft actually 3 wolf moon DIY. Affogato ex reprehenderit wolf elit hoodie semiotics pork belly. Lyft portland live-edge waistcoat ramps ex",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris semper at justo eu varius. Integer imperdiet enim non lacus imperdiet tristique. Donec elementum at velit sit amet convallis. Praesent accumsan dapibus tempor. Duis orci enim, rutrum et risus ut, interdum varius urna. Sed quis dui fringilla, hendrerit velit quis, imperdiet eros. Nullam quis ex ac dui malesuada placerat id ac urna. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec mi nisl, porttitor et finibus id, aliquet fermentum lorem. Integer sed ex ac orci rhoncus posuere nec in velit. Nunc interdum, est et aliquet sollicitudin, odio lectus maximus tellus, non molestie justo dui id mi. Nam accumsan porta augue, nec posuere ante rutrum a. Suspendisse gravida mauris id sapien rhoncus lacinia. Donec nec vestibulum erat.",
     "organizations": [
       {
         "name": "_org_name",
@@ -634,7 +634,7 @@ var eventFeed = [
     "location": "3rd Floor Conference Center",
     "title": "Morning Keynote",
     "subtitle":"_subtitle",
-    "description": "Laboris esse XOXO cred enim dolore paleo ea slow-carb skateboard. Eu dolore nostrud PBR&B. Iceland eu quis, offal ennui tattooed tousled. VHS nisi minim taxidermy velit 8-bit, lomo reprehenderit dolor seitan glossier farm-to-table ut helvetica. Mustache kale chips microdosing salvia tofu velit ut lyft actually 3 wolf moon DIY. Affogato ex reprehenderit wolf elit hoodie semiotics pork belly. Lyft portland live-edge waistcoat ramps ex",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris semper at justo eu varius. Integer imperdiet enim non lacus imperdiet tristique. Donec elementum at velit sit amet convallis. Praesent accumsan dapibus tempor. Duis orci enim, rutrum et risus ut, interdum varius urna. Sed quis dui fringilla, hendrerit velit quis, imperdiet eros. Nullam quis ex ac dui malesuada placerat id ac urna. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec mi nisl, porttitor et finibus id, aliquet fermentum lorem. Integer sed ex ac orci rhoncus posuere nec in velit. Nunc interdum, est et aliquet sollicitudin, odio lectus maximus tellus, non molestie justo dui id mi. Nam accumsan porta augue, nec posuere ante rutrum a. Suspendisse gravida mauris id sapien rhoncus lacinia. Donec nec vestibulum erat.",
     "organizations": [
       {
         "name": "_org_name",
@@ -660,7 +660,7 @@ var eventFeed = [
     "location": "3rd Floor Conference Center",
     "title": "CTO Welcome",
     "subtitle":"_subtitle",
-    "description": "Laboris esse XOXO cred enim dolore paleo ea slow-carb skateboard. Eu dolore nostrud PBR&B. Iceland eu quis, offal ennui tattooed tousled. VHS nisi minim taxidermy velit 8-bit, lomo reprehenderit dolor seitan glossier farm-to-table ut helvetica. Mustache kale chips microdosing salvia tofu velit ut lyft actually 3 wolf moon DIY. Affogato ex reprehenderit wolf elit hoodie semiotics pork belly. Lyft portland live-edge waistcoat ramps ex",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris semper at justo eu varius. Integer imperdiet enim non lacus imperdiet tristique. Donec elementum at velit sit amet convallis. Praesent accumsan dapibus tempor. Duis orci enim, rutrum et risus ut, interdum varius urna. Sed quis dui fringilla, hendrerit velit quis, imperdiet eros. Nullam quis ex ac dui malesuada placerat id ac urna. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec mi nisl, porttitor et finibus id, aliquet fermentum lorem. Integer sed ex ac orci rhoncus posuere nec in velit. Nunc interdum, est et aliquet sollicitudin, odio lectus maximus tellus, non molestie justo dui id mi. Nam accumsan porta augue, nec posuere ante rutrum a. Suspendisse gravida mauris id sapien rhoncus lacinia. Donec nec vestibulum erat.",
     "organizations": [
       {
         "name": "_org_name",
