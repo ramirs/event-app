@@ -72,7 +72,7 @@ body, html, #app-container {
 
 .event-information > .event-info-group:not(.general-info-group) {
   border-bottom: 2px solid #f3f3f3;
-  margin-bottom: 20px;
+  /*margin-bottom: 20px;*/
 }
 .event-info-group > div {
   margin-bottom: 5px;
