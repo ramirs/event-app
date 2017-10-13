@@ -32,9 +32,13 @@
 }
 
 #app-view-single .ui-btn {
-  position: absolute;
-  right: 45px;
-  bottom: 40px;
+  /*position: absolute;*/
+  /*display: block;*/
+  /*right: 45px;*/
+  /*bottom: 40px;*/
+}
+#app-view-single .event-action-btn {
+  display: block;
 }
 
 .event-list-container {
@@ -43,6 +47,19 @@
 .event-list-item {
   padding: 5px 10px;
   margin-bottom: 7px;
+}
+.event-list-item i {
+  color: #95a5a6;
+}
+.event-item-title {
+  font-size: 1.1em;
+}
+.event-item-subtitle {
+  color: #95a5a6;
+  margin-left: 10px;
+}
+.event-item-start {
+  float: right;
 }
 
 #scroll-header {
@@ -55,22 +72,20 @@
   height: 200px;
 }
 .header-title-floating {
-  /*THIS PROBABLY ISN'T GONNA WORK*/
-  top: 50%;
-  position: absolute;
-  left: 50%;
-  margin-top: -0.8em;
-  margin-left: calc(-2.2em);
+  line-height: 200px;
 }
 
 .event-information {
-  padding: 25px;
+  /*padding: 25px;*/
   margin-bottom: 85px;
   margin-top: 200px;
 }
 
 .action-btn {
   position: absolute;
+}
+.event-action-btn {
+  /*padding: 20px;*/
 }
 
 .btn-back {

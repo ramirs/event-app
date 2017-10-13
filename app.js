@@ -17,6 +17,16 @@
     return 0;
   };
 
+  var preSelectCheck = function (e) {
+    let check = false;
+    app.userEvents.forEach(function(event) {
+      if(event.id == e.id) {
+        check = true;
+      }
+    });
+    return check;
+  };
+
   var app = new Vue({
     el: '#app-container',
     data: {
@@ -28,11 +38,13 @@
       userEvents: [],
       singleEvent: {},
       singleToggle: false,
-      listToggle: true
+      listToggle: true,
+      userListToggle: false
     },
     methods: {
       showSingleEventView: function (el) {
         this.singleToggle = true;
+        this.listToggle = preSelectCheck(el);
         this.singleEvent = el;
       },
       closeSingleEventView: function () {
@@ -65,7 +77,7 @@
         scheduleManager.setSchedule(this.userEvents);
       },
       toggleList: function(bool) {
-        this.listToggle = bool;
+        this.userListToggle = bool;
         this.closeSingleEventView();
       }
     }
@@ -83,5 +95,7 @@
   } else if (app.userEvents.length > 0){
     app.userEvents.sort(startTimeSort);
   }
+
+  console.log
 
 })();

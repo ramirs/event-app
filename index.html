@@ -17,29 +17,68 @@
 
 <body>
   <div id="app-container">
-    <div id="app-ui-header"><div class="app-ui-toggle" v-bind:class="{ activeTab: listToggle }" v-on:click="toggleList(true)"><i class="fa fa-list" aria-hidden="true"></i> View Full Schedule</div><div class="app-ui-toggle" v-bind:class="{ activeTab: !listToggle }" v-on:click="toggleList(false)"><i class="fa fa-user" aria-hidden="true"></i> {{userEvents.length}} Events Saved</div></div>
+    <div id="app-ui-header"><div class="app-ui-toggle" v-bind:class="{ activeTab: !userListToggle }" v-on:click="toggleList(false)"><i class="fa fa-list" aria-hidden="true"></i> View Full Schedule</div><div class="app-ui-toggle" v-bind:class="{ activeTab: userListToggle }" v-on:click="toggleList(true)"><i class="fa fa-user" aria-hidden="true"></i> {{userEvents.length}} Event(s) Saved</div></div>
     <div id="app-view-schedule">
-      <div v-show="listToggle" class="event-list-container">
-        <div v-for="ev in events" v-on:click="showSingleEventView(ev)" class="event-list-item">{{ev.title}} - {{ev.start}}, {{ev.location}}</div>
-      </div>
-      <div v-show="!listToggle" class="event-list-container">
+      <div v-show="!userListToggle" class="event-list-container">
+          <div v-for="ev in events" v-on:click="showSingleEventView(ev)" class="event-list-item">
+            <div>
+              <span class="event-item-title">{{ev.title}}</span>
+              <span class="event-item-subtitle">{{ev.subtitle}}</span>
+            </div>
+            <div>
+              <span><i class="fa fa-map-marker" aria-hidden="true"></i>  {{ev.location}}</span>
+              <span class="event-item-start"><i class="fa fa-clock-o" aria-hidden="true"></i> {{ev.start}}</span>
+            </div>
+          </div>
+        </div>
+      <div v-show="userListToggle" class="event-list-container">
         <div>{{initMsg}}</div>
-        <div v-for="ev in userEvents" v-on:click="showSingleEventView(ev)" class="event-list-item">{{ev.title}} - {{ev.start}}, {{ev.location}}</div>
+        <div v-for="ev in userEvents" v-on:click="showSingleEventView(ev)" class="event-list-item">
+          <div>
+            <span class="event-item-title">{{ev.title}}</span>
+            <span class="event-item-subtitle">{{ev.subtitle}}</span>
+          </div>
+          <div>
+            <span><i class="fa fa-map-marker" aria-hidden="true"></i>  {{ev.location}}</span>
+            <span class="event-item-start"><i class="fa fa-clock-o" aria-hidden="true"></i> {{ev.start}}</span>
+          </div>
       </div>
     </div>
     <div id="app-view-single" v-show="singleToggle">
       <div class="view-container" id="scroll-container">
         <div class="event-calling-card" id="scroll-header">
           <div v-on:click="closeSingleEventView()" class="action-btn btn-back"><i class="fa fa-angle-left" aria-hidden="true"></i> back</div>
-          <div class="header-title-floating">{{singleEvent.title}}</div>
+          <div class="header-title-floating" id="scroll-header-title">{{singleEvent.title}}</div>
         </div>
         <div class="event-information">
-          <div><i class="fa fa-clock-o" aria-hidden="true"></i> {{singleEvent.start}} - {{singleEvent.end}}</div>
-          <div><i class="fa fa-map-marker" aria-hidden="true"></i> {{singleEvent.location}}</div>
-          <div>{{singleEvent.description}}</div>
+          <div class="event-info-group general-info-group">
+            <div class="event-content-title">General Information</div>
+            <div><i class="fa fa-clock-o" aria-hidden="true"></i> {{singleEvent.start}} - {{singleEvent.end}}</div>
+            <div><i class="fa fa-map-marker" aria-hidden="true"></i> {{singleEvent.location}}</div>
+          </div>
+          <div class="event-action-btn">
+            <div v-if="!listToggle" v-on:click="saveEvent()" class="save-action-btn"><i class="fa fa-plus" aria-hidden="true"></i> Save event to my schedule</div>
+            <div v-if="listToggle" v-on:click="deleteEvent(singleEvent)" class="delete-action-btn"><i class="fa fa-times" aria-hidden="true"></i> Remove event from my schedule</div>
+          </div>
+          <div class="event-info-group">
+            <div class="event-content-title">Description</div>
+            <div>{{singleEvent.description}}</div>
+          </div>
+          <div class="event-info-group">
+            <div class="event-content-title">Topic</div>
+            <div>{{singleEvent.track}}</div>
+          </div>
+          <div class="event-info-group" v-if="typeof singleEvent.speakers !== 'undefined'">
+            <div class="event-content-title">Speakers</div>
+            <div v-for="host in singleEvent.speakers">{{host.name}}</div>
+          </div>
+          <div class="event-info-group" v-show="typeof singleEvent.organizations !== 'undefined'">
+            <div class="event-content-title">Sponsors / Organizations</div>
+            <div v-for="org in singleEvent.organizations">{{org.name}}</div>
+          </div>
         </div>
-        <div v-if="listToggle" v-on:click="saveEvent()" class="ui-btn btn-save"><i class="fa fa-plus fa-2x" aria-hidden="true"></i></div>
-        <div v-if="!listToggle" v-on:click="deleteEvent(singleEvent)" class="ui-btn btn-delete"><i class="fa fa-times fa-2x" aria-hidden="true"></i></div>
+        <!-- <div v-if="listToggle" v-on:click="saveEvent()" class="ui-btn btn-save"><i class="fa fa-plus fa-2x" aria-hidden="true"></i></div> -->
+        <!-- <div v-if="!listToggle" v-on:click="deleteEvent(singleEvent)" class="ui-btn btn-delete"><i class="fa fa-times fa-2x" aria-hidden="true"></i></div> -->
       </div>
   </div>
 </body>
