@@ -1,137 +1,514 @@
 var eventFeed = [
   {
-    "id": 1001,
-  	"start": 830,
-  	"end": 930,
-  	"title": "Keynote 1",
+    "id":"1024",
+    "start": "1315",
+    "end": "1400",
+    "location": "Kona East",
+    "title": "EY",
+    "subtitle":"_subtitle",
+    "description": "_desc",
+    "speakers": [
+      {
+        "name": "John De Yonge",
+        "title": "_title",
+        "subtitle":"_subtitle",
+        "organization": "Ernst and Young",
+        "bio": "_bio"
+      }
+    ],
+    "track": "People"
+  },
+  {
+    "id":"1023",
+    "start": "1145",
+    "end": "1230",
+    "location": "Kona East",
+    "title": "Intel",
+    "subtitle":"_subtitle",
+    "description": "_desc",
+    "speakers": [
+      {
+        "name": "Roz Hudnell",
+        "title": "_title",
+        "subtitle":"_subtitle",
+        "organization": "Intel",
+        "bio": "_bio"
+      }
+    ],
+    "track": "People"
+  },
+  {
+    "id":"1022",
+    "start": "1100",
+    "end": "1145",
+    "location": "Kona East",
+    "title": "Zillow",
+    "subtitle":"_subtitle",
+    "description": "_desc",
+    "speakers": [
+      {
+        "name": "Rebekah Bastian",
+        "title": "_title",
+        "subtitle":"_subtitle",
+        "organization": "Zillow Group",
+        "bio": "_bio"
+      }
+    ],
+    "track": "People"
+  },
+  {
+    "id":"1021",
+    "start": "1315",
+    "end": "1445",
+    "location": "Origins",
+    "title": "MOP Value Stream",
+    "subtitle":"_subtitle",
+    "description": "_desc",
+    "speakers": [
+      {
+        "name": "_name",
+        "title": "_title",
+        "subtitle":"_subtitle",
+        "organization": "New Relic",
+        "bio": "_bio"
+      }
+    ],
+    "track": "Devops"
+  },
+  {
+    "id":"1020",
+    "start": "1100",
+    "end": "1230",
+    "location": "Origins",
+    "title": "Devops",
+    "subtitle":"Pager Duty",
+    "description": "_desc",
+    "speakers": [
+      {
+        "name": "_name",
+        "title": "_title",
+        "subtitle":"_subtitle",
+        "organization": "Starbucks Technology",
+        "bio": "_bio"
+      }
+    ],
+    "track": "Devops"
+  },
+  {
+    "id":"1019",
+    "start": "1100",
+    "end": "1230",
+    "location": "Talent Lab (4043)",
+    "title": "Data Driven Decision Making",
+    "subtitle":"_subtitle",
+    "description": "_desc",
+    "speakers": [
+      {
+        "name": "Patrick O'hagen",
+        "title": "_title",
+        "subtitle":"_subtitle",
+        "organization": "Starbucks Technology",
+        "bio": "_bio"
+      }
+    ],
+    "track": "Data"
+  },
+  {
+    "id":"1018",
+    "start": "1315",
+    "end": "1445",
+    "location": "Tanzania",
+    "title": "Application Security",
+    "subtitle":"Bug Bounty",
+    "description": "_desc",
+    "speakers": [
+      {
+        "name": "_name",
+        "title": "_title",
+        "subtitle":"_subtitle",
+        "organization": "Starbucks IPS",
+        "bio": "_bio"
+      }
+    ],
+    "track": "Information Security"
+  },
+  {
+    "id":"1017",
+    "start": "1100",
+    "end": "1230",
+    "location": "Tanzania",
+    "title": "IOT Security",
+    "subtitle":"_subtitle",
+    "description": "_desc",
+    "speakers": [
+      {
+        "name": "_name",
+        "title": "_title",
+        "subtitle":"_subtitle",
+        "organization": "Starbucks IPS",
+        "bio": "_bio"
+      }
+    ],
+    "track": "Information Security"
+  },
+  {
+    "id":"1016",
+    "start": "1315",
+    "end": "1445",
+    "location": "Kimodo Dragon",
+    "title": "Build A Blockchain",
+    "subtitle":"_subtitle",
+    "description": "_desc",
+    "speakers": [
+      {
+        "name": "_name",
+        "title": "_title",
+        "subtitle":"_subtitle",
+        "organization": "Microsoft",
+        "bio": "_bio"
+      }
+    ],
+    "track": "Blockchain"
+  },
+  {
+    "id":"1015",
+    "start": "1100",
+    "end": "1230",
+    "location": "Kimodo Dragon",
+    "title": "Build A Blockchain",
+    "subtitle":"_subtitle",
+    "description": "_desc",
+    "speakers": [
+      {
+        "name": "_name",
+        "title": "_title",
+        "subtitle":"_subtitle",
+        "organization": "Microsoft",
+        "bio": "_bio"
+      }
+    ],
+    "track": "Blockchain"
+  },
+  {
+    "id":"1014",
+    "start": "1315",
+    "end": "1445",
+    "location": "PDC",
+    "title": "Validate Your Great Idea",
+    "subtitle":"_subtitle",
+    "description": "_desc",
+    "speakers": [
+      {
+        "name": "Ben Gilbert",
+        "title": "_title",
+        "subtitle":"_subtitle",
+        "organization": "Pioneer Square Labs",
+        "bio": "_bio"
+      }
+    ],
+    "track": "Innovation"
+  },
+  {
+    "id":"1013",
+    "start": "1100",
+    "end": "1230",
+    "location": "PDC",
+    "title": "Pitch Your Great Idea",
+    "subtitle":"_subtitle",
+    "description": "_desc",
+    "speakers": [
+      {
+        "name": "Ryan Bruels",
+        "title": "_title",
+        "subtitle":"_subtitle",
+        "organization": "Starbucks Technology",
+        "bio": "_bio"
+      }
+    ],
+    "track": "Innovation"
+  },
+  {
+    "id":"1012",
+    "start": "1400",
+    "end": "1445",
+    "location": "Kona West",
+    "title": "ASU",
+    "subtitle":"_subtitle",
+    "description": "_desc",
+    "speakers": [
+      {
+        "name": "_name",
+        "title": "_title",
+        "subtitle":"_subtitle",
+        "organization": "ASU",
+        "bio": "_bio"
+      }
+    ],
+    "track": "Future Proof"
+  },
+  {
+    "id":"1011",
+    "start": "1315",
+    "end": "1400",
+    "location": "Kona West",
+    "title": "ASU",
+    "subtitle":"_subtitle",
+    "description": "_desc",
+    "speakers": [
+      {
+        "name": "_name",
+        "title": "_title",
+        "subtitle":"_subtitle",
+        "organization": "ASU",
+        "bio": "_bio"
+      }
+    ],
+    "track": "Future Proof"
+  },
+  {
+    "id":"1010",
+    "start": "1145",
+    "end": "1230",
+    "location": "Kona West",
+    "title": "AR/VR",
+    "subtitle":"_subtitle",
+    "description": "_desc",
+    "speakers": [
+      {
+        "name": "_name",
+        "title": "_title",
+        "subtitle":"_subtitle",
+        "organization": "Microsoft",
+        "bio": "_bio"
+      }
+    ],
+    "track": "Future Proof"
+  },
+  {
+    "id":"1009",
+    "start": "1100",
+    "end": "1145",
+    "location": "Kona West",
+    "title": "Blockchain",
+    "subtitle":"_subtitle",
+    "description": "_desc",
+    "speakers": [
+      {
+        "name": "Joe Roets",
+        "title": "_title",
+        "subtitle":"_subtitle",
+        "organization": "Dragonchain Foundation",
+        "bio": "_bio"
+      }
+    ],
+    "track": "Future Proof"
+  },
+  {
+    "id":"1008",
+    "start": "1315",
+    "end": "1445",
+    "location": "Muan Jai",
+    "title": "Cloud Lounge",
+    "subtitle":"CICD Workshop",
+    "description": "_desc",
+    "speakers": [
+      {
+        "name": "_name",
+        "title": "_title",
+        "subtitle":"_subtitle",
+        "organization": "Starbucks Technology - Devops Team",
+        "bio": "_bio"
+      }
+    ],
+    "track": "core"
+  },
+  {
+    "id":"1007",
+    "start": "1100",
+    "end": "1230",
+    "location": "Muan Jai",
+    "title": "Cloud Lounge",
+    "subtitle":"Security Workshop",
+    "description": "_desc",
+    "speakers": [
+      {
+        "name": "_name",
+        "title": "_title",
+        "subtitle":"_subtitle",
+        "organization": "Microsoft",
+        "bio": "_bio"
+      },
+      {
+        "name": "_name",
+        "title": "_title",
+        "subtitle":"_subtitle",
+        "organization": "Microsoft",
+        "bio": "_bio"
+      }
+    ],
+    "track": "core"
+  },
+  {
+    "id":"1006",
+    "start": "1545",
+    "end": "1645",
     "location": "3rd Floor Conference Center",
-  	"description": "Cornhole consequat etsy gluten-free crucifix. Occupy single-origin coffee labore anim affogato migas jianbing ea YOLO et. Salvia prism la croix, kinfolk pop-up deserunt butcher keytar tilde sunt four dollar toast biodiesel blue bottle.Cornhole consequat etsy gluten-free crucifix. Occupy single-origin coffee labore anim affogato migas jianbing ea YOLO et. Salvia prism la croix, kinfolk pop-up deserunt butcher keytar tilde sunt four dollar toast biodiesel blue bottle.Cornhole consequat etsy gluten-free crucifix. Occupy single-origin coffee labore anim affogato migas jianbing ea YOLO et. Salvia prism la croix, kinfolk pop-up deserunt butcher keytar tilde sunt four dollar toast biodiesel blue bottle.Cornhole consequat etsy gluten-free crucifix. Occupy single-origin coffee labore anim affogato migas jianbing ea YOLO et. Salvia prism la croix, kinfolk pop-up deserunt butcher keytar tilde sunt four dollar toast biodiesel blue bottle.",
-  	"track": 0
+    "title": "CLosing Panel",
+    "subtitle":"with Gerri and Guests",
+    "description": "_desc",
+    "speakers": [
+      {
+        "name": "_name",
+        "title": "_title",
+        "subtitle":"_subtitle",
+        "organization": "_organization",
+        "bio": "_bio"
+      },
+      {
+        "name": "_name",
+        "title": "_title",
+        "subtitle":"_subtitle",
+        "organization": "_organization",
+        "bio": "_bio"
+      },
+      {
+        "name": "_name",
+        "title": "_title",
+        "subtitle":"_subtitle",
+        "organization": "_organization",
+        "bio": "_bio"
+      },
+      {
+        "name": "_name",
+        "title": "_title",
+        "subtitle":"_subtitle",
+        "organization": "_organization",
+        "bio": "_bio"
+      }
+    ],
+    "track": "core"
   },
   {
-    "id": 1002,
-  	"start": 1245,
-  	"end": 1345,
-  	"title": "Keynote 2",
+    "id":"1005",
+    "start": "1445",
+    "end": "1545",
+    "location": "3rd Floor Commons",
+    "title": "Closing Keynote",
+    "subtitle":"Artificial Intelligence",
+    "description": "_desc",
+    "speakers": [
+      {
+        "name": "Harry Shum",
+        "title": "_title",
+        "subtitle":"_subtitle",
+        "organization": "Microsoft",
+        "bio": "_bio"
+      }
+    ],
+    "track": "core"
+  },
+  {
+    "id":"1004",
+    "start": "1230",
+    "end": "1315",
+    "location": "_location",
+    "title": "Hack Your Lunch",
+    "subtitle":"_subtitle",
+    "description": "_desc",
+    "speakers": [
+      {
+        "name": "_name",
+        "title": "_title",
+        "subtitle":"_subtitle",
+        "organization": "_organization",
+        "bio": "_bio"
+      }
+    ],
+    "track": "core"
+  },
+  {
+    "id":"1003",
+    "start": "1100",
+    "end": "1445",
+    "title": "Trade Show",
+    "subtitle":"_subtitle",
+    "location": "4th Floor Commons",
+    "description": "_desc",
+    "speakers": [
+      {
+        "name": "_name",
+        "title": "_title",
+        "subtitle":"_subtitle",
+        "organization": "_organization",
+        "bio": "_bio"
+      },
+      {
+        "name": "_name",
+        "title": "_title",
+        "subtitle":"_subtitle",
+        "organization": "_organization",
+        "bio": "_bio"
+      },
+      {
+        "name": "_name",
+        "title": "_title",
+        "subtitle":"_subtitle",
+        "organization": "_organization",
+        "bio": "_bio"
+      },
+      {
+        "name": "_name",
+        "title": "_title",
+        "subtitle":"_subtitle",
+        "organization": "_organization",
+        "bio": "_bio"
+      },
+      {
+        "name": "_name",
+        "title": "_title",
+        "subtitle":"_subtitle",
+        "organization": "_organization",
+        "bio": "_bio"
+      },
+    ],
+    "track": "core"
+  },
+  {
+    "id":"1002",
+    "start": "1000",
+    "end": "1100",
     "location": "3rd Floor Conference Center",
-  	"description": "Man braid labore hoodie mixtape, austin quinoa roof party. Lorem gastropub bushwick flexitarian brunch. Nisi affogato pok pok lyft esse post-ironic.",
-  	"track": 0
+    "title": "Morning Keynote",
+    "subtitle":"_subtitle",
+    "description": "_desc",
+    "speakers": [
+      {
+        "name": "_name",
+        "title": "_title",
+        "subtitle":"_subtitle",
+        "organization": "_organization",
+        "bio": "_bio"
+      }
+    ],
+    "track": "core"
   },
   {
-    "id": 1003,
-  	"start": 1545,
-  	"end": 1630,
-  	"title": "Keynote 3",
+    "id":"1001",
+    "start": "0930",
+    "end": "1000",
     "location": "3rd Floor Conference Center",
-  	"description": "Sint try-hard four dollar toast lomo gentrify. Jean shorts food truck glossier yr, tumblr in selvage ullamco. In fanny pack irure exercitation ut.",
-  	"track": 0
-  },
-  {
-    "id": 1004,
-  	"start": 930,
-  	"end": 1045,
-  	"title": "Tech Talk",
-    "location": "Kona",
-  	"description": "Art party raw denim glossier cray DIY, succulents in mumblecore cliche tousled organic flexitarian. Salvia occaecat hot chicken offal cliche, DIY iPhone vexillologist authentic palo santo.",
-  	"track": 1
-  },
-  {
-    "id": 1005,
-  	"start": 1100,
-  	"end": 1145,
-  	"title": "Tech Talk",
-    "location": "PDC",
-  	"description": "Bicycle rights drinking vinegar excepteur kale chips, incididunt deserunt pitchfork. Irony ipsum kogi vape venmo 3 wolf moon yr lumbersexual ad mlkshk taxidermy bicycle rights pitchfork ut tempor.",
-  	"track": 1
-  },
-  {
-    "id": 1006,
-  	"start": 930,
-  	"end": 1145,
-    "location": "Talent Lab",
-  	"title": "Workshop",
-  	"description": "Prism yr taxidermy dolor tofu franzen. Dolore echo park beard brunch proident activated charcoal aliqua artisan farm-to-table id tofu cardigan tbh tilde.",
-  	"track": 1
-  },
-    {
-    "id": 1007,
-  	"start": 930,
-  	"end": 1045,
-  	"title": "Tech Talk",
-    "location": "PDC",
-  	"description": "Art party raw denim glossier cray DIY, succulents in mumblecore cliche tousled organic flexitarian. Salvia occaecat hot chicken offal cliche, DIY iPhone vexillologist authentic palo santo.",
-  	"track": 2
-  },
-  {
-    "id": 1008,
-  	"start": 1100,
-  	"end": 1145,
-  	"title": "Tech Talk",
-    "location": "Kona",
-  	"description": "Bicycle rights drinking vinegar excepteur kale chips, incididunt deserunt pitchfork. Irony ipsum kogi vape venmo 3 wolf moon yr lumbersexual ad mlkshk taxidermy bicycle rights pitchfork ut tempor.",
-  	"track": 2
-  },
-  {
-    "id": 1009,
-  	"start": 1400,
-  	"end": 1445,
-  	"title": "Workshop",
-    "location": "Cloud Lounge",
-  	"description": "Prism yr taxidermy dolor tofu franzen. Dolore echo park beard brunch proident activated charcoal aliqua artisan farm-to-table id tofu cardigan tbh tilde.",
-  	"track": 2
-  },
-  {
-    "id": 10010,
-  	"start": 1400,
-  	"end": 1445,
-  	"title": "Tech Talk",
-    "location": "Kona",
-  	"description": "Art party raw denim glossier cray DIY, succulents in mumblecore cliche tousled organic flexitarian. Salvia occaecat hot chicken offal cliche, DIY iPhone vexillologist authentic palo santo.",
-  	"track": 1
-  },
-  {
-    "id": 10011,
-  	"start": 1400,
-  	"end": 1445,
-    "location": "PDC",
-  	"title": "Tech Talk",
-  	"description": "Bicycle rights drinking vinegar excepteur kale chips, incididunt deserunt pitchfork. Irony ipsum kogi vape venmo 3 wolf moon yr lumbersexual ad mlkshk taxidermy bicycle rights pitchfork ut tempor.",
-  	"track": 1
-  },
-  {
-    "id": 10012,
-  	"start": 1500,
-  	"end": 1545,
-  	"title": "Workshop",
-    "location": "Cloud Lounge",
-  	"description": "Prism yr taxidermy dolor tofu franzen. Dolore echo park beard brunch proident activated charcoal aliqua artisan farm-to-table id tofu cardigan tbh tilde.",
-  	"track": 1
-  },
-    {
-    "id": 10013,
-  	"start": 1500,
-  	"end": 1545,
-    "location": "Talent Lab",
-  	"title": "Tech Talk",
-  	"description": "Art party raw denim glossier cray DIY, succulents in mumblecore cliche tousled organic flexitarian. Salvia occaecat hot chicken offal cliche, DIY iPhone vexillologist authentic palo santo.",
-  	"track": 2
-  },
-  {
-    "id": 10014,
-  	"start": 1500,
-  	"end": 1545,
-  	"title": "Tech Talk",
-    "location": "Kona",
-  	"description": "Bicycle rights drinking vinegar excepteur kale chips, incididunt deserunt pitchfork. Irony ipsum kogi vape venmo 3 wolf moon yr lumbersexual ad mlkshk taxidermy bicycle rights pitchfork ut tempor.",
-  	"track": 2
-  },
-  {
-    "id": 10015,
-  	"start": 1400,
-  	"end": 1545,
-  	"title": "Workshop",
-    "location": "PDC",
-  	"description": "Prism yr taxidermy dolor tofu franzen. Dolore echo park beard brunch proident activated charcoal aliqua artisan farm-to-table id tofu cardigan tbh tilde.",
-  	"track": 2
-  },
+    "title": "CTO Welcome",
+    "subtitle":"_subtitle",
+    "description": "_desc",
+    "speakers": [
+      {
+        "name": "Gerri",
+        "title": "CTO",
+        "subtitle":"_subtitle",
+        "organization": "Starbucks Technology",
+        "bio": "_bio"
+      }
+    ],
+    "track": "core"
+  }
 ]
