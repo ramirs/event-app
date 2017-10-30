@@ -108,19 +108,19 @@
           this.listSubtitle = 'Full Schedule';
         } else if (parseInt(sel) == 1) {
           this.filteredEventList = this.sortedEvents['Workshop'];
-          this.listSubtitle = 'Workshops and Classes';
+          this.listSubtitle = 'Workshops';
         } else if (parseInt(sel) == 2) {
           this.filteredEventList = this.sortedEvents['Keynote'];
           this.listSubtitle = 'Keynotes';
         } else if (parseInt(sel) == 3) {
           this.filteredEventList = this.sortedEvents['Talk'];
-          this.listSubtitle = 'Presentations and Tech Talks';
+          this.listSubtitle = 'Presentations';
         } else if(parseInt(sel) == 4) {
           this.filteredEventList = this.sortedEvents['Hack Prep'];
           this.listSubtitle = 'Hack Day Prep';
         } else if(parseInt(sel) == 5) {
          this.filteredEventList = this.userEvents;
-         this.listSubtitle = 'My Saved Events';
+         this.listSubtitle = 'Saved Events';
        }
         this.toggleFilter();
       }
