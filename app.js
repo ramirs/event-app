@@ -74,15 +74,18 @@
           }
         });
         if(uniqueEvent) {
+          checkListItem(this.singleEvent.id);
           this.userEvents.push(this.singleEvent);
           scheduleManager.setSchedule(this.userEvents);
           this.userEvents.sort(startTimeSort);
+          // this.listSubtitle = this.userEvents.length + ' Saved Events';
           this.closeSingleEventView();
         } else {
           console.log('youve already saved this event! :)');
         }
       },
       deleteEvent: function (ev) {
+        uncheckListItem(ev.id);
         this.closeSingleEventView();
         this.userEvents.forEach((el, i) => {
             if(el.id === ev.id) {
@@ -90,6 +93,7 @@
             }
         });
         scheduleManager.setSchedule(this.userEvents);
+        // this.listSubtitle = this.userEvents.length + ' Saved Events';
       },
       toggleList: function(bool) {
         this.userListToggle = bool;
@@ -123,6 +127,22 @@
     }
   });
 
+
+  var checkListItem = function (id) {
+    eventFeed.forEach(function(ev) {
+      if(ev.id == id) {
+        ev.checked = true;
+      }
+    });
+  };
+  var uncheckListItem = function (id) {
+    eventFeed.forEach(function(ev) {
+      if(ev.id == id) {
+        ev.checked = false;
+      }
+    });
+  };
+
   //IF localStorage, grab storage and map to userEvents
   // ELSE notify user they won't be able to save events :(
   app.userEvents = this.scheduleManager.getSchedule();
@@ -132,8 +152,12 @@
     app.initMsg = 'Your device can save events! Try adding events and they will appear here.';
   } else if(app.userEvents.length == 0 && this.scheduleManager.storageAvailable) {
     app.initMsg = 'Your device cannot save events... This list is only temporary :( sorry for the inconvenience';
-  } else if (app.userEvents.length > 0){
+  } else if (app.userEvents.length > 0) {
     app.userEvents.sort(startTimeSort);
+    app.userEvents.forEach(function(ev) {
+      checkListItem(ev.id);
+      ev['checked'] = true;
+    });
   }
 
 })();

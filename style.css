@@ -130,6 +130,14 @@ body, html, #app-container {
     box-shadow: 0 4px 4px -2px #dadada;
 }
 
+.going-label {
+  float: right;
+}
+.going-label > i {
+  color: #27ae60;
+  margin-right: 5px;
+}
+
 /*.filter-overlay i {
   color: #95a5a6;
 }*/

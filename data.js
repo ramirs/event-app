@@ -1,6 +1,7 @@
 var eventFeed = [
   {
     "id":"1024",
+    "checked": false,
     "start": "1315",
     "end": "1400",
     "location": "Kona East",
@@ -28,6 +29,7 @@ var eventFeed = [
   },
   {
     "id":"1023",
+    "checked": false,
     "start": "1145",
     "end": "1230",
     "location": "Kona East",
@@ -55,6 +57,7 @@ var eventFeed = [
   },
   {
     "id":"1022",
+    "checked": false,
     "start": "1100",
     "end": "1145",
     "location": "Kona East",
@@ -82,6 +85,7 @@ var eventFeed = [
   },
   {
     "id":"1021",
+    "checked": false,
     "start": "1315",
     "end": "1445",
     "location": "Origins",
@@ -109,6 +113,7 @@ var eventFeed = [
   },
   {
     "id":"1020",
+    "checked": false,
     "start": "1100",
     "end": "1230",
     "location": "Origins",
@@ -136,6 +141,7 @@ var eventFeed = [
   },
   {
     "id":"1019",
+    "checked": false,
     "start": "1100",
     "end": "1230",
     "location": "Talent Lab (4043)",
@@ -163,6 +169,7 @@ var eventFeed = [
   },
   {
     "id":"1018",
+    "checked": false,
     "start": "1315",
     "end": "1445",
     "location": "Tanzania",
@@ -190,6 +197,7 @@ var eventFeed = [
   },
   {
     "id":"1017",
+    "checked": false,
     "start": "1100",
     "end": "1230",
     "location": "Tanzania",
@@ -217,6 +225,7 @@ var eventFeed = [
   },
   {
     "id":"1016",
+    "checked": false,
     "start": "1315",
     "end": "1445",
     "location": "Kimodo Dragon",
@@ -244,6 +253,7 @@ var eventFeed = [
   },
   {
     "id":"1015",
+    "checked": false,
     "start": "1100",
     "end": "1230",
     "location": "Kimodo Dragon",
@@ -271,6 +281,7 @@ var eventFeed = [
   },
   {
     "id":"1014",
+    "checked": false,
     "start": "1315",
     "end": "1445",
     "location": "PDC",
@@ -298,6 +309,7 @@ var eventFeed = [
   },
   {
     "id":"1013",
+    "checked": false,
     "start": "1100",
     "end": "1230",
     "location": "PDC",
@@ -325,6 +337,7 @@ var eventFeed = [
   },
   {
     "id":"1012",
+    "checked": false,
     "start": "1400",
     "end": "1445",
     "location": "Kona West",
@@ -352,6 +365,7 @@ var eventFeed = [
   },
   {
     "id":"1011",
+    "checked": false,
     "start": "1315",
     "end": "1400",
     "location": "Kona West",
@@ -379,6 +393,7 @@ var eventFeed = [
   },
   {
     "id":"1010",
+    "checked": false,
     "start": "1145",
     "end": "1230",
     "location": "Kona West",
@@ -406,6 +421,7 @@ var eventFeed = [
   },
   {
     "id":"1009",
+    "checked": false,
     "start": "1100",
     "end": "1145",
     "location": "Kona West",
@@ -433,6 +449,7 @@ var eventFeed = [
   },
   {
     "id":"1008",
+    "checked": false,
     "start": "1315",
     "end": "1445",
     "location": "Muan Jai",
@@ -460,6 +477,7 @@ var eventFeed = [
   },
   {
     "id":"1007",
+    "checked": false,
     "start": "1100",
     "end": "1230",
     "location": "Muan Jai",
@@ -494,6 +512,7 @@ var eventFeed = [
   },
   {
     "id":"1006",
+    "checked": false,
     "start": "1500",
     "end": "1545",
     "location": "3rd Floor Conference Center",
@@ -542,6 +561,7 @@ var eventFeed = [
   },
   {
     "id":"1005",
+    "checked": false,
     "start": "1300",
     "end": "1400",
     "location": "3rd Floor Conference Center",
@@ -569,6 +589,7 @@ var eventFeed = [
   },
   {
     "id":"1004",
+    "checked": false,
     "start": "1210",
     "end": "1300",
     "location": "3rd Floor Conference Center",
@@ -596,6 +617,7 @@ var eventFeed = [
   },
   {
     "id":"1003",
+    "checked": false,
     "start": "1100",
     "end": "1445",
     "title": "Trade Show",
@@ -654,6 +676,7 @@ var eventFeed = [
   },
   {
     "id":"1002",
+    "checked": false,
     "start": "1000",
     "end": "1100",
     "location": "3rd Floor Conference Center",
@@ -681,6 +704,7 @@ var eventFeed = [
   },
   {
     "id":"1001",
+    "checked": false,
     "start": "0930",
     "end": "1000",
     "location": "3rd Floor Conference Center",
