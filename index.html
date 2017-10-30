@@ -27,7 +27,8 @@
       <div v-show="!userListToggle" class="event-list-container">
           <div v-for="ev in filteredEventList" v-on:click="showSingleEventView(ev)" class="event-list-item">
             <div>
-              <div v-show="ev.checked" class="going-label"><i class="fa fa-check-circle" aria-hidden="true"></i>Attending</div>
+              <!-- <div v-show="ev.checked" class="going-label"><i class="fa fa-check-circle" aria-hidden="true"></i>Attending</div> -->
+              <div v-show="ev.checked" class="going-label"><i class="fa fa-check-circle fa-3x" aria-hidden="true"></i></div>
               <span class="event-item-title">{{ev.title}}</span>
               <span class="event-item-subtitle">{{ev.subtitle}}</span>
             </div>

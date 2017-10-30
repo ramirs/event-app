@@ -144,7 +144,7 @@ body, html, #app-container {
 }
 .going-label > i {
   color: #27ae60;
-  margin-right: 5px;
+  /*margin-right: 5px;*/
 }
 
 .filter-list {
