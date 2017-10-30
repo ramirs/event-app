@@ -54,7 +54,8 @@
       listToggle: true,
       userListToggle: false,
       filterOverlay: false,
-      filteredEventList: eventFeed.sort(startTimeSort)
+      filteredEventList: eventFeed.sort(startTimeSort),
+      listSubtitle: 'Full Schedule'
     },
     methods: {
       showSingleEventView: function (el) {
@@ -100,16 +101,22 @@
       filterBy: function (sel) {
         if(parseInt(sel) == 0) {
           this.filteredEventList = this.events;
+          this.listSubtitle = 'Full Schedule';
         } else if (parseInt(sel) == 1) {
           this.filteredEventList = this.sortedEvents['Workshop'];
+          this.listSubtitle = 'Workshops and Classes';
         } else if (parseInt(sel) == 2) {
           this.filteredEventList = this.sortedEvents['Keynote'];
+          this.listSubtitle = 'Keynotes';
         } else if (parseInt(sel) == 3) {
           this.filteredEventList = this.sortedEvents['Talk'];
+          this.listSubtitle = 'Presentations and Tech Talks';
         } else if(parseInt(sel) == 4) {
           this.filteredEventList = this.sortedEvents['Hack Prep'];
+          this.listSubtitle = 'Hack Day Prep';
         } else if(parseInt(sel) == 5) {
          this.filteredEventList = this.userEvents;
+         this.listSubtitle = 'My Saved Events';
        }
         this.toggleFilter();
       }

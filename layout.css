@@ -1,15 +1,25 @@
 #app-ui-header {
   position: fixed;
   width: 100vw;
-  height: 45px;
+  /*height: 45px;*/
   text-align: center;
+  /*line-height: 45px;*/
+}
+#app-title {
+  background-color: #8e44ad;
   line-height: 45px;
+  color: #ffffff;
+}
+#app-sub {
+  background-color: #ffffff;
+  color: #232323;
+  line-height: 35px;
 }
 
 #app-view-schedule {
   overflow-y: scroll;
-  height: calc(100vh - 37px);
-  padding-top: 37px;
+  height: calc(100vh - 67px);
+  padding-top: 67px;
 }
 
 #app-view-single {
