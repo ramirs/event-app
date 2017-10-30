@@ -5,16 +5,6 @@
   text-align: center;
   /*line-height: 45px;*/
 }
-#app-title {
-  background-color: #8e44ad;
-  line-height: 45px;
-  color: #ffffff;
-}
-#app-sub {
-  background-color: #ffffff;
-  color: #232323;
-  line-height: 35px;
-}
 
 #app-view-schedule {
   overflow-y: scroll;
@@ -133,7 +123,6 @@
   top: 0px;
   left: 0px;
   z-index: 1;
-  background-color: rgba(243, 243, 243, 0.80);
 }
 .filter-list {
   margin: 0;

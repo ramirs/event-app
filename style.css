@@ -16,10 +16,22 @@ body, html, #app-container {
   /*font-size: 0.9em;*/
   background-color: #8e44ad;
   color: #ffffff;
-  font-size: 1.2em;
+  /*font-size: 1.2em;*/
   -webkit-box-shadow: 0 4px 6px -6px #dadada;
   -moz-box-shadow: 0 4px 6px -6px #dadada;
   box-shadow: 0 4px 6px -6px #dadada;
+}
+
+#app-title {
+  background-color: #8e44ad;
+  line-height: 45px;
+  color: #ffffff;
+  font-size: 1.2em;
+}
+#app-sub {
+  background-color: #ffffff;
+  color: #232323;
+  line-height: 32px;
 }
 
 .app-ui-toggle {
@@ -138,6 +150,11 @@ body, html, #app-container {
   margin-right: 5px;
 }
 
-/*.filter-overlay i {
-  color: #95a5a6;
-}*/
+.filter-list {
+  color: #232323;
+  /*color: #34193f;*/
+}
+
+.filter-overlay {
+  background-color: rgba(243, 243, 243, 0.90);
+}
