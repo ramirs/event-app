@@ -55,8 +55,10 @@
   font-size: 1.1em;
 }
 .event-item-subtitle {
-  color: #95a5a6;
-  margin-left: 10px;
+  /*color: #95a5a6;*/
+  display: block;
+  margin: 7px;
+  margin-left: 0px;
 }
 .event-item-start {
   float: right;
