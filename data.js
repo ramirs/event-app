@@ -368,13 +368,13 @@ var eventFeed = [
     "start": "1145",
     "end": "1230",
     "location": "Kona West",
-    "title": "AR/VR",
+    "title": "Augmented, Virtual, and Mixed Reality",
     "subtitle":"_subtitle",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris semper at justo eu varius. Integer imperdiet enim non lacus imperdiet tristique. Donec elementum at velit sit amet convallis. Praesent accumsan dapibus tempor. Duis orci enim, rutrum et risus ut, interdum varius urna. Sed quis dui fringilla, hendrerit velit quis, imperdiet eros. Nullam quis ex ac dui malesuada placerat id ac urna. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec mi nisl, porttitor et finibus id, aliquet fermentum lorem. Integer sed ex ac orci rhoncus posuere nec in velit. Nunc interdum, est et aliquet sollicitudin, odio lectus maximus tellus, non molestie justo dui id mi. Nam accumsan porta augue, nec posuere ante rutrum a. Suspendisse gravida mauris id sapien rhoncus lacinia. Donec nec vestibulum erat.",
+    "description": "In this talk, you'll hear from Adam Tratt, Co-Founder and CEO of Haiku Deck, the award-winning presentation app for the Web and iOS. Tratt will share the story behind Haiku Deck, best practices for building better presentations, and secrets for impactful and memorable presentations. Attendees are encouraged to drink Starbucks coffee while sitting in Starbucks headquarters while listening to this presentation about presentations.",
     "organizations": [
       {
-        "name": "_org_name",
-        "url": "_org_url",
+        "name": "Haiku Deck",
+        "url": "https://www.haikudeck.com/",
         "type": "_org_type"
       }
     ],
@@ -395,13 +395,13 @@ var eventFeed = [
     "end": "1145",
     "location": "Kona West",
     "title": "Blockchain",
-    "subtitle":"_subtitle",
+    "subtitle":"The Evolution of Blockchain",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris semper at justo eu varius. Integer imperdiet enim non lacus imperdiet tristique. Donec elementum at velit sit amet convallis. Praesent accumsan dapibus tempor. Duis orci enim, rutrum et risus ut, interdum varius urna. Sed quis dui fringilla, hendrerit velit quis, imperdiet eros. Nullam quis ex ac dui malesuada placerat id ac urna. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec mi nisl, porttitor et finibus id, aliquet fermentum lorem. Integer sed ex ac orci rhoncus posuere nec in velit. Nunc interdum, est et aliquet sollicitudin, odio lectus maximus tellus, non molestie justo dui id mi. Nam accumsan porta augue, nec posuere ante rutrum a. Suspendisse gravida mauris id sapien rhoncus lacinia. Donec nec vestibulum erat.",
     "organizations": [
       {
-        "name": "_org_name",
-        "url": "_org_url",
-        "type": "_org_type"
+        "name": "Dragonchain Foundation",
+        "url": "https://dragonchain.com/",
+        "type": "Blockchain"
       }
     ],
     "speakers": [
@@ -410,7 +410,7 @@ var eventFeed = [
         "title": "_title",
         "subtitle":"_subtitle",
         "organization": "Dragonchain Foundation",
-        "bio": "_bio"
+        "bio": "Joe Roets is a successful software and systems architect with experience as CIO, CTO, and Senior Vice President across industries. For over 20 years he has worked at companies such as Disney, Lockheed Martin, Sprint, FBI, DoD, and createTank, and has spearheaded new technology groups and led software engineering teams both large and small. He has been involved with blockchain and cryptocurrency projects since 2010, working with Coinbase, Overstock, Symbiont, Bloq, and Disney. He currently heads the Dragonchain Foundation and Dragonchain, Inc."
       }
     ],
     "track": "Future Proof"
@@ -476,12 +476,12 @@ var eventFeed = [
   },
   {
     "id":"1006",
-    "start": "1545",
-    "end": "1645",
+    "start": "1500",
+    "end": "1545",
     "location": "3rd Floor Conference Center",
     "title": "Closing Panel",
     "subtitle":"with Gerri and Guests",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris semper at justo eu varius. Integer imperdiet enim non lacus imperdiet tristique. Donec elementum at velit sit amet convallis. Praesent accumsan dapibus tempor. Duis orci enim, rutrum et risus ut, interdum varius urna. Sed quis dui fringilla, hendrerit velit quis, imperdiet eros. Nullam quis ex ac dui malesuada placerat id ac urna. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec mi nisl, porttitor et finibus id, aliquet fermentum lorem. Integer sed ex ac orci rhoncus posuere nec in velit. Nunc interdum, est et aliquet sollicitudin, odio lectus maximus tellus, non molestie justo dui id mi. Nam accumsan porta augue, nec posuere ante rutrum a. Suspendisse gravida mauris id sapien rhoncus lacinia. Donec nec vestibulum erat.",
+    "description": "Join Gerri and a panel of SIX presenters and Starbucks leadership for the \"Meeting of the Minds\" closing panel. Bring your questions and your raffle tickets! The final raffle drawing will take place at the Closing Panel",
     "organizations": [
       {
         "name": "_org_name",
@@ -491,11 +491,11 @@ var eventFeed = [
     ],
     "speakers": [
       {
-        "name": "_name",
-        "title": "_title",
+        "name": "Gerri Martin-Flickinger",
+        "title": "CTO",
         "subtitle":"_subtitle",
-        "organization": "_organization",
-        "bio": "_bio"
+        "organization": "Starbucks Technology",
+        "bio": "Gerri Martin-Flickinger is Starbucks executive vice president and chief technology officer. She is responsible for technology strategies and teams that enable the company to connect with customers worldwide. Gerri joined Starbucks in 2015, and has led the technology organization through significant transformation while developing and enabling industry-leading innovations including mobile order and pay, voice ordering and social gifting. Under her leadership, Starbucks Technology is focused on delivering innovative, cloud-based and digital solutions that empower partners and delight customers globally."
       },
       {
         "name": "_name",
@@ -523,9 +523,9 @@ var eventFeed = [
   },
   {
     "id":"1005",
-    "start": "1445",
-    "end": "1545",
-    "location": "3rd Floor Commons",
+    "start": "1300",
+    "end": "1400",
+    "location": "3rd Floor Conference Center",
     "title": "Closing Keynote",
     "subtitle":"Artificial Intelligence",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris semper at justo eu varius. Integer imperdiet enim non lacus imperdiet tristique. Donec elementum at velit sit amet convallis. Praesent accumsan dapibus tempor. Duis orci enim, rutrum et risus ut, interdum varius urna. Sed quis dui fringilla, hendrerit velit quis, imperdiet eros. Nullam quis ex ac dui malesuada placerat id ac urna. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec mi nisl, porttitor et finibus id, aliquet fermentum lorem. Integer sed ex ac orci rhoncus posuere nec in velit. Nunc interdum, est et aliquet sollicitudin, odio lectus maximus tellus, non molestie justo dui id mi. Nam accumsan porta augue, nec posuere ante rutrum a. Suspendisse gravida mauris id sapien rhoncus lacinia. Donec nec vestibulum erat.",
@@ -538,8 +538,8 @@ var eventFeed = [
     ],
     "speakers": [
       {
-        "name": "Harry Shum",
-        "title": "_title",
+        "name": "Gurdeep Pall",
+        "title": "CVP of AI",
         "subtitle":"_subtitle",
         "organization": "Microsoft",
         "bio": "_bio"
@@ -549,12 +549,12 @@ var eventFeed = [
   },
   {
     "id":"1004",
-    "start": "1230",
-    "end": "1315",
-    "location": "_location",
+    "start": "1210",
+    "end": "1300",
+    "location": "3rd Floor Conference Center",
     "title": "Hack Your Lunch",
-    "subtitle":"_subtitle",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris semper at justo eu varius. Integer imperdiet enim non lacus imperdiet tristique. Donec elementum at velit sit amet convallis. Praesent accumsan dapibus tempor. Duis orci enim, rutrum et risus ut, interdum varius urna. Sed quis dui fringilla, hendrerit velit quis, imperdiet eros. Nullam quis ex ac dui malesuada placerat id ac urna. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec mi nisl, porttitor et finibus id, aliquet fermentum lorem. Integer sed ex ac orci rhoncus posuere nec in velit. Nunc interdum, est et aliquet sollicitudin, odio lectus maximus tellus, non molestie justo dui id mi. Nam accumsan porta augue, nec posuere ante rutrum a. Suspendisse gravida mauris id sapien rhoncus lacinia. Donec nec vestibulum erat.",
+    "subtitle":"Business Problems to think on",
+    "description": "Lightning talks from Starbucks business leadership leading up to ST Hack, giving you some food for thought to start and plan a project or form a team.",
     "organizations": [
       {
         "name": "_org_name",
@@ -564,10 +564,10 @@ var eventFeed = [
     ],
     "speakers": [
       {
-        "name": "_name",
-        "title": "_title",
+        "name": "Ryan Bruels",
+        "title": "Director of Emerging Technology",
         "subtitle":"_subtitle",
-        "organization": "_organization",
+        "organization": "Starbucks Technology",
         "bio": "_bio"
       }
     ],
@@ -580,12 +580,37 @@ var eventFeed = [
     "title": "Trade Show",
     "subtitle":"_subtitle",
     "location": "4th Floor Commons",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris semper at justo eu varius. Integer imperdiet enim non lacus imperdiet tristique. Donec elementum at velit sit amet convallis. Praesent accumsan dapibus tempor. Duis orci enim, rutrum et risus ut, interdum varius urna. Sed quis dui fringilla, hendrerit velit quis, imperdiet eros. Nullam quis ex ac dui malesuada placerat id ac urna. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec mi nisl, porttitor et finibus id, aliquet fermentum lorem. Integer sed ex ac orci rhoncus posuere nec in velit. Nunc interdum, est et aliquet sollicitudin, odio lectus maximus tellus, non molestie justo dui id mi. Nam accumsan porta augue, nec posuere ante rutrum a. Suspendisse gravida mauris id sapien rhoncus lacinia. Donec nec vestibulum erat.",
+    "description": "Stop by the Starbucks Innovation Expo Show Floor to meet the days presenters, ask questions, and learn more about the ideas buzzing around the conference. Presenters include Apple, Splunk, Killer Infographics, Haiku Deck, Tableau, Appdiff, and more!",
     "organizations": [
       {
-        "name": "_org_name",
-        "url": "_org_url",
+        "name": "Apple",
+        "url": "https://www.apple.com/",
         "type": "_org_type"
+      },
+      {
+        "name": "Splunk",
+        "url": "https://www.splunk.com/",
+        "type": "Data Analysis"
+      },
+      {
+        "name": "Killer Infographics",
+        "url": "http://killerinfographics.com/",
+        "type": "Visual Communications"
+      },
+      {
+        "name": "Haiku Deck",
+        "url": "https://www.haikudeck.com/",
+        "type": "Presentation Software"
+      },
+      {
+        "name": "Tableau",
+        "url": "https://www.tableau.com/",
+        "type": "Business Intelligence and Analytics"
+      },
+      {
+        "name": "Appdiff",
+        "url": "https://www.appdiff.com/",
+        "type": "Mobile App Analytics"
       }
     ],
     "speakers": [
@@ -596,53 +621,6 @@ var eventFeed = [
         "organization": "_organization",
         "bio": "_bio"
       },
-      {
-        "name": "_name",
-        "title": "_title",
-        "subtitle":"_subtitle",
-        "organization": "_organization",
-        "bio": "_bio"
-      },
-      {
-        "name": "_name",
-        "title": "_title",
-        "subtitle":"_subtitle",
-        "organization": "_organization",
-        "bio": "_bio"
-      },
-      {
-        "name": "_name",
-        "title": "_title",
-        "subtitle":"_subtitle",
-        "organization": "_organization",
-        "bio": "_bio"
-      },
-      {
-        "name": "_name",
-        "title": "_title",
-        "subtitle":"_subtitle",
-        "organization": "_organization",
-        "bio": "_bio"
-      },
-    ],
-    "track": "core"
-  },
-  {
-    "id":"1002",
-    "start": "1000",
-    "end": "1100",
-    "location": "3rd Floor Conference Center",
-    "title": "Morning Keynote",
-    "subtitle":"_subtitle",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris semper at justo eu varius. Integer imperdiet enim non lacus imperdiet tristique. Donec elementum at velit sit amet convallis. Praesent accumsan dapibus tempor. Duis orci enim, rutrum et risus ut, interdum varius urna. Sed quis dui fringilla, hendrerit velit quis, imperdiet eros. Nullam quis ex ac dui malesuada placerat id ac urna. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec mi nisl, porttitor et finibus id, aliquet fermentum lorem. Integer sed ex ac orci rhoncus posuere nec in velit. Nunc interdum, est et aliquet sollicitudin, odio lectus maximus tellus, non molestie justo dui id mi. Nam accumsan porta augue, nec posuere ante rutrum a. Suspendisse gravida mauris id sapien rhoncus lacinia. Donec nec vestibulum erat.",
-    "organizations": [
-      {
-        "name": "_org_name",
-        "url": "_org_url",
-        "type": "_org_type"
-      }
-    ],
-    "speakers": [
       {
         "name": "_name",
         "title": "_title",
@@ -652,13 +630,39 @@ var eventFeed = [
       }
     ],
     "track": "core"
+  },
+  {
+    "id":"1002",
+    "start": "1000",
+    "end": "1100",
+    "location": "3rd Floor Conference Center",
+    "title": "Opening Keynote",
+    "subtitle":"The Future of Customer-Focused Digital Experiences",
+    "description": "Robi delivers an inspiring presentation about the future of customer-focused digital experiences",
+    "organizations": [
+      {
+        "name": "Apptentive",
+        "url": "https://www.apptentive.com/",
+        "type": "CRM"
+      }
+    ],
+    "speakers": [
+      {
+        "name": "Robi Ganguly",
+        "title": "CEO",
+        "subtitle":"_subtitle",
+        "organization": "Apptentive",
+        "bio": "Robi Ganguly is Co-founder and CEO of Apptentive, the leading Mobile Customer Experience software. He has led the company from an idea to a venture-backed startup that powers millions of customer conversations every month for thousands of companies around the world including Concur, eBay, eHarmony, Intercontinental Hotels Group, Nordstrom, and Zillow."
+      }
+    ],
+    "track": "Keynotes"
   },
   {
     "id":"1001",
     "start": "0930",
     "end": "1000",
     "location": "3rd Floor Conference Center",
-    "title": "CTO Welcome",
+    "title": "Coffee Tasting and Kickoff",
     "subtitle":"_subtitle",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris semper at justo eu varius. Integer imperdiet enim non lacus imperdiet tristique. Donec elementum at velit sit amet convallis. Praesent accumsan dapibus tempor. Duis orci enim, rutrum et risus ut, interdum varius urna. Sed quis dui fringilla, hendrerit velit quis, imperdiet eros. Nullam quis ex ac dui malesuada placerat id ac urna. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec mi nisl, porttitor et finibus id, aliquet fermentum lorem. Integer sed ex ac orci rhoncus posuere nec in velit. Nunc interdum, est et aliquet sollicitudin, odio lectus maximus tellus, non molestie justo dui id mi. Nam accumsan porta augue, nec posuere ante rutrum a. Suspendisse gravida mauris id sapien rhoncus lacinia. Donec nec vestibulum erat.",
     "organizations": [
@@ -670,13 +674,13 @@ var eventFeed = [
     ],
     "speakers": [
       {
-        "name": "Gerri",
+        "name": "Gerri Martin-Flickinger",
         "title": "CTO",
         "subtitle":"_subtitle",
         "organization": "Starbucks Technology",
-        "bio": "_bio"
+        "bio": "Gerri Martin-Flickinger is Starbucks executive vice president and chief technology officer. She is responsible for technology strategies and teams that enable the company to connect with customers worldwide. Gerri joined Starbucks in 2015, and has led the technology organization through significant transformation while developing and enabling industry-leading innovations including mobile order and pay, voice ordering and social gifting. Under her leadership, Starbucks Technology is focused on delivering innovative, cloud-based and digital solutions that empower partners and delight customers globally."
       }
     ],
-    "track": "core"
+    "track": "Keynotes"
   }
 ]
