@@ -82,6 +82,11 @@
   margin-bottom: 85px;
   margin-top: 200px;
 }
+.info-content-title {
+  display: block;
+  margin-bottom: 7px;
+  margin-top: 7px;
+}
 
 .action-btn {
   position: absolute;
