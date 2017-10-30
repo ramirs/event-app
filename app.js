@@ -27,6 +27,19 @@
     return check;
   };
 
+  var keynoteFilter = function (data) {
+    let obj = {};
+    data.forEach(function(d) {
+      if(!obj[d.type]) {
+        obj[d.type] = [];
+        obj[d.type].push(d);
+      } else {
+        obj[d.type].push(d);
+      }
+    });
+    return obj;
+  };
+
   var app = new Vue({
     el: '#app-container',
     data: {
@@ -34,8 +47,8 @@
         message: 'hello world'
       },
       events: eventFeed.sort(startTimeSort),
+      sortedEvents: keynoteFilter(eventFeed),
       initMsg: '',
-      userEvents: [],
       singleEvent: {},
       singleToggle: false,
       listToggle: true,
@@ -59,7 +72,6 @@
             uniqueEvent = false;
           }
         });
-
         if(uniqueEvent) {
           this.userEvents.push(this.singleEvent);
           scheduleManager.setSchedule(this.userEvents);
@@ -86,14 +98,19 @@
         this.filterOverlay = !this.filterOverlay;
       },
       filterBy: function (sel) {
-        console.log(sel);
         if(parseInt(sel) == 0) {
-          console.log(this.events);
           this.filteredEventList = this.events;
+        } else if (parseInt(sel) == 1) {
+          this.filteredEventList = this.sortedEvents['Workshop'];
+        } else if (parseInt(sel) == 2) {
+          this.filteredEventList = this.sortedEvents['Keynote'];
+        } else if (parseInt(sel) == 3) {
+          this.filteredEventList = this.sortedEvents['Talk'];
         } else if(parseInt(sel) == 4) {
-          console.log(this.userEvents);
-          this.filteredEventList = this.userEvents;
-        }
+          this.filteredEventList = this.sortedEvents['Hack Prep'];
+        } else if(parseInt(sel) == 5) {
+         this.filteredEventList = this.userEvents;
+       }
         this.toggleFilter();
       }
     }

@@ -23,7 +23,8 @@ var eventFeed = [
         "bio": "_bio"
       }
     ],
-    "track": "People"
+    "track": "People",
+    "type": "Talk"
   },
   {
     "id":"1023",
@@ -49,7 +50,8 @@ var eventFeed = [
         "bio": "_bio"
       }
     ],
-    "track": "People"
+    "track": "People",
+    "type": "Talk"
   },
   {
     "id":"1022",
@@ -75,7 +77,8 @@ var eventFeed = [
         "bio": "_bio"
       }
     ],
-    "track": "People"
+    "track": "People",
+    "type": "Talk"
   },
   {
     "id":"1021",
@@ -101,7 +104,8 @@ var eventFeed = [
         "bio": "_bio"
       }
     ],
-    "track": "Devops"
+    "track": "Devops",
+    "type": "Talk"
   },
   {
     "id":"1020",
@@ -127,7 +131,8 @@ var eventFeed = [
         "bio": "_bio"
       }
     ],
-    "track": "Devops"
+    "track": "Devops",
+    "type": "Talk"
   },
   {
     "id":"1019",
@@ -153,7 +158,8 @@ var eventFeed = [
         "bio": "_bio"
       }
     ],
-    "track": "Data"
+    "track": "Data",
+    "type": "Talk"
   },
   {
     "id":"1018",
@@ -179,7 +185,8 @@ var eventFeed = [
         "bio": "_bio"
       }
     ],
-    "track": "Information Security"
+    "track": "Information Security",
+    "type": "Talk"
   },
   {
     "id":"1017",
@@ -205,7 +212,8 @@ var eventFeed = [
         "bio": "_bio"
       }
     ],
-    "track": "Information Security"
+    "track": "Information Security",
+    "type": "Talk"
   },
   {
     "id":"1016",
@@ -231,7 +239,8 @@ var eventFeed = [
         "bio": "_bio"
       }
     ],
-    "track": "Blockchain"
+    "track": "Blockchain",
+    "type": "Workshop"
   },
   {
     "id":"1015",
@@ -257,7 +266,8 @@ var eventFeed = [
         "bio": "_bio"
       }
     ],
-    "track": "Blockchain"
+    "track": "Blockchain",
+    "type": "Workshop"
   },
   {
     "id":"1014",
@@ -283,7 +293,8 @@ var eventFeed = [
         "bio": "_bio"
       }
     ],
-    "track": "Innovation"
+    "track": "Innovation",
+    "type": "Hack Prep"
   },
   {
     "id":"1013",
@@ -309,7 +320,8 @@ var eventFeed = [
         "bio": "_bio"
       }
     ],
-    "track": "Innovation"
+    "track": "Innovation",
+    "type": "Hack Prep"
   },
   {
     "id":"1012",
@@ -335,7 +347,8 @@ var eventFeed = [
         "bio": "_bio"
       }
     ],
-    "track": "Future Proof"
+    "track": "Future Proof",
+    "type": "Talk"
   },
   {
     "id":"1011",
@@ -361,7 +374,8 @@ var eventFeed = [
         "bio": "_bio"
       }
     ],
-    "track": "Future Proof"
+    "track": "Future Proof",
+    "type": "Talk"
   },
   {
     "id":"1010",
@@ -387,7 +401,8 @@ var eventFeed = [
         "bio": "_bio"
       }
     ],
-    "track": "Future Proof"
+    "track": "Future Proof",
+    "type": "Talk"
   },
   {
     "id":"1009",
@@ -413,7 +428,8 @@ var eventFeed = [
         "bio": "Joe Roets is a successful software and systems architect with experience as CIO, CTO, and Senior Vice President across industries. For over 20 years he has worked at companies such as Disney, Lockheed Martin, Sprint, FBI, DoD, and createTank, and has spearheaded new technology groups and led software engineering teams both large and small. He has been involved with blockchain and cryptocurrency projects since 2010, working with Coinbase, Overstock, Symbiont, Bloq, and Disney. He currently heads the Dragonchain Foundation and Dragonchain, Inc."
       }
     ],
-    "track": "Future Proof"
+    "track": "Future Proof",
+    "type": "Talk"
   },
   {
     "id":"1008",
@@ -439,7 +455,8 @@ var eventFeed = [
         "bio": "_bio"
       }
     ],
-    "track": "core"
+    "track": "core",
+    "type": "Workshop"
   },
   {
     "id":"1007",
@@ -472,7 +489,8 @@ var eventFeed = [
         "bio": "_bio"
       }
     ],
-    "track": "core"
+    "track": "core",
+    "type": "Workshop"
   },
   {
     "id":"1006",
@@ -519,7 +537,8 @@ var eventFeed = [
         "bio": "_bio"
       }
     ],
-    "track": "core"
+    "track": "core",
+    "type": "Talk"
   },
   {
     "id":"1005",
@@ -545,7 +564,8 @@ var eventFeed = [
         "bio": "_bio"
       }
     ],
-    "track": "core"
+    "track": "core",
+    "type": "Keynote"
   },
   {
     "id":"1004",
@@ -571,7 +591,8 @@ var eventFeed = [
         "bio": "_bio"
       }
     ],
-    "track": "core"
+    "track": "core",
+    "type": "Hack Prep"
   },
   {
     "id":"1003",
@@ -655,7 +676,8 @@ var eventFeed = [
         "bio": "Robi Ganguly is Co-founder and CEO of Apptentive, the leading Mobile Customer Experience software. He has led the company from an idea to a venture-backed startup that powers millions of customer conversations every month for thousands of companies around the world including Concur, eBay, eHarmony, Intercontinental Hotels Group, Nordstrom, and Zillow."
       }
     ],
-    "track": "Keynotes"
+    "track": "core",
+    "type": "Keynote"
   },
   {
     "id":"1001",
@@ -681,6 +703,7 @@ var eventFeed = [
         "bio": "Gerri Martin-Flickinger is Starbucks executive vice president and chief technology officer. She is responsible for technology strategies and teams that enable the company to connect with customers worldwide. Gerri joined Starbucks in 2015, and has led the technology organization through significant transformation while developing and enabling industry-leading innovations including mobile order and pay, voice ordering and social gifting. Under her leadership, Starbucks Technology is focused on delivering innovative, cloud-based and digital solutions that empower partners and delight customers globally."
       }
     ],
-    "track": "Keynotes"
+    "track": "core",
+    "type": "Keynote"
   }
 ]
