@@ -128,7 +128,7 @@
 .filter-overlay .filter-list {
   margin: 0;
   padding: 0;
-  position: absolute;
+  position: fixed;
   right: 20px;
   bottom: 75px;
   text-align: right;
