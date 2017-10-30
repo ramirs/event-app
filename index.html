@@ -17,10 +17,13 @@
 
 <body>
   <div id="app-container">
-    <div id="app-ui-header"><div class="app-ui-toggle" v-bind:class="{ activeTab: !userListToggle }" v-on:click="toggleList(false)"><i class="fa fa-list" aria-hidden="true"></i> View Full Schedule</div><div class="app-ui-toggle" v-bind:class="{ activeTab: userListToggle }" v-on:click="toggleList(true)"><i class="fa fa-user" aria-hidden="true"></i> {{userEvents.length}} Event(s) Saved</div></div>
+    <div id="app-ui-header">
+      SIX DISRUPT
+      <!-- <div class="app-ui-toggle" v-bind:class="{ activeTab: !userListToggle }" v-on:click="toggleList(false)"><i class="fa fa-list" aria-hidden="true"></i> View Full Schedule</div><div class="app-ui-toggle" v-bind:class="{ activeTab: userListToggle }" v-on:click="toggleList(true)"><i class="fa fa-user" aria-hidden="true"></i> {{userEvents.length}} Event(s) Saved</div> -->
+    </div>
     <div id="app-view-schedule">
       <div v-show="!userListToggle" class="event-list-container">
-          <div v-for="ev in events" v-on:click="showSingleEventView(ev)" class="event-list-item">
+          <div v-for="ev in filteredEventList" v-on:click="showSingleEventView(ev)" class="event-list-item">
             <div>
               <span class="event-item-title">{{ev.title}}</span>
               <span class="event-item-subtitle">{{ev.subtitle}}</span>
@@ -31,7 +34,22 @@
             </div>
           </div>
         </div>
-      <div v-show="userListToggle" class="event-list-container">
+
+        <div v-show="!singleToggle" class="floating-ui-btn" v-on:click="toggleFilter()"><i class="fa fa-filter fa-2x" aria-hidden="true"></i></div>
+
+        <div class="filter-overlay" v-show="filterOverlay">
+          <div class="filter-list">
+            <div v-on:click="filterBy(0)">All Events<i class="fa fa-list fa-2x" aria-hidden="true"></i></div>
+            <div v-on:click="filterBy(1)">Workshops<i class="fa fa-desktop fa-2x" aria-hidden="true"></i></div>
+            <div v-on:click="filterBy(2)">Keynotes<i class="fa fa-coffee fa-2x" aria-hidden="true"></i></div>
+            <div v-on:click="filterBy(3)">Talks<i class="fa fa-comment fa-2x" aria-hidden="true"></i></div>
+            <div v-on:click="filterBy(4)">Saved Events<i class="fa fa-user fa-2x" aria-hidden="true"></i></div>
+          </div>
+          <!-- <div class="floating-ui-btn"><i class="fa fa-filter fa-2x" aria-hidden="true"></i></div> -->
+        </div>
+
+      </div>
+      <!-- <div v-show="userListToggle" class="event-list-container">
         <div>{{initMsg}}</div>
         <div v-for="ev in userEvents" v-on:click="showSingleEventView(ev)" class="event-list-item">
           <div>
@@ -43,7 +61,7 @@
             <span class="event-item-start"><i class="fa fa-clock-o" aria-hidden="true"></i> {{ev.start}}</span>
           </div>
       </div>
-    </div>
+    </div> -->
     <div id="app-view-single" v-show="singleToggle">
       <div class="view-container" id="scroll-container">
         <div class="event-calling-card" id="scroll-header">

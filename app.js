@@ -39,7 +39,9 @@
       singleEvent: {},
       singleToggle: false,
       listToggle: true,
-      userListToggle: false
+      userListToggle: false,
+      filterOverlay: false,
+      filteredEventList: eventFeed.sort(startTimeSort)
     },
     methods: {
       showSingleEventView: function (el) {
@@ -79,6 +81,20 @@
       toggleList: function(bool) {
         this.userListToggle = bool;
         this.closeSingleEventView();
+      },
+      toggleFilter: function () {
+        this.filterOverlay = !this.filterOverlay;
+      },
+      filterBy: function (sel) {
+        console.log(sel);
+        if(parseInt(sel) == 0) {
+          console.log(this.events);
+          this.filteredEventList = this.events;
+        } else if(parseInt(sel) == 4) {
+          console.log(this.userEvents);
+          this.filteredEventList = this.userEvents;
+        }
+        this.toggleFilter();
       }
     }
   });
@@ -95,7 +111,5 @@
   } else if (app.userEvents.length > 0){
     app.userEvents.sort(startTimeSort);
   }
-
-  console.log
 
 })();

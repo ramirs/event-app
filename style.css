@@ -12,8 +12,11 @@ body, html, #app-container {
 }
 
 #app-ui-header {
-  background-color: #fff;
-  font-size: 0.9em;
+  /*background-color: #fff;*/
+  /*font-size: 0.9em;*/
+  background-color: #8e44ad;
+  color: #ffffff;
+  font-size: 1.2em;
   -webkit-box-shadow: 0 4px 6px -6px #dadada;
   -moz-box-shadow: 0 4px 6px -6px #dadada;
   box-shadow: 0 4px 6px -6px #dadada;
@@ -118,3 +121,15 @@ body, html, #app-container {
 .btn-back {
   font-size: 0.9em;
 }
+
+.floating-ui-btn {
+    background-color: #8e44ad;
+    color: #ffffff;
+    -webkit-box-shadow: 0 4px 6px -6px #dadada;
+    -moz-box-shadow: 0 4px 6px -6px #dadada;
+    box-shadow: 0 4px 4px -2px #dadada;
+}
+
+/*.filter-overlay i {
+  color: #95a5a6;
+}*/
