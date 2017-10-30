@@ -35,7 +35,7 @@
           </div>
         </div>
 
-        <div v-show="!singleToggle" class="floating-ui-btn" v-on:click="toggleFilter()"><i class="fa fa-filter fa-2x" aria-hidden="true"></i></div>
+        <div v-show="!singleToggle" class="floating-ui-btn" v-on:click="toggleFilter()"><i v-show="!filterOverlay" class="fa fa-filter fa-2x" aria-hidden="true"></i><i v-show="filterOverlay" class="fa fa-close fa-2x" aria-hidden="true"></i></div>
 
         <div class="filter-overlay" v-show="filterOverlay">
           <div class="filter-list">
