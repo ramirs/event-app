@@ -71,14 +71,14 @@
           <div class="event-info-group" v-if="typeof singleEvent.speakers !== 'undefined'">
             <div class="event-content-title">Speakers</div>
             <div v-for="host in singleEvent.speakers">
-              <div>{{host.name}}</div>
+              <div class="info-content-title">{{host.name}}</div>
               <div>{{host.bio}}</div>
             </div>
           </div>
           <div class="event-info-group" v-show="typeof singleEvent.organizations !== 'undefined'">
             <div class="event-content-title">Sponsors / Organizations</div>
             <div v-for="org in singleEvent.organizations">
-              <div><a v-bind:href="org.url" target="_blank" >{{org.name}}</a></div>
+              <div class="info-content-title"><a v-bind:href="org.url" target="_blank">{{org.name}}</a></div>
             </div>
           </div>
         </div>
