@@ -70,11 +70,16 @@
           </div>
           <div class="event-info-group" v-if="typeof singleEvent.speakers !== 'undefined'">
             <div class="event-content-title">Speakers</div>
-            <div v-for="host in singleEvent.speakers">{{host.name}}</div>
+            <div v-for="host in singleEvent.speakers">
+              <div>{{host.name}}</div>
+              <div>{{host.bio}}</div>
+            </div>
           </div>
           <div class="event-info-group" v-show="typeof singleEvent.organizations !== 'undefined'">
             <div class="event-content-title">Sponsors / Organizations</div>
-            <div v-for="org in singleEvent.organizations">{{org.name}}</div>
+            <div v-for="org in singleEvent.organizations">
+              <div><a v-bind:href="org.url" target="_blank" >{{org.name}}</a></div>
+            </div>
           </div>
         </div>
         <!-- <div v-if="listToggle" v-on:click="saveEvent()" class="ui-btn btn-save"><i class="fa fa-plus fa-2x" aria-hidden="true"></i></div> -->
