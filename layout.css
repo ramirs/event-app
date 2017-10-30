@@ -49,8 +49,11 @@
   margin-bottom: 55px;
 }
 .event-list-item {
-  padding: 5px 10px;
+  padding: 30px;
   margin-bottom: 7px;
+  max-width: 650px;
+  margin: auto;
+  margin-bottom: 8px;
 }
 .event-list-item i {
   color: #95a5a6;
@@ -143,4 +146,10 @@
   width: 45px;
   text-align: center;
   margin-left: 12px;
+}
+
+@media (min-width: 850px) {
+  .event-list-item {
+    padding: 25px 30px;
+  }
 }

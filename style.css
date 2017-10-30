@@ -53,13 +53,10 @@ body, html, #app-container {
 }
 .event-list-item {
   background-color: #fff;
-  transition: box-shadow 0.25s ease-in-out
-}
-.event-list-item:hover {
-  cursor: pointer;
-  -webkit-box-shadow: 0 4px 4px #dadada;
-  -moz-box-shadow: 0 4px 4px #dadada;
-  box-shadow: 0 4px 4px #dadada;
+  /*transition: box-shadow 0.25s ease-in-out*/
+  -webkit-box-shadow: 0px 1px 4px 0px grey;
+  -moz-box-shadow: 0px 1px 4px 0px grey;
+  box-shadow: 0px 1px 4px 0px grey;
 }
 
 #scroll-header {
