@@ -124,6 +124,20 @@
        }
         this.toggleFilter();
       }
+    },
+    filters: {
+      timeFormat: function (val) {
+        if(!val) {
+          return '';
+        } else {
+          let hr = Math.floor(val/100); //gets first two ints
+          let dayPart = 'am';
+          if(hr>=12) {
+            dayPart = 'pm';
+          }
+          return `${hr%12 == 0 ? 12: hr%12}:${val.toString().charAt(2)}${val.toString().charAt(3)} ${dayPart}`;
+        }
+      }
     }
   });
 

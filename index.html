@@ -33,7 +33,7 @@
             </div>
             <div>
               <span><i class="fa fa-map-marker" aria-hidden="true"></i>  {{ev.location}}</span>
-              <span class="event-item-start"><i class="fa fa-clock-o" aria-hidden="true"></i> {{ev.start}}</span>
+              <span class="event-item-start"><i class="fa fa-clock-o" aria-hidden="true"></i> {{ev.start | timeFormat}}</span>
             </div>
           </div>
         </div>
@@ -88,7 +88,7 @@
           <div class="event-information">
             <div class="event-info-group general-info-group">
               <div class="event-content-title">General Information</div>
-              <div><i class="fa fa-clock-o" aria-hidden="true"></i> {{singleEvent.start}} - {{singleEvent.end}}</div>
+              <div><i class="fa fa-clock-o" aria-hidden="true"></i> {{singleEvent.start | timeFormat}} - {{singleEvent.end | timeFormat}}</div>
               <div><i class="fa fa-map-marker" aria-hidden="true"></i> {{singleEvent.location}}</div>
             </div>
             <div class="event-action-btn">
