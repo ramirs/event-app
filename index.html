@@ -36,18 +36,18 @@
         </div>
 
         <div v-show="!singleToggle" class="floating-ui-btn" v-on:click="toggleFilter()"><i v-show="!filterOverlay" class="fa fa-filter fa-2x" aria-hidden="true"></i><i v-show="filterOverlay" class="fa fa-close fa-2x" aria-hidden="true"></i></div>
-
-        <div class="filter-overlay" v-show="filterOverlay">
-          <div class="filter-list">
-            <div v-on:click="filterBy(2)">Keynotes<i class="fa fa-coffee fa-2x" aria-hidden="true"></i></div>
-            <div v-on:click="filterBy(3)">Presentations<i class="fa fa-comment fa-2x" aria-hidden="true"></i></div>
-            <div v-on:click="filterBy(4)">Hack Day Prep<i class="fa fa-lightbulb-o fa-2x" aria-hidden="true"></i></div>
-            <div v-on:click="filterBy(1)">Workshops<i class="fa fa-desktop fa-2x" aria-hidden="true"></i></div>
-            <div v-on:click="filterBy(0)">All Events<i class="fa fa-list fa-2x" aria-hidden="true"></i></div>
-            <div v-on:click="filterBy(5)">My Events<i class="fa fa-user fa-2x" aria-hidden="true"></i></div>
-          </div>
-          <!-- <div class="floating-ui-btn"><i class="fa fa-filter fa-2x" aria-hidden="true"></i></div> -->
+        <div class="filter-list" v-show="filterOverlay">
+          <div v-on:click="filterBy(2)">Keynotes<i class="fa fa-coffee fa-2x" aria-hidden="true"></i></div>
+          <div v-on:click="filterBy(3)">Presentations<i class="fa fa-comment fa-2x" aria-hidden="true"></i></div>
+          <div v-on:click="filterBy(4)">Hack Day Prep<i class="fa fa-lightbulb-o fa-2x" aria-hidden="true"></i></div>
+          <div v-on:click="filterBy(1)">Workshops<i class="fa fa-desktop fa-2x" aria-hidden="true"></i></div>
+          <div v-on:click="filterBy(0)">All Events<i class="fa fa-list fa-2x" aria-hidden="true"></i></div>
+          <div v-on:click="filterBy(5)">My Events<i class="fa fa-user fa-2x" aria-hidden="true"></i></div>
         </div>
+
+        <div class="filter-overlay" v-show="filterOverlay"></div>
+
+          <!-- <div class="floating-ui-btn"><i class="fa fa-filter fa-2x" aria-hidden="true"></i></div> -->
 
       </div>
       <!-- <div v-show="userListToggle" class="event-list-container">

@@ -125,21 +125,22 @@
   z-index: 1;
   background-color: rgba(243, 243, 243, 0.80);
 }
-.filter-overlay .filter-list {
+.filter-list {
   margin: 0;
   padding: 0;
   position: fixed;
   right: 20px;
   bottom: 75px;
   text-align: right;
+  z-index: 2;
 }
-.filter-overlay .filter-list > div {
+.filter-list > div {
   list-style-type: none;
   font-size: 1.2em;
   margin-top: 10px;
 }
 
-.filter-overlay i {
+.filter-list i {
   width: 45px;
   text-align: center;
   margin-left: 12px;
