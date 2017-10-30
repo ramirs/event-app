@@ -17,9 +17,9 @@ body, html, #app-container {
   background-color: #8e44ad;
   color: #ffffff;
   /*font-size: 1.2em;*/
-  -webkit-box-shadow: 0 4px 6px -6px #dadada;
-  -moz-box-shadow: 0 4px 6px -6px #dadada;
-  box-shadow: 0 4px 6px -6px #dadada;
+  -webkit-box-shadow: 0 6px 6px -6px #dadada;
+  -moz-box-shadow: 0 6px 6px -6px #dadada;
+  box-shadow: 0 6px 6px -6px #dadada;
 }
 
 #app-title {

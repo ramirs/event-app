@@ -8,6 +8,7 @@
   <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="layout.css">
   <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="transitions.css">
 
   <script type="text/javascript" src="schedule.js"></script>
   <script type="text/javascript" src="data.js"></script>
@@ -39,12 +40,24 @@
 
         <div v-show="!singleToggle" class="floating-ui-btn" v-on:click="toggleFilter()"><i v-show="!filterOverlay" class="fa fa-filter fa-2x" aria-hidden="true"></i><i v-show="filterOverlay" class="fa fa-close fa-2x" aria-hidden="true"></i></div>
         <div class="filter-list" v-show="filterOverlay">
-          <div v-on:click="filterBy(2)">Keynotes<i class="fa fa-coffee fa-2x" aria-hidden="true"></i></div>
-          <div v-on:click="filterBy(3)">Presentations<i class="fa fa-comment fa-2x" aria-hidden="true"></i></div>
-          <div v-on:click="filterBy(4)">Hack Day Prep<i class="fa fa-lightbulb-o fa-2x" aria-hidden="true"></i></div>
-          <div v-on:click="filterBy(1)">Workshops<i class="fa fa-desktop fa-2x" aria-hidden="true"></i></div>
-          <div v-on:click="filterBy(0)">Full Schedule<i class="fa fa-list fa-2x" aria-hidden="true"></i></div>
-          <div v-on:click="filterBy(5)">Saved Events<i class="fa fa-user fa-2x" aria-hidden="true"></i></div>
+          <transition name="slide-fade">
+            <div v-on:click="filterBy(2)" v-show="filterOverlay">Keynotes<i class="fa fa-coffee fa-2x" aria-hidden="true"></i></div>
+          </transition>
+          <transition name="slide-pos-1">
+            <div v-on:click="filterBy(3)" v-show="filterOverlay">Presentations<i class="fa fa-comment fa-2x" aria-hidden="true"></i></div>
+          </transition>
+          <transition name="slide-pos-2">
+            <div v-on:click="filterBy(4)" v-show="filterOverlay">Hack Day Prep<i class="fa fa-lightbulb-o fa-2x" aria-hidden="true"></i></div>
+          </transition>
+          <transition name="slide-pos-3">
+            <div v-on:click="filterBy(1)" v-show="filterOverlay">Workshops<i class="fa fa-desktop fa-2x" aria-hidden="true"></i></div>
+          </transition>
+          <transition name="slide-pos-4">
+            <div v-on:click="filterBy(0)" v-show="filterOverlay">Full Schedule<i class="fa fa-list fa-2x" aria-hidden="true"></i></div>
+          </transition>
+          <transition name="slide-pos-5">
+            <div v-on:click="filterBy(5)" v-show="filterOverlay">Saved Events<i class="fa fa-user fa-2x" aria-hidden="true"></i></div>
+          </transition>
         </div>
 
         <div class="filter-overlay" v-show="filterOverlay"></div>
@@ -65,47 +78,49 @@
           </div>
       </div>
     </div> -->
-    <div id="app-view-single" v-show="singleToggle">
-      <div class="view-container" id="scroll-container">
-        <div class="event-calling-card" id="scroll-header">
-          <div v-on:click="closeSingleEventView()" class="action-btn btn-back"><i class="fa fa-angle-left" aria-hidden="true"></i> back</div>
-          <div class="header-title-floating" id="scroll-header-title">{{singleEvent.title}}</div>
-        </div>
-        <div class="event-information">
-          <div class="event-info-group general-info-group">
-            <div class="event-content-title">General Information</div>
-            <div><i class="fa fa-clock-o" aria-hidden="true"></i> {{singleEvent.start}} - {{singleEvent.end}}</div>
-            <div><i class="fa fa-map-marker" aria-hidden="true"></i> {{singleEvent.location}}</div>
+    <transition name="slide">
+      <div id="app-view-single" v-show="singleToggle">
+        <div class="view-container" id="scroll-container">
+          <div class="event-calling-card" id="scroll-header">
+            <div v-on:click="closeSingleEventView()" class="action-btn btn-back"><i class="fa fa-angle-left" aria-hidden="true"></i> back</div>
+            <div class="header-title-floating" id="scroll-header-title">{{singleEvent.title}}</div>
           </div>
-          <div class="event-action-btn">
-            <div v-if="!listToggle" v-on:click="saveEvent()" class="save-action-btn"><i class="fa fa-plus" aria-hidden="true"></i> Save event to my schedule</div>
-            <div v-if="listToggle" v-on:click="deleteEvent(singleEvent)" class="delete-action-btn"><i class="fa fa-times" aria-hidden="true"></i> Remove event from my schedule</div>
-          </div>
-          <div class="event-info-group">
-            <div class="event-content-title">Description</div>
-            <div>{{singleEvent.description}}</div>
-          </div>
-          <div class="event-info-group">
-            <div class="event-content-title">Topic</div>
-            <div>{{singleEvent.track}}</div>
-          </div>
-          <div class="event-info-group" v-if="typeof singleEvent.speakers !== 'undefined'">
-            <div class="event-content-title">Speakers</div>
-            <div v-for="host in singleEvent.speakers">
-              <div class="info-content-title">{{host.name}}</div>
-              <div>{{host.bio}}</div>
+          <div class="event-information">
+            <div class="event-info-group general-info-group">
+              <div class="event-content-title">General Information</div>
+              <div><i class="fa fa-clock-o" aria-hidden="true"></i> {{singleEvent.start}} - {{singleEvent.end}}</div>
+              <div><i class="fa fa-map-marker" aria-hidden="true"></i> {{singleEvent.location}}</div>
+            </div>
+            <div class="event-action-btn">
+              <div v-if="!listToggle" v-on:click="saveEvent()" class="save-action-btn"><i class="fa fa-plus" aria-hidden="true"></i> Save event to my schedule</div>
+              <div v-if="listToggle" v-on:click="deleteEvent(singleEvent)" class="delete-action-btn"><i class="fa fa-times" aria-hidden="true"></i> Remove event from my schedule</div>
+            </div>
+            <div class="event-info-group">
+              <div class="event-content-title">Description</div>
+              <div>{{singleEvent.description}}</div>
+            </div>
+            <div class="event-info-group">
+              <div class="event-content-title">Topic</div>
+              <div>{{singleEvent.track}}</div>
+            </div>
+            <div class="event-info-group" v-if="typeof singleEvent.speakers !== 'undefined'">
+              <div class="event-content-title">Speakers</div>
+              <div v-for="host in singleEvent.speakers">
+                <div class="info-content-title">{{host.name}}</div>
+                <div>{{host.bio}}</div>
+              </div>
+            </div>
+            <div class="event-info-group" v-show="typeof singleEvent.organizations !== 'undefined'">
+              <div class="event-content-title">Sponsors / Organizations</div>
+              <div v-for="org in singleEvent.organizations">
+                <div class="info-content-title"><a v-bind:href="org.url" target="_blank">{{org.name}}</a></div>
+              </div>
             </div>
           </div>
-          <div class="event-info-group" v-show="typeof singleEvent.organizations !== 'undefined'">
-            <div class="event-content-title">Sponsors / Organizations</div>
-            <div v-for="org in singleEvent.organizations">
-              <div class="info-content-title"><a v-bind:href="org.url" target="_blank">{{org.name}}</a></div>
-            </div>
-          </div>
+          <!-- <div v-if="listToggle" v-on:click="saveEvent()" class="ui-btn btn-save"><i class="fa fa-plus fa-2x" aria-hidden="true"></i></div> -->
+          <!-- <div v-if="!listToggle" v-on:click="deleteEvent(singleEvent)" class="ui-btn btn-delete"><i class="fa fa-times fa-2x" aria-hidden="true"></i></div> -->
         </div>
-        <!-- <div v-if="listToggle" v-on:click="saveEvent()" class="ui-btn btn-save"><i class="fa fa-plus fa-2x" aria-hidden="true"></i></div> -->
-        <!-- <div v-if="!listToggle" v-on:click="deleteEvent(singleEvent)" class="ui-btn btn-delete"><i class="fa fa-times fa-2x" aria-hidden="true"></i></div> -->
-      </div>
-  </div>
+    </div>
+  </transform>
 </body>
 </html>

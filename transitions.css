@@ -1,0 +1,82 @@
+/* SINGLE VIEW TRANSITION ANIMATIONS                   */
+.slide-enter-active {
+  transition: all .25s ease;
+}
+.slide-leave-active {
+  transition: all .25s cubic-bezier(1.0, 0.5, 0.8, 1.0);
+}
+.slide-enter, .slide-leave-to
+/* .slide-fade-leave-active below version 2.1.8 */ {
+  transform: translateX(100vw);
+  /*opacity: 0;*/
+}
+
+/* LIST TRANSITION ANIMATIONS                   */
+/* Enter and leave animations can use different */
+/* durations and timing functions.              */
+.slide-fade-enter-active {
+  transition: all .3s ease;
+}
+.slide-fade-leave-active {
+  transition: all .8s cubic-bezier(1.0, 0.5, 0.8, 1.0);
+}
+.slide-fade-enter, .slide-fade-leave-to
+/* .slide-fade-leave-active below version 2.1.8 */ {
+  transform: translateX(10px);
+  opacity: 0;
+}
+.slide-pos-1-enter-active {
+  transition: all .3s ease;
+  transition-delay: 0.1s;
+}
+.slide-pos-1-leave-active {
+  transition: all .8s cubic-bezier(1.0, 0.5, 0.8, 1.0);
+}
+.slide-pos-1-enter, .slide-pos-1-leave-to {
+  transform: translateX(10px);
+  opacity: 0;
+}
+.slide-pos-2-enter-active {
+  transition: all .3s ease;
+  transition-delay: 0.2s;
+}
+.slide-pos-2-leave-active {
+  transition: all .8s cubic-bezier(1.0, 0.5, 0.8, 1.0);
+}
+.slide-pos-2-enter, .slide-pos-2-leave-to {
+  transform: translateX(10px);
+  opacity: 0;
+}
+.slide-pos-3-enter-active {
+  transition: all .3s ease;
+  transition-delay: 0.3s;
+}
+.slide-pos-3-leave-active {
+  transition: all .8s cubic-bezier(1.0, 0.5, 0.8, 1.0);
+}
+.slide-pos-3-enter, .slide-pos-3-leave-to {
+  transform: translateX(10px);
+  opacity: 0;
+}
+.slide-pos-4-enter-active {
+  transition: all .3s ease;
+  transition-delay: 0.4s;
+}
+.slide-pos-4-leave-active {
+  transition: all .8s cubic-bezier(1.0, 0.5, 0.8, 1.0);
+}
+.slide-pos-4-enter, .slide-pos-4-leave-to {
+  transform: translateX(10px);
+  opacity: 0;
+}
+.slide-pos-5-enter-active {
+  transition: all .3s ease;
+  transition-delay: 0.5s;
+}
+.slide-pos-5-leave-active {
+  transition: all .8s cubic-bezier(1.0, 0.5, 0.8, 1.0);
+}
+.slide-pos-5-enter, .slide-pos-5-leave-to {
+  transform: translateX(10px);
+  opacity: 0;
+}
