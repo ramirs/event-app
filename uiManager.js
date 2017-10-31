@@ -6,7 +6,6 @@
   var backLabel = document.getElementById('back-label');
   var eventFab = document.getElementById('event-fab');
 
-
   //event listener and actions
   document.getElementById('scroll-container').onscroll = function () {
     if(this.scrollTop >= 25) {
@@ -34,6 +33,17 @@
     } else {
       eventFab.style.display = 'none';
     }
+
+  }
+
+  var titleDisplay = document.getElementById('title-display');
+  var titleTimer;
+  document.getElementById('app-view-schedule').onscroll = function () {
+    titleDisplay.style.display = 'none';
+    clearTimeout(titleTimer);
+    titleTimer = setTimeout(function() {
+      titleDisplay.style.display = 'inline';
+    }, 750);
 
   }
 
