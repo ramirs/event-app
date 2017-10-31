@@ -155,3 +155,7 @@ body, html, #app-container {
 .filter-overlay {
   background-color: rgba(243, 243, 243, 0.90);
 }
+
+div.purple {
+  background-color: #8e44ad;
+}

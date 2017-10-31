@@ -148,6 +148,13 @@
   margin-left: 12px;
 }
 
+.overlay-mask {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  z-index: 1;
+}
+
 @media (min-width: 850px) {
   .event-list-item {
     padding: 25px 30px;

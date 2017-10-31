@@ -79,6 +79,7 @@
           </div>
       </div>
     </div> -->
+    <div class="overlay-mask purple" v-show="singleToggle"></div>
     <transition name="slide">
       <div id="app-view-single" v-show="singleToggle">
         <div class="view-container" id="scroll-container">
@@ -118,9 +119,9 @@
               </div>
             </div>
           </div>
+        </div>
           <!-- <div v-if="listToggle" v-on:click="saveEvent()" class="ui-btn btn-save"><i class="fa fa-plus fa-2x" aria-hidden="true"></i></div> -->
           <!-- <div v-if="!listToggle" v-on:click="deleteEvent(singleEvent)" class="ui-btn btn-delete"><i class="fa fa-times fa-2x" aria-hidden="true"></i></div> -->
-        </div>
     </div>
   </transform>
 </body>
