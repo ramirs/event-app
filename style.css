@@ -68,11 +68,6 @@ body, html, #app-container {
   font-size: 1.1em;
   color: #232323;
 }
-.event-information i {
-  color: #95a5a6;
-  width: 25px;
-  text-align: center;
-}
 .event-content-title {
   color: #95a5a6;
   font-size: 0.8em;
@@ -88,6 +83,11 @@ body, html, #app-container {
 }
 .event-info-group > div {
   margin-bottom: 5px;
+}
+.event-info-group i {
+  color: #95a5a6;
+  width: 25px;
+  text-align: center;
 }
 
 .ui-btn:hover,
@@ -111,14 +111,19 @@ body, html, #app-container {
   color: #fff;
 }
 .btn-save,
-.save-action-btn {
+.save-action-btn,
+div.green {
   background-color: #2ecc71;
   color: #fff;
 }
 .btn-delete,
-.delete-action-btn {
+.delete-action-btn,
+div.red {
   background-color: #e74c3c;
   color: #fff;
+}
+div.purple {
+  background-color: #8e44ad;
 }
 
 .delete-action-btn,
@@ -132,11 +137,13 @@ body, html, #app-container {
 }
 
 .floating-ui-btn {
-    background-color: #8e44ad;
-    color: #ffffff;
     -webkit-box-shadow: 0 4px 6px -6px #dadada;
     -moz-box-shadow: 0 4px 6px -6px #dadada;
     box-shadow: 0 4px 4px -2px #dadada;
+}
+.floating-ui-btn,
+.floating-ui-btn * {
+  color: #ffffff;
 }
 
 .going-label {
@@ -154,8 +161,4 @@ body, html, #app-container {
 
 .filter-overlay {
   background-color: rgba(243, 243, 243, 0.90);
-}
-
-div.purple {
-  background-color: #8e44ad;
 }

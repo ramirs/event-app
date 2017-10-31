@@ -39,7 +39,7 @@
           </div>
         </div>
 
-        <div v-show="!singleToggle" class="floating-ui-btn" v-on:click="toggleFilter()"><i v-show="!filterOverlay" class="fa fa-filter fa-2x" aria-hidden="true"></i><i v-show="filterOverlay" class="fa fa-close fa-2x" aria-hidden="true"></i></div>
+        <div v-show="!singleToggle" class="floating-ui-btn purple" v-on:click="toggleFilter()"><i v-show="!filterOverlay" class="fa fa-filter fa-2x" aria-hidden="true"></i><i v-show="filterOverlay" class="fa fa-close fa-2x" aria-hidden="true"></i></div>
         <div class="filter-list" v-show="filterOverlay">
           <transition name="slide-fade">
             <div v-on:click="filterBy(2)" v-show="filterOverlay">Keynotes<i class="fa fa-coffee fa-2x" aria-hidden="true"></i></div>
@@ -84,7 +84,7 @@
       <div id="app-view-single" v-show="singleToggle">
         <div class="view-container" id="scroll-container">
           <div class="event-calling-card" id="scroll-header">
-            <div v-on:click="closeSingleEventView()" class="action-btn btn-back"><i class="fa fa-angle-left" aria-hidden="true"></i> back</div>
+            <div v-on:click="closeSingleEventView()" class="action-btn btn-back"><i class="fa fa-angle-left fa-2x" aria-hidden="true"></i><div id="back-label">back</div></div>
             <div class="header-title-floating" id="scroll-header-title">{{singleEvent.title}}</div>
           </div>
           <div class="event-information">
@@ -93,10 +93,10 @@
               <div><i class="fa fa-clock-o" aria-hidden="true"></i> {{singleEvent.start | timeFormat}} - {{singleEvent.end | timeFormat}}</div>
               <div><i class="fa fa-map-marker" aria-hidden="true"></i> {{singleEvent.location}}</div>
             </div>
-            <div class="event-action-btn">
-              <div v-if="!listToggle" v-on:click="saveEvent()" class="save-action-btn"><i class="fa fa-plus" aria-hidden="true"></i> Save event to my schedule</div>
-              <div v-if="listToggle" v-on:click="deleteEvent(singleEvent)" class="delete-action-btn"><i class="fa fa-times" aria-hidden="true"></i> Remove event from my schedule</div>
-            </div>
+            <!-- <div class="event-action-btn"> -->
+              <div v-if="!listToggle" v-on:click="saveEvent()" class="event-action-btn save-action-btn"><i class="fa fa-plus" aria-hidden="true"></i> Save event to my schedule</div>
+              <div v-if="listToggle" v-on:click="deleteEvent(singleEvent)" class="event-action-btn delete-action-btn"><i class="fa fa-times" aria-hidden="true"></i> Remove event from my schedule</div>
+            <!-- </div> -->
             <div class="event-info-group">
               <div class="event-content-title">Description</div>
               <div>{{singleEvent.description}}</div>
@@ -118,6 +118,8 @@
                 <div class="info-content-title"><a v-bind:href="org.url" target="_blank">{{org.name}}</a></div>
               </div>
             </div>
+
+            <div id="event-fab"><div class="floating-ui-btn red" v-if="listToggle" v-on:click="deleteEvent(singleEvent)"><i class="fa fa-times fa-2x" aria-hidden="true"></i></div><div class="floating-ui-btn green" v-if="!listToggle" v-on:click="saveEvent()"><i class="fa fa-plus fa-2x" aria-hidden="true"></i></div></div>
           </div>
         </div>
           <!-- <div v-if="listToggle" v-on:click="saveEvent()" class="ui-btn btn-save"><i class="fa fa-plus fa-2x" aria-hidden="true"></i></div> -->

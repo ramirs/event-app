@@ -44,6 +44,13 @@
   display: block;
 }
 
+#back-label {
+  display: inline-block;
+  line-height: 40px;
+  vertical-align: top;
+  margin-left: 6px;
+}
+
 .event-list-container {
   padding: 20px 25px;
   margin-bottom: 55px;
@@ -99,11 +106,15 @@
   position: absolute;
 }
 .event-action-btn {
-  /*padding: 20px;*/
+  width: 90%;
+  max-width: 300px;
+  margin: auto;
+  padding: 7px 15px;
+  border-radius: 43px;
 }
 
 .btn-back {
-  top: 25px;
+  top: 20px;
   left: 20px;
   line-height: initial;
 }
@@ -150,6 +161,8 @@
 
 .overlay-mask {
   position: fixed;
+  top: 0px;
+  left: 0px;
   width: 100vw;
   height: 100vh;
   z-index: 1;
