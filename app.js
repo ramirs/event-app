@@ -81,7 +81,7 @@
           // this.listSubtitle = this.userEvents.length + ' Saved Events';
           this.closeSingleEventView();
         } else {
-          console.log('youve already saved this event! :)');
+          alert('you\'ve already saved this event! :)');
         }
       },
       deleteEvent: function (ev) {

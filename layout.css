@@ -96,6 +96,11 @@
   margin-bottom: 85px;
   margin-top: 200px;
 }
+.event-information > div:not(.event-action-btn){
+  max-width: 850px;
+  margin: auto;
+}
+
 .info-content-title {
   display: block;
   margin-bottom: 7px;
