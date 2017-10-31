@@ -50,6 +50,7 @@
       sortedEvents: keynoteFilter(eventFeed),
       initMsg: '',
       singleEvent: {},
+      storageAvailable: false,
       singleToggle: false,
       listToggle: true,
       userListToggle: false,
@@ -81,7 +82,7 @@
           // this.listSubtitle = this.userEvents.length + ' Saved Events';
           this.closeSingleEventView();
         } else {
-          alert('you\'ve already saved this event! :)');
+          console.log({err: 'Duplicate event error, user has already saved event'});
         }
       },
       deleteEvent: function (ev) {
@@ -172,6 +173,11 @@
       checkListItem(ev.id);
       ev['checked'] = true;
     });
+  }
+
+  if(this.scheduleManager.storageAvailable) {
+    app.storageAvailable = true;
+    console.log('storage enabled!');
   }
 
 })();

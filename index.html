@@ -12,8 +12,8 @@
 
   <script type="text/javascript" src="schedule.js"></script>
   <script type="text/javascript" src="data.js"></script>
-  <script type="text/javascript" src="app.js" async defer></script>
-  <script type="text/javascript" src="uiManager.js" async defer></script>
+  <script type="text/javascript" src="app.js" defer></script>
+  <script type="text/javascript" src="uiManager.js" defer></script>
 </head>
 
 <body>
@@ -57,7 +57,7 @@
             <div v-on:click="filterBy(0)" v-show="filterOverlay">Full Schedule<i class="fa fa-list fa-2x" aria-hidden="true"></i></div>
           </transition>
           <transition name="slide-pos-5">
-            <div v-on:click="filterBy(5)" v-show="filterOverlay">Saved Events<i class="fa fa-user fa-2x" aria-hidden="true"></i></div>
+            <div v-on:click="filterBy(5)" v-show="filterOverlay && storageAvailable">Saved Events<i class="fa fa-user fa-2x" aria-hidden="true"></i></div>
           </transition>
         </div>
 
@@ -94,8 +94,8 @@
               <div><i class="fa fa-map-marker" aria-hidden="true"></i> {{singleEvent.location}}</div>
             </div>
             <!-- <div class="event-action-btn"> -->
-              <div v-if="!listToggle" v-on:click="saveEvent()" class="event-action-btn save-action-btn"><i class="fa fa-plus" aria-hidden="true"></i> Save event to my schedule</div>
-              <div v-if="listToggle" v-on:click="deleteEvent(singleEvent)" class="event-action-btn delete-action-btn"><i class="fa fa-times" aria-hidden="true"></i> Remove event from my schedule</div>
+              <div v-if="!listToggle && storageAvailable" v-on:click="saveEvent()" class="event-action-btn save-action-btn"><i class="fa fa-plus" aria-hidden="true"></i> Save event to my schedule</div>
+              <div v-if="listToggle && storageAvailable" v-on:click="deleteEvent(singleEvent)" class="event-action-btn delete-action-btn"><i class="fa fa-times" aria-hidden="true"></i> Remove event from my schedule</div>
             <!-- </div> -->
             <div class="event-info-group">
               <div class="event-content-title">Description</div>
@@ -118,8 +118,10 @@
                 <div class="info-content-title"><a v-bind:href="org.url" target="_blank">{{org.name}}</a></div>
               </div>
             </div>
-
-            <div id="event-fab"><div class="floating-ui-btn red" v-if="listToggle" v-on:click="deleteEvent(singleEvent)"><i class="fa fa-times fa-2x" aria-hidden="true"></i></div><div class="floating-ui-btn green" v-if="!listToggle" v-on:click="saveEvent()"><i class="fa fa-plus fa-2x" aria-hidden="true"></i></div></div>
+            <div id="event-fab">
+              <div class="floating-ui-btn red" v-if="listToggle && storageAvailable" v-on:click="deleteEvent(singleEvent)"><i class="fa fa-times fa-2x" aria-hidden="true"></i></div>
+              <div class="floating-ui-btn green" v-if="!listToggle && storageAvailable" v-on:click="saveEvent()"><i class="fa fa-plus fa-2x" aria-hidden="true"></i></div>
+            </div>
           </div>
         </div>
           <!-- <div v-if="listToggle" v-on:click="saveEvent()" class="ui-btn btn-save"><i class="fa fa-plus fa-2x" aria-hidden="true"></i></div> -->

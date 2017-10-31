@@ -7,6 +7,8 @@ function LocalScheduleManager() {
     this.storage = window.localStorage;
     this.storageAvailable = true;
   } else {
+    //TURN OFF STORAGE FEATURES??
+
     //simulate storage, won't persist data
     this.storage['six-disrupt-localEvents'] = [];
   }
