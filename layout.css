@@ -52,7 +52,7 @@
 }
 
 .event-list-container {
-  padding: 20px 25px;
+  padding: 25px;
   margin-bottom: 55px;
 }
 .event-list-item {
@@ -87,8 +87,16 @@
   /*line-height min val = 80px*/
   height: 200px;
 }
-.header-title-floating {
+/*.header-title-floating {
   line-height: 200px;
+}*/
+#scroll-header-title {
+  width: 85%;
+  text-align: center;
+  margin: auto;
+  height: 200px;
+  padding-top: 80px;
+  font-size: 1em;
 }
 
 .event-information {
@@ -159,9 +167,8 @@
 }
 
 .filter-list i {
-  width: 45px;
   text-align: center;
-  margin-left: 12px;
+  margin-left: 15px;
 }
 
 .overlay-mask {

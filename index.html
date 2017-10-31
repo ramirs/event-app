@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-  <title>SIX: Disrupt</title>
+  <title>SIX Event Schedule</title>
   <meta name=viewport content="width=device-width, initial-scale=1">
   <script src="https://unpkg.com/vue"></script>
   <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"></script>
@@ -15,19 +15,44 @@
   <script type="text/javascript" src="app.js" defer></script>
   <script type="text/javascript" src="uiManager.js" defer></script>
 </head>
+<!--
+    _    _____ _______       _____  ____  _    _  _____ _  __ _____
+ /\| |/\/ ____|__   __|/\   |  __ \|  _ \| |  | |/ ____| |/ // ____|
+ \ ` ' / (___    | |  /  \  | |__) | |_) | |  | | |    | ' /| (___
+|_     _\___ \   | | / /\ \ |  _  /|  _ <| |  | | |    |  <  \___ \
+ / , . \____) |  | |/ ____ \| | \ \| |_) | |__| | |____| . \ ____) |
+ \/|_|\/_____/_  |_/_/  _ \_\_|__\_\____/ \____/_\_____|_|\_\_____/_
+ /\| |/\_   _| \ | | \ | |/ __ \ \    / /\|__   __|_   _/ __ \| \ | |
+ \ ` ' / | | |  \| |  \| | |  | \ \  / /  \  | |    | || |  | |  \| |
+|_     _|| | | . ` | . ` | |  | |\ \/ / /\ \ | |    | || |  | | . ` |
+ / , . \_| |_| |\  | |\  | |__| | \  / ____ \| |   _| || |__| | |\  |
+ \/|_|\/_____|_|_\_|_|_\_|\____/   \/_/    \_\_|  |_____\____/|_| \_|
+|  ____\ \ / /  __ \ / __ \
+| |__   \ V /| |__) | |  | |
+|  __|   > < |  ___/| |  | |
+| |____ / . \| |    | |__| |
+|______/_/ \_\_|     \____/
 
+Emotion, yet peace.
+Ignorance, yet knowledge.
+Passion, yet serenity.
+Chaos, yet harmony.
+Darkness, yet light.
+- Say hello @ ramirs.com
+ -->
 <body>
   <div id="app-container">
     <div id="app-ui-header">
-      <div id="app-title">SIX Disrupt</div>
-      <div id="app-sub">{{listSubtitle}}</div>
-      <!-- <div class="app-ui-toggle" v-bind:class="{ activeTab: !userListToggle }" v-on:click="toggleList(false)"><i class="fa fa-list" aria-hidden="true"></i> View Full Schedule</div><div class="app-ui-toggle" v-bind:class="{ activeTab: userListToggle }" v-on:click="toggleList(true)"><i class="fa fa-user" aria-hidden="true"></i> {{userEvents.length}} Event(s) Saved</div> -->
+      <div id="app-title">
+        <div class="main-content">SIX DISRUPT</div>
+        <div id="title-display" class="sub-content">{{listSubtitle}}</div>
+      </div>
+      <!-- <div id="app-sub">{{listSubtitle}}</div> -->
     </div>
     <div id="app-view-schedule">
       <div v-show="!userListToggle" class="event-list-container">
           <div v-for="ev in filteredEventList" v-on:click="showSingleEventView(ev)" class="event-list-item">
             <div>
-              <!-- <div v-show="ev.checked" class="going-label"><i class="fa fa-check-circle" aria-hidden="true"></i>Attending</div> -->
               <div v-show="ev.checked" class="going-label"><i class="fa fa-check-circle fa-3x" aria-hidden="true"></i></div>
               <span class="event-item-title">{{ev.title}}</span>
               <span class="event-item-subtitle">{{ev.subtitle}}</span>
@@ -41,7 +66,7 @@
 
         <div v-show="!singleToggle" class="floating-ui-btn purple" v-on:click="toggleFilter()"><i v-show="!filterOverlay" class="fa fa-filter fa-2x" aria-hidden="true"></i><i v-show="filterOverlay" class="fa fa-close fa-2x" aria-hidden="true"></i></div>
         <div class="filter-list" v-show="filterOverlay">
-          <transition name="slide-fade">
+          <!-- <transition name="slide-fade">
             <div v-on:click="filterBy(2)" v-show="filterOverlay">Keynotes<i class="fa fa-coffee fa-2x" aria-hidden="true"></i></div>
           </transition>
           <transition name="slide-pos-1">
@@ -58,27 +83,28 @@
           </transition>
           <transition name="slide-pos-5">
             <div v-on:click="filterBy(5)" v-show="filterOverlay && storageAvailable">Saved Events<i class="fa fa-user fa-2x" aria-hidden="true"></i></div>
+          </transition> -->
+          <transition name="slide-fade">
+            <div v-on:click="filterBy(2)" v-show="filterOverlay">Keynotes<i class="fa fa-coffee" aria-hidden="true"></i></div>
+          </transition>
+          <transition name="slide-pos-1">
+            <div v-on:click="filterBy(3)" v-show="filterOverlay">Presentations<i class="fa fa-comment" aria-hidden="true"></i></div>
+          </transition>
+          <transition name="slide-pos-2">
+            <div v-on:click="filterBy(4)" v-show="filterOverlay">Hack Day Prep<i class="fa fa-lightbulb-o" aria-hidden="true"></i></div>
+          </transition>
+          <transition name="slide-pos-3">
+            <div v-on:click="filterBy(1)" v-show="filterOverlay">Workshops<i class="fa fa-desktop" aria-hidden="true"></i></div>
+          </transition>
+          <transition name="slide-pos-4">
+            <div v-on:click="filterBy(0)" v-show="filterOverlay">Full Schedule<i class="fa fa-list" aria-hidden="true"></i></div>
+          </transition>
+          <transition name="slide-pos-5">
+            <div v-on:click="filterBy(5)" v-show="filterOverlay && storageAvailable">Saved Events<i class="fa fa-user" aria-hidden="true"></i></div>
           </transition>
         </div>
-
         <div class="filter-overlay" v-show="filterOverlay"></div>
-
-          <!-- <div class="floating-ui-btn"><i class="fa fa-filter fa-2x" aria-hidden="true"></i></div> -->
-
       </div>
-      <!-- <div v-show="userListToggle" class="event-list-container">
-        <div>{{initMsg}}</div>
-        <div v-for="ev in userEvents" v-on:click="showSingleEventView(ev)" class="event-list-item">
-          <div>
-            <span class="event-item-title">{{ev.title}}</span>
-            <span class="event-item-subtitle">{{ev.subtitle}}</span>
-          </div>
-          <div>
-            <span><i class="fa fa-map-marker" aria-hidden="true"></i>  {{ev.location}}</span>
-            <span class="event-item-start"><i class="fa fa-clock-o" aria-hidden="true"></i> {{ev.start}}</span>
-          </div>
-      </div>
-    </div> -->
     <div class="overlay-mask purple" v-show="singleToggle"></div>
     <transition name="slide">
       <div id="app-view-single" v-show="singleToggle">
@@ -93,10 +119,8 @@
               <div><i class="fa fa-clock-o" aria-hidden="true"></i> {{singleEvent.start | timeFormat}} - {{singleEvent.end | timeFormat}}</div>
               <div><i class="fa fa-map-marker" aria-hidden="true"></i> {{singleEvent.location}}</div>
             </div>
-            <!-- <div class="event-action-btn"> -->
               <div v-if="!listToggle && storageAvailable" v-on:click="saveEvent()" class="event-action-btn save-action-btn"><i class="fa fa-plus" aria-hidden="true"></i> Save event to my schedule</div>
               <div v-if="listToggle && storageAvailable" v-on:click="deleteEvent(singleEvent)" class="event-action-btn delete-action-btn"><i class="fa fa-times" aria-hidden="true"></i> Remove event from my schedule</div>
-            <!-- </div> -->
             <div class="event-info-group">
               <div class="event-content-title">Description</div>
               <div>{{singleEvent.description}}</div>
@@ -124,8 +148,6 @@
             </div>
           </div>
         </div>
-          <!-- <div v-if="listToggle" v-on:click="saveEvent()" class="ui-btn btn-save"><i class="fa fa-plus fa-2x" aria-hidden="true"></i></div> -->
-          <!-- <div v-if="!listToggle" v-on:click="deleteEvent(singleEvent)" class="ui-btn btn-delete"><i class="fa fa-times fa-2x" aria-hidden="true"></i></div> -->
     </div>
   </transform>
 </body>

@@ -17,7 +17,16 @@
 
     if(200 - this.scrollTop >= 80) {
       scrollHeader.style.height = (200 - this.scrollTop) + 'px';
-      scrollHeaderTitle.style.lineHeight = (200 - this.scrollTop) + 'px';
+    } else if (this.scrollTop >= 120) {
+      scrollHeader.style.height = 80 + 'px';
+    }
+
+    if(this.scrollTop <= 120) {
+      scrollHeaderTitle.style.paddingTop = 80 - (this.scrollTop / 3) + 'px';
+      scrollHeaderTitle.style.fontSize = 1.0 - (this.scrollTop / 300) + 'em';
+    } else if (this.scrollTop > 120){
+      scrollHeaderTitle.style.paddingTop = 30 + 'px';
+      scrollHeaderTitle.style.fontSize = '0.6em';
     }
 
     if(this.scrollTop >= 285) {
@@ -30,7 +39,6 @@
 
   //init state
   scrollHeader.style.height = '200px';
-  scrollHeaderTitle.style.lineHeight = '200px';
   eventFab.style.display = 'none';
 
 })();

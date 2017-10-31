@@ -27,7 +27,18 @@ body, html, #app-container {
   line-height: 45px;
   color: #ffffff;
   font-size: 1.2em;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
+#app-title .main-content {
+  font-size: 1.2em;
+  line-height: 45px;
+}
+#app-title .sub-content {
+  font-size: 0.8em;
+  line-height: 20px;
+}
+
 #app-sub {
   background-color: #ffffff;
   color: #232323;
@@ -88,6 +99,13 @@ body, html, #app-container {
   color: #95a5a6;
   width: 25px;
   text-align: center;
+}
+.filter-list i {
+  width: 45px;
+  padding: 14px 0px;
+  color: #ffffff;
+  background-color: #8e44ad;
+  border-radius: 25px;
 }
 
 .ui-btn:hover,
