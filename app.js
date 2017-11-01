@@ -16,7 +16,6 @@
 
     return 0;
   };
-
   var preSelectCheck = function (e) {
     let check = false;
     app.userEvents.forEach(function(event) {
@@ -26,7 +25,6 @@
     });
     return check;
   };
-
   var keynoteFilter = function (data) {
     let obj = {};
     data.forEach(function(d) {
@@ -38,6 +36,20 @@
       }
     });
     return obj;
+  };
+  var checkListItem = function (id) {
+    eventFeed.forEach(function(ev) {
+      if(ev.id == id) {
+        ev.checked = true;
+      }
+    });
+  };
+  var uncheckListItem = function (id) {
+    eventFeed.forEach(function(ev) {
+      if(ev.id == id) {
+        ev.checked = false;
+      }
+    });
   };
 
   var app = new Vue({
@@ -79,7 +91,6 @@
           this.userEvents.push(this.singleEvent);
           scheduleManager.setSchedule(this.userEvents);
           this.userEvents.sort(startTimeSort);
-          // this.listSubtitle = this.userEvents.length + ' Saved Events';
           this.closeSingleEventView();
         } else {
           console.log({err: 'Duplicate event error, user has already saved event'});
@@ -141,22 +152,6 @@
       }
     }
   });
-
-
-  var checkListItem = function (id) {
-    eventFeed.forEach(function(ev) {
-      if(ev.id == id) {
-        ev.checked = true;
-      }
-    });
-  };
-  var uncheckListItem = function (id) {
-    eventFeed.forEach(function(ev) {
-      if(ev.id == id) {
-        ev.checked = false;
-      }
-    });
-  };
 
   //IF localStorage, grab storage and map to userEvents
   // ELSE notify user they won't be able to save events :(
