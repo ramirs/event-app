@@ -81,7 +81,7 @@
       },
       saveEvent: function () {
         let uniqueEvent = true;
-        this.userEvents.forEach(function(el, i){
+        this.userEvents.forEach(function (el, i){
           if(el.id === app.singleEvent.id) {
             uniqueEvent = false;
           }
@@ -99,9 +99,9 @@
       deleteEvent: function (ev) {
         uncheckListItem(ev.id);
         this.closeSingleEventView();
-        this.userEvents.forEach((el, i) => {
+        this.userEvents.forEach(function (el, i){
             if(el.id === ev.id) {
-              this.userEvents.splice(i, 1);
+              app.userEvents.splice(i, 1);
             }
         });
         scheduleManager.setSchedule(this.userEvents);
