@@ -8,8 +8,8 @@
 
 #app-view-schedule {
   overflow-y: scroll;
-  height: calc(100vh - 67px);
-  padding-top: 67px;
+  height: calc(100vh - 72px);
+  padding-top: 72px;
 }
 
 #app-view-single {

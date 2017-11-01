@@ -1,3 +1,6 @@
+/*                                                     */
+/*                VUE JS ANIMATIONS                    */
+/*                                                     */
 /* SINGLE VIEW TRANSITION ANIMATIONS                   */
 .slide-enter-active {
   transition: all .25s ease;
@@ -81,6 +84,10 @@
   opacity: 0;
 }
 
+/*                                                     */
+/*                VUE JS ANIMATIONS                    */
+/*                                                     */
+/* app ui header                                       */
 #app-title {
   -webkit-transition: height 0.15s;
   -moz-transition: height 0.15s;
