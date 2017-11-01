@@ -82,7 +82,7 @@
       saveEvent: function () {
         let uniqueEvent = true;
         this.userEvents.forEach(function(el, i){
-          if(el.id === this.singleEvent.id) {
+          if(el.id === app.singleEvent.id) {
             uniqueEvent = false;
           }
         });
