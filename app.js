@@ -147,7 +147,7 @@
           if(hr>=12) {
             dayPart = 'pm';
           }
-          return `${hr%12 == 0 ? 12: hr%12}:${val.toString().charAt(2)}${val.toString().charAt(3)} ${dayPart}`;
+          return (hr%12 == 0 ? 12: hr%12) + ':' + val.toString().charAt(2) + val.toString().charAt(3) + ' ' + dayPart;
         }
       }
     }
