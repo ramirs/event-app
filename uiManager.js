@@ -36,13 +36,16 @@
 
   }
 
+  var appTitle = document.getElementById('app-title');
   var titleDisplay = document.getElementById('title-display');
   var titleTimer;
   document.getElementById('app-view-schedule').onscroll = function () {
+    appTitle.style.height = '65px';
     titleDisplay.style.display = 'none';
     clearTimeout(titleTimer);
     titleTimer = setTimeout(function() {
       titleDisplay.style.display = 'inline';
+      appTitle.style.height = '90px';
     }, 750);
 
   }

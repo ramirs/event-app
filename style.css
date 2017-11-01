@@ -24,11 +24,12 @@ body, html, #app-container {
 
 #app-title {
   background-color: #8e44ad;
-  /*line-height: 45px;*/
   color: #ffffff;
   font-size: 1.2em;
   padding-top: 10px;
   padding-bottom: 10px;
+  height: 90px;
+  box-sizing: border-box;
 }
 #app-title .main-content {
   font-size: 1.2em;

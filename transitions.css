@@ -80,3 +80,11 @@
   transform: translateX(10px);
   opacity: 0;
 }
+
+#app-title {
+  -webkit-transition: height 0.15s;
+  -moz-transition: height 0.15s;
+  -ms-transition: height 0.15s;
+  -o-transition: height 0.15s;
+  transition: height 0.15s;
+}
