@@ -17,11 +17,6 @@
     return 0;
   };
 
-  var resetScrollPosition = function () {
-    console.log(window);
-    window.scrollTo(0,0);
-  };
-
   var preSelectCheck = function (e) {
     let check = false;
     app.userEvents.forEach(function(event) {
@@ -68,7 +63,6 @@
         this.singleToggle = true;
         this.listToggle = preSelectCheck(el);
         this.singleEvent = el;
-        resetScrollPosition();
       },
       closeSingleEventView: function () {
         this.singleToggle = false;
