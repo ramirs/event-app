@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>ic_workshop</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="22" cy="22" r="22"></circle>
+        <filter x="-9.1%" y="-4.5%" width="118.2%" height="118.2%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.4   0 0 0 0 0.4   0 0 0 0 0.4  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Home" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="SIX_nav" transform="translate(-254.000000, -334.000000)">
+            <g id="ic_workshop" transform="translate(256.000000, 334.000000)">
+                <g id="Oval">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#8E44AD" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+                <g id="ic_worksops" transform="translate(9.000000, 13.000000)" stroke="#FFFFFF">
+                    <path d="M6.49334385,11.8764366 C6.49334385,13.0299736 5.55897889,13.9643386 4.4054419,13.9643386 C3.25190491,13.9643386 2.31753995,13.0299736 2.31753995,11.8764366 C2.31753995,10.7228996 3.25190491,9.78853468 4.4054419,9.78853468 C5.55897889,9.78853468 6.49334385,10.7228996 6.49334385,11.8764366 Z" id="Stroke-1"></path>
+                    <path d="M8.49103921,17.8930549 C8.32185378,15.7813131 6.55771121,14.1194509 4.40290412,14.1194509 C2.24732799,14.1194509 0.48395445,15.7813131 0.314,17.8930549 L8.49103921,17.8930549 Z" id="Stroke-3" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M15.1051127,11.8764366 C15.1051127,13.0299736 14.1699787,13.9643386 13.0172107,13.9643386 C11.8636738,13.9643386 10.9285398,13.0299736 10.9285398,11.8764366 C10.9285398,10.7228996 11.8636738,9.78853468 13.0172107,9.78853468 C14.1699787,9.78853468 15.1051127,10.7228996 15.1051127,11.8764366 Z" id="Stroke-5"></path>
+                    <path d="M17.1027312,17.8930549 C16.9335457,15.7813131 15.1694032,14.1194509 13.0145961,14.1194509 C10.8590199,14.1194509 9.09564639,15.7813131 8.92569195,17.8930549 L17.1027312,17.8930549 Z" id="Stroke-7" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M23.7168046,11.8764366 C23.7168046,13.0299736 22.7816707,13.9643386 21.6289027,13.9643386 C20.4753657,13.9643386 19.5402317,13.0299736 19.5402317,11.8764366 C19.5402317,10.7228996 20.4753657,9.78853468 21.6289027,9.78853468 C22.7816707,9.78853468 23.7168046,10.7228996 23.7168046,11.8764366 Z" id="Stroke-9"></path>
+                    <path d="M25.7145,17.8930549 C25.5445456,15.7813131 23.781172,14.1194509 21.6263649,14.1194509 C19.4707888,14.1194509 17.7066462,15.7813131 17.5374608,17.8930549 L25.7145,17.8930549 Z" id="Stroke-11" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <polygon id="Stroke-13" stroke-linecap="round" stroke-linejoin="round" points="2.69682291 6.81540844 23.3312926 6.81540844 23.3312926 0.163345137 2.69682291 0.163345137"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

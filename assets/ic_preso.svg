@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>ic_preso</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="22" cy="22" r="22"></circle>
+        <filter x="-9.1%" y="-4.5%" width="118.2%" height="118.2%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.4   0 0 0 0 0.4   0 0 0 0 0.4  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Home" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="SIX_nav" transform="translate(-254.000000, -280.000000)">
+            <g id="ic_preso" transform="translate(256.000000, 280.000000)">
+                <g id="Oval">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#8E44AD" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+                <g transform="translate(9.000000, 11.000000)">
+                    <path d="M17.2692308,21.1538462 C17.2692308,22.2159428 15.1167223,23.0769231 12.4617501,23.0769231 C9.80635466,23.0769231 7.65384615,22.2159428 7.65384615,21.1538462 C7.65384615,20.0917496 9.80635466,19.2307692 12.4617501,19.2307692 C15.1167223,19.2307692 17.2692308,20.0917496 17.2692308,21.1538462" id="Fill-1" fill="#8E44AD"></path>
+                    <path d="M17.2692308,21.1538462 C17.2692308,22.2159428 15.1167223,23.0769231 12.4617501,23.0769231 C9.80635466,23.0769231 7.65384615,22.2159428 7.65384615,21.1538462 C7.65384615,20.0917496 9.80635466,19.2307692 12.4617501,19.2307692 C15.1167223,19.2307692 17.2692308,20.0917496 17.2692308,21.1538462 Z" id="Stroke-3" stroke="#FFFFFF"></path>
+                    <path d="M12.5,9.61538462 L12.5,21.1538462" id="Stroke-5" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <polygon id="Stroke-7" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round" points="25 9.61538462 0 9.61538462 3.60362903 0 21.396371 0"></polygon>
+                    <polygon id="Stroke-9" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round" points="12.3126641 7.69230769 7.69230769 7.69230769 8.6911345 2.88461538 12.3126641 2.88461538 12.6868888 2.88461538 16.3088655 2.88461538 17.3076923 7.69230769 12.6868888 7.69230769"></polygon>
+                    <path d="M12.5,2.88461538 L12.5432692,7.69230769" id="Stroke-11" stroke="#FFFFFF"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

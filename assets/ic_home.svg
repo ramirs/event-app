@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>ic_home</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="22" cy="22" r="22"></circle>
+        <filter x="-9.1%" y="-4.5%" width="118.2%" height="118.2%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.4   0 0 0 0 0.4   0 0 0 0 0.4  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Home" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="SIX_nav" transform="translate(-254.000000, -496.000000)">
+            <g id="ic_home" transform="translate(256.000000, 496.000000)">
+                <g id="Oval">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#8E44AD" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+                <g id="03_Iconography/Default/List_Light" transform="translate(8.250000, 8.250000)">
+                    <g id="Icons/List">
+                        <rect id="Bounds" fill="#D8D8D8" opacity="0" x="0" y="0" width="28" height="28"></rect>
+                        <g id="Layer_1" transform="translate(8.166667, 12.833333)"></g>
+                    </g>
+                    <g id="Group" transform="translate(4.666667, 12.833333)" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round">
+                        <ellipse id="Oval" cx="1.83378998" cy="1.75" rx="1.65041098" ry="1.575"></ellipse>
+                        <path d="M6.41826492,1.16666667 L18.1545208,1.16666667" id="Shape"></path>
+                    </g>
+                    <g id="Group-Copy-2" transform="translate(4.666667, 18.666667)" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round">
+                        <ellipse id="Oval" cx="1.83378998" cy="1.75" rx="1.65041098" ry="1.575"></ellipse>
+                        <path d="M6.41826492,1.16666667 L18.1545208,1.16666667" id="Shape"></path>
+                    </g>
+                    <g id="Group-Copy" transform="translate(4.666667, 7.000000)" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round">
+                        <ellipse id="Oval" cx="1.83378998" cy="1.75" rx="1.65041098" ry="1.575"></ellipse>
+                        <path d="M6.41826492,1.16666667 L18.1545208,1.16666667" id="Shape"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

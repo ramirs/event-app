@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="32px" viewBox="0 0 40 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>ic_checkmark</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Home" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round">
+        <g id="SIX_home" transform="translate(-251.000000, -255.000000)" stroke="#0DA352">
+            <g id="card" transform="translate(10.000000, 166.000000)">
+                <g id="attending" transform="translate(242.000000, 90.000000)">
+                    <path d="M31.178643,0.840388427 L31.4055409,0.611015683 C32.1814591,-0.173365814 33.4421404,-0.170667398 34.2192246,0.614892746 L37.1007767,3.52787511 C37.878813,4.31439785 37.8772356,5.59119782 37.0978469,6.37908764 L14.3419365,29.3832063 C13.5622821,30.1713647 12.3045406,30.1777618 11.5252416,29.3899627 L0.603508138,18.3491013 C-0.172455065,17.5646743 -0.167464124,16.2877398 0.602544262,15.5092334 L3.71903659,12.3583464 C4.49446746,11.5743576 5.72273041,11.6022959 6.46517856,12.4237799 L12.9302473,19.577075 L28.821382,3.79784253" id="ic_checkmark"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
