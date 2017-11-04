@@ -112,21 +112,31 @@
   font-size: 1em;
   display: inline-block;
 }
-
+.event-calling-card {
+  background-color: #9b59b6;
+  color: #fff;
+  position: fixed;
+  font-size: 1em;
+  top: 0px;
+  left: 0px;
+  height: 60px;
+  width: 100vw;
+  box-sizing: border-box;
+  text-align: center;
+  /* line-height: 80px; */
+  padding-top: 20px;
+}
 .event-information {
-  /*padding: 25px;*/
   margin-bottom: 85px;
-  margin-top: 200px;
+  margin-top: 70px;
 }
-.event-information > div:not(.event-action-btn){
-  max-width: 850px;
-  margin: auto;
+.event-info-group > div {
+  padding: 0px 15px;
 }
-
 .info-content-title {
   display: block;
   margin-bottom: 7px;
-  margin-top: 7px;
+  margin-top: 23px;
 }
 
 .action-btn {
@@ -141,9 +151,10 @@
 }
 
 .btn-back {
-  top: 20px;
-  left: 20px;
+  top: 0px;
+  left: 0px;
   line-height: initial;
+  padding: 17px 25px;
 }
 
 .floating-ui-btn {
@@ -194,5 +205,9 @@
 @media (min-width: 850px) {
   .event-list-item {
     padding: 25px 30px;
+  }
+  .event-information {
+    max-width: 850px;
+    margin: auto;
   }
 }
