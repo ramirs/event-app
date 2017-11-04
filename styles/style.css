@@ -6,18 +6,17 @@ body, html, #app-container {
   font-size: 14px;
   overflow: hidden;
 }
-
+/*
 body *,
 html *,
 #app-container * {
   -webkit-touch-callout: none;
   -khtml-user-select: none;
-  
-  -webkit-user-select: none; /* Chrome, Opera, Safari */
-  -moz-user-select: none; /* Firefox 2+ */
-  -ms-user-select: none; /* IE 10+ */
-  user-select: none; /* Standard syntax */
-}
+
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}*/
 
 #app-view-single {
   background-color: #fff;
@@ -113,13 +112,6 @@ html *,
   width: 25px;
   text-align: center;
 }
-.filter-list i {
-  width: 45px;
-  padding: 14px 0px;
-  color: #ffffff;
-  background-color: #8e44ad;
-  border-radius: 25px;
-}
 
 .ui-btn:hover,
 .action-btn:hover {
@@ -192,4 +184,12 @@ div.purple {
 
 .filter-overlay {
   background-color: rgba(243, 243, 243, 0.90);
+}
+
+.menu-item-label {
+  display: inline-block;
+  line-height: 48px;
+  vertical-align: top;
+  margin-right: 12px;
+  font-size: 1.3em;
 }

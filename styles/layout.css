@@ -134,11 +134,10 @@
 
 .floating-ui-btn {
   position: fixed;
-  width: 45px;
-  height: 45px;
+  width: 48px;
+  height: 48px;
   bottom: 20px;
   right: 20px;
-  border-radius: 45px;
   text-align: center;
   line-height: 55px;
   z-index: 2;
@@ -162,13 +161,11 @@
 }
 .filter-list > div {
   list-style-type: none;
-  font-size: 1.2em;
-  margin-top: 10px;
+  margin-top: 5px;
 }
-
-.filter-list i {
-  text-align: center;
-  margin-left: 15px;
+.filter-list img {
+  width: 48px;
+  height: 48px;
 }
 
 .overlay-mask {

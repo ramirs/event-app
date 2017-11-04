@@ -40,6 +40,10 @@ Chaos, yet harmony.
 Darkness, yet light.
 - Say hello @ ramirs.com
  -->
+
+ <!--
+<img id="" src="assets/.svg" alt="">
+ -->
 <body>
   <div id="app-container">
     <div id="app-ui-header">
@@ -62,25 +66,25 @@ Darkness, yet light.
             </div>
           </div>
         </div>
-        <div v-show="!singleToggle" class="floating-ui-btn purple" v-on:click="toggleFilter()"><i v-show="!filterOverlay" class="fa fa-filter fa-2x" aria-hidden="true"></i><i v-show="filterOverlay" class="fa fa-close fa-2x" aria-hidden="true"></i></div>
+        <div v-show="!singleToggle" v-on:click="toggleFilter()" class="floating-ui-btn"><img id="ic_menu" v-show="!filterOverlay" src="assets/ic_menu.svg" alt="Open Menu"><img id="ic_close" v-show="filterOverlay" src="assets/ic_close.svg" alt="Close Menu"></div>
         <div class="filter-list" v-show="filterOverlay">
-          <transition name="slide-fade">
-            <div v-on:click="filterBy(2)" v-show="filterOverlay">Keynotes<i class="fa fa-coffee" aria-hidden="true"></i></div>
-          </transition>
-          <transition name="slide-pos-1">
-            <div v-on:click="filterBy(3)" v-show="filterOverlay">Presentations<i class="fa fa-comment" aria-hidden="true"></i></div>
-          </transition>
-          <transition name="slide-pos-2">
-            <div v-on:click="filterBy(4)" v-show="filterOverlay">Hack Day Prep<i class="fa fa-lightbulb-o" aria-hidden="true"></i></div>
-          </transition>
-          <transition name="slide-pos-3">
-            <div v-on:click="filterBy(1)" v-show="filterOverlay">Workshops<i class="fa fa-desktop" aria-hidden="true"></i></div>
+          <transition name="slide-pos-5">
+            <div v-on:click="filterBy(2)" v-show="filterOverlay"><div class="menu-item-label">Keynotes</div><img id="ic_keynote" src="assets/ic_keynote.svg" alt="Filter Keynote Events"></div>
           </transition>
           <transition name="slide-pos-4">
-            <div v-on:click="filterBy(0)" v-show="filterOverlay">Full Schedule<i class="fa fa-list" aria-hidden="true"></i></div>
+            <div v-on:click="filterBy(3)" v-show="filterOverlay"><div class="menu-item-label">Presentations</div><img id="ic_preso" src="assets/ic_preso.svg" alt="Filter Presentation Events"></div>
           </transition>
-          <transition name="slide-pos-5">
-            <div v-on:click="filterBy(5)" v-show="filterOverlay && storageAvailable">Saved Events<i class="fa fa-user" aria-hidden="true"></i></div>
+          <transition name="slide-pos-3">
+            <div v-on:click="filterBy(1)" v-show="filterOverlay"><div class="menu-item-label">Workshops</div><img id="ic_workshop" src="assets/ic_workshop.svg" alt="Filter Workshop Events"></div>
+          </transition>
+          <transition name="slide-pos-2">
+            <div v-on:click="filterBy(4)" v-show="filterOverlay"><div class="menu-item-label">Hack Day</div><img id="ic_hack" src="assets/ic_hack.svg" alt="Filter Hack Day Events"></div>
+          </transition>
+          <transition name="slide-pos-1">
+            <div v-on:click="filterBy(5)" v-show="filterOverlay && storageAvailable"><div class="menu-item-label">Saved Events</div><img id="ic_events" src="assets/ic_events.svg" alt="Filter Saved Events"></div>
+          </transition>
+          <transition name="slide-fade">
+            <div v-on:click="filterBy(0)" v-show="filterOverlay"><div class="menu-item-label">Home</div><img id="ic_home" src="assets/ic_home.svg" alt="View Full Event Schedule"></div>
           </transition>
         </div>
         <div class="filter-overlay" v-show="filterOverlay"></div>
