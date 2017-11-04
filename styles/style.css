@@ -2,7 +2,7 @@ body, html, #app-container {
   margin: 0;
   padding: 0;
   font-family: 'Open Sans', sans-serif;
-  background-color: #f3f3f3;
+  background-color: #ffffff;
   font-size: 14px;
   overflow: hidden;
 }
@@ -72,7 +72,7 @@ html *,
 }
 
 .event-list-container {
-  background-color: #f3f3f3;
+  background-color: #ffffff;
 }
 .event-list-item {
   background-color: #fff;
@@ -167,14 +167,6 @@ div.purple {
 .floating-ui-btn,
 .floating-ui-btn * {
   color: #ffffff;
-}
-
-.going-label {
-  float: right;
-}
-.going-label > i {
-  color: #27ae60;
-  /*margin-right: 5px;*/
 }
 
 .filter-list {

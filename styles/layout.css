@@ -52,18 +52,16 @@
 }
 
 .event-list-container {
-  padding: 25px;
+  padding: 25px 15px;
   margin-bottom: 55px;
 }
 .event-list-item {
-  padding: 30px;
-  margin-bottom: 7px;
+  padding: 12px 20px;
   max-width: 650px;
   margin: auto;
-  margin-bottom: 8px;
-}
-.event-list-item i {
-  color: #95a5a6;
+  margin-bottom: 15px;
+  position: relative;
+  border-radius: 7px;
 }
 .event-item-title {
   font-size: 1.1em;
@@ -74,8 +72,24 @@
   margin: 7px;
   margin-left: 0px;
 }
+.event-item-data {
+  display: inline-block;
+}
+.event-item-data img {
+  width: 19px;
+  height: 19px;
+}
 .event-item-start {
-  float: right;
+  font-size: 1.2em;
+  margin-left: 5px;
+  line-height: 19px;
+  vertical-align: top;
+}
+.going-label {
+  display: inline-block;
+  position: absolute;
+  right: 15px;
+  bottom: 12px;
 }
 
 #scroll-header {

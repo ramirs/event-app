@@ -53,17 +53,18 @@ Darkness, yet light.
       </div>
     </div>
     <div id="app-view-schedule">
-      <div v-show="!userListToggle" class="event-list-container">
+        <!-- SINGLE EVENT CARD -->
+        <div v-show="!userListToggle" class="event-list-container">
           <div v-for="ev in filteredEventList" v-on:click="showSingleEventView(ev)" class="event-list-item">
             <div>
-              <div v-show="ev.checked" class="going-label"><i class="fa fa-check-circle fa-3x" aria-hidden="true"></i></div>
               <span class="event-item-title">{{ev.title}}</span>
               <span class="event-item-subtitle">{{ev.subtitle}}</span>
             </div>
-            <div>
-              <span><i class="fa fa-map-marker" aria-hidden="true"></i>  {{ev.location}}</span>
-              <span class="event-item-start"><i class="fa fa-clock-o" aria-hidden="true"></i> {{ev.start | timeFormat}}</span>
+            <div class="event-item-data">
+              <div><img id="ic_clock" src="assets/ic_clock.svg" alt="Event Start Time"><span class="event-item-start">{{ev.start | timeFormat}}</span></div>
+              <div>{{ev.location}}</div>
             </div>
+            <div v-show="ev.checked" class="going-label"><img id="ic_checkmark" src="assets/ic_checkmark.svg" alt="You are attending this event"></div>
           </div>
         </div>
         <div v-show="!singleToggle" v-on:click="toggleFilter()" class="floating-ui-btn"><img id="ic_menu" v-show="!filterOverlay" src="assets/ic_menu.svg" alt="Open Menu"><img id="ic_close" v-show="filterOverlay" src="assets/ic_close.svg" alt="Close Menu"></div>
