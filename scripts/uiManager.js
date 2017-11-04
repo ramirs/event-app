@@ -3,16 +3,10 @@
   //refs
   var scrollHeader = document.getElementById('scroll-header');
   var scrollHeaderTitle = document.getElementById('scroll-header-title');
-  var backLabel = document.getElementById('back-label');
   var eventFab = document.getElementById('event-fab');
 
   //event listener and actions
   document.getElementById('scroll-container').onscroll = function () {
-    if(this.scrollTop >= 25) {
-      backLabel.style.display = 'none';
-    } else {
-      backLabel.style.display = 'inline';
-    }
 
     if(200 - this.scrollTop >= 80) {
       scrollHeader.style.height = (200 - this.scrollTop) + 'px';

@@ -94,9 +94,9 @@
   width: 85%;
   text-align: center;
   margin: auto;
-  height: 200px;
   padding-top: 80px;
   font-size: 1em;
+  display: inline-block;
 }
 
 .event-information {
