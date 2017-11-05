@@ -1,15 +1,14 @@
 #app-ui-header {
-  position: fixed;
+  /*position: fixed;*/
   width: 100vw;
   text-align: center;
-  pointer-events: none;
-  z-index: 100;
+  /*pointer-events: none;*/
+  /*z-index: 100;*/
 }
 
 #app-view-schedule {
   overflow-y: scroll;
-  height: calc(100vh - 420px);
-  padding-top: 420px;
+  height: calc(100vh);
 }
 
 #app-view-single {

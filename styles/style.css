@@ -23,12 +23,32 @@ hr {
   background-image: url('../assets/brand/logo-background.svg');
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
+  background-size: auto;
   color: #ffffff;
   -webkit-box-shadow: 0 6px 6px -6px #dadada;
   -moz-box-shadow: 0 6px 6px -6px #dadada;
   box-shadow: 0 6px 6px -6px #dadada;
   height: 420px;
+}
+#app-ui-header-mini {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100vw;
+  background-color: #8800bb;
+  background-image: url('../assets/brand/logo-background.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: #ffffff;
+  -webkit-box-shadow: 0 6px 6px -6px #dadada;
+  -moz-box-shadow: 0 6px 6px -6px #dadada;
+  box-shadow: 0 6px 6px -6px #dadada;
+  height: 60px;
+  z-index: 1;
+  line-height: 60px;
+  text-align: center;
+  font-size: 1.4em;
 }
 #br_logo {
   position: relative;
