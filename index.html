@@ -46,12 +46,14 @@ Darkness, yet light.
  -->
 <body>
   <div id="app-container">
-    <div id="app-ui-header">
+    <div id="app-ui-header" v-show="!singleToggle">
+      <img id="br_logo" src="assets/brand/logo-text.svg" alt="SIX DISRUPT">
       <div id="app-title">
         <div class="main-content">SIX DISRUPT</div>
-        <div id="title-display" class="sub-content">{{listSubtitle}}</div>
+        <!-- <div id="title-display" class="sub-content">November 9th, 2017</div> -->
       </div>
     </div>
+
     <!-- LIST EVENT VIEW -->
     <div id="app-view-schedule">
         <!-- SINGLE EVENT CARD -->
