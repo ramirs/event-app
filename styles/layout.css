@@ -1,15 +1,15 @@
 #app-ui-header {
   position: fixed;
   width: 100vw;
-  /*height: 45px;*/
   text-align: center;
-  /*line-height: 45px;*/
+  pointer-events: none;
+  z-index: 100;
 }
 
 #app-view-schedule {
   overflow-y: scroll;
-  height: calc(100vh - 72px);
-  padding-top: 72px;
+  height: calc(100vh - 420px);
+  padding-top: 420px;
 }
 
 #app-view-single {
@@ -34,12 +34,6 @@
   box-sizing: border-box;
 }
 
-#app-view-single .ui-btn {
-  /*position: absolute;*/
-  /*display: block;*/
-  /*right: 45px;*/
-  /*bottom: 40px;*/
-}
 #app-view-single .event-action-btn {
   display: block;
 }

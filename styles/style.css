@@ -13,45 +13,38 @@ hr {
   height: 2px;
   border: none;
 }
-/*
-body *,
-html *,
-#app-container * {
-  -webkit-touch-callout: none;
-  -khtml-user-select: none;
-
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-}*/
 
 #app-view-single {
   background-color: #fff;
 }
 
 #app-ui-header {
-  /*background-color: #fff;*/
-  /*font-size: 0.9em;*/
-  background-color: #8e44ad;
+  background-color: #8800bb;
+  background-image: url('../assets/brand/logo-background.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   color: #ffffff;
-  /*font-size: 1.2em;*/
   -webkit-box-shadow: 0 6px 6px -6px #dadada;
   -moz-box-shadow: 0 6px 6px -6px #dadada;
   box-shadow: 0 6px 6px -6px #dadada;
+  height: 420px;
+}
+#br_logo {
+  position: relative;
+  height: calc(100% - 35px);
+  margin-top: 15px;
 }
 
 #app-title {
-  background-color: #8e44ad;
-  color: #ffffff;
   font-size: 1.2em;
   padding-top: 10px;
   padding-bottom: 10px;
-  height: 90px;
   box-sizing: border-box;
 }
 #app-title .main-content {
   font-size: 1.2em;
-  line-height: 45px;
+  line-height: 60px;
 }
 #title-display {
   font-size: 0.8em;
@@ -123,7 +116,7 @@ div.red {
   color: #fff;
 }
 div.purple {
-  background-color: #8e44ad;
+  background-color: #8800bb;
 }
 
 .delete-action-btn,
