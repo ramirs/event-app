@@ -106,8 +106,11 @@
   display: inline-block;
 }
 .event-calling-card {
-  background-color: #9b59b6;
-  color: #fff;
+  background-color: #8800bb;
+  background-image: url(../assets/brand/logo-background.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;  color: #fff;
   position: fixed;
   font-size: 1em;
   top: 0px;
