@@ -103,18 +103,16 @@ Darkness, yet light.
               <div class="event-info-group">
                 <div class="event-content-title">Description</div>
                 <hr>
-                <div class="text-header">{{singleEvent.description}}</div>
-              </div>
-              <div class="event-info-group">
-                <div class="event-content-title">Topic</div>
-                <hr>
-                <div class="text-header">{{singleEvent.track}}</div>
+                <div v-for="newLine in singleEvent.description">
+                  <div class="text-header">{{newLine}}</div>
+                </div>
               </div>
               <div class="event-info-group" v-if="typeof singleEvent.speakers !== 'undefined'">
                 <div class="event-content-title">Speakers</div>
                 <hr>
                 <div v-for="host in singleEvent.speakers">
                   <div class="info-content-title text-header">{{host.name}}</div>
+                  <div class="text-header">{{host.title}}, {{host.organization}}</div>
                   <div class="text-header">{{host.bio}}</div>
                 </div>
               </div>
@@ -122,8 +120,13 @@ Darkness, yet light.
                 <div class="event-content-title">Sponsors / Organizations</div>
                 <hr>
                 <div v-for="org in singleEvent.organizations">
-                  <div class="info-content-title text-header"><a v-bind:href="org.url" target="_blank">{{org.name}}</a></div>
+                  <div class="info-content-title text-header">{{org.name}}</div>
                 </div>
+              </div>
+              <div class="event-info-group">
+                <div class="event-content-title">Type</div>
+                <hr>
+                <div class="text-header">{{singleEvent.type}}</div>
               </div>
             </div>
           </div>
