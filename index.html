@@ -4,7 +4,6 @@
   <title>SIX Event Schedule</title>
   <meta name=viewport content="width=device-width, initial-scale=1">
   <script src="https://unpkg.com/vue"></script>
-  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" type="text/css" href="styles/layout.css">
   <link rel="stylesheet" type="text/css" href="styles/style.css">
   <link rel="stylesheet" type="text/css" href="styles/transitions.css">
@@ -89,7 +88,7 @@ Darkness, yet light.
         <div id="app-view-single" v-show="singleToggle">
           <div class="view-container">
             <div class="event-calling-card">
-              <div v-on:click="closeSingleEventView()" class="action-btn btn-back"><i class="fa fa-angle-left fa-2x" aria-hidden="true"></i></div>{{singleEvent.title}}</div>
+              <div v-on:click="closeSingleEventView()" class="action-btn btn-back"><img id="ic_back" src="assets/ic_back.svg" alt="Close Single Event View"></div>{{singleEvent.title}}</div>
             <div class="event-information">
               <div class="event-info-group general-info-group">
                 <div class="event-content-title">General Information</div>

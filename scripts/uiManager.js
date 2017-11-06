@@ -23,6 +23,7 @@
   if(!document.implementation.hasFeature("http://www.w3.org/TR/SVG11/feature#Image", "1.1")) {
     //if browser doesn't support svg implementation...
     swapSvgForPngID('ic_add', 'assets/fallback/ic_add.png');
+    swapSvgForPngID('ic_back', 'assets/fallback/ic_back.png');
     swapSvgForPngClass('ic_checkmark', 'assets/fallback/ic_checkmark.png');
     swapSvgForPngClass('ic_clock', 'assets/fallback/ic_clock.png');
     swapSvgForPngID('ic_close', 'assets/fallback/ic_close.png');
