@@ -104,6 +104,7 @@ hr {
 
 .event-info-group {
   margin-top: 23px;
+  position: relative;
 }
 .event-info-group > div {
   margin-bottom: 5px;

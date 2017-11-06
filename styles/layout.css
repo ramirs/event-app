@@ -115,8 +115,8 @@
   width: 100vw;
   box-sizing: border-box;
   text-align: center;
-  /* line-height: 80px; */
   padding-top: 20px;
+  z-index: 2;
 }
 .event-information {
   margin-bottom: 85px;
@@ -199,5 +199,9 @@
   .event-information {
     max-width: 850px;
     margin: auto;
+    margin-top: 70px;
+  }
+  .event-calling-card {
+    font-size: 1.4em;
   }
 }
