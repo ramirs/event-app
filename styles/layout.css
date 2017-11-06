@@ -33,10 +33,6 @@
   box-sizing: border-box;
 }
 
-#app-view-single .event-action-btn {
-  display: block;
-}
-
 #back-label {
   display: inline-block;
   line-height: 40px;
@@ -139,11 +135,9 @@
   position: absolute;
 }
 .event-action-btn {
-  width: 90%;
-  max-width: 300px;
-  margin: auto;
-  padding: 7px 15px;
-  border-radius: 43px;
+  display: inline-block;
+  position: absolute;
+  right: 0px;
 }
 
 .btn-back {
