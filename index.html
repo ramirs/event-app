@@ -60,10 +60,10 @@ Darkness, yet light.
               <span class="event-item-subtitle">{{ev.subtitle}}</span>
             </div>
             <div class="event-item-data">
-              <div><img id="ic_clock" src="assets/ic_clock.svg" alt="Event Start Time"><span class="event-item-start">{{ev.start | timeFormat}}</span></div>
+              <div><img class="ic_clock" src="assets/ic_clock.svg" alt="Event Start Time"><span class="event-item-start">{{ev.start | timeFormat}}</span></div>
               <div>{{ev.location}}</div>
             </div>
-            <div v-show="ev.checked" class="going-label"><img id="ic_checkmark" src="assets/ic_checkmark.svg" alt="You are attending this event"></div>
+            <div v-show="ev.checked" class="going-label"><img class="ic_checkmark" src="assets/ic_checkmark.svg" alt="You are attending this event"></div>
           </div>
         </div>
         <div v-show="!singleToggle" v-on:click="toggleFilter()" class="floating-ui-btn"><img id="ic_menu" v-show="!filterOverlay" src="assets/ic_menu.svg" alt="Open Menu"><img id="ic_close" v-show="filterOverlay" src="assets/ic_close.svg" alt="Close Menu"></div>
@@ -99,11 +99,13 @@ Darkness, yet light.
               <div class="event-info-group general-info-group">
                 <div class="event-content-title">General Information</div>
                 <hr>
-                <div><img id="ic_clock" src="assets/ic_clock.svg" alt="Event Start Time"><span class="event-item-start">{{singleEvent.start | timeFormat}} - {{singleEvent.end | timeFormat}}<span></div>
-                <div>{{singleEvent.location}}</div>
+                <div class="event-item-data">
+                  <div><img class="ic_clock" src="assets/ic_clock.svg" alt="Event Start Time"><span class="event-item-start">{{singleEvent.start | timeFormat}} - {{singleEvent.end | timeFormat}}<span></div>
+                  <div>{{singleEvent.location}}</div>
+                </div>
+                <div v-show="!listToggle && storageAvailable" class="event-action-btn" v-on:click="saveEvent()"><img id="ic_add" src="assets/ic_add.svg" alt="Save event to my schedule"></div>
+                <div v-show="listToggle && storageAvailable" class="event-action-btn" v-on:click="deleteEvent(singleEvent)"><img id="ic_remove" src="assets/ic_remove.svg" alt="Remove event from my schedule"></div>
               </div>
-                <!-- <div v-if="!listToggle && storageAvailable" v-on:click="saveEvent()" class="event-action-btn save-action-btn"><i class="fa fa-plus" aria-hidden="true"></i> Save event to my schedule</div> -->
-                <!-- <div v-if="listToggle && storageAvailable" v-on:click="deleteEvent(singleEvent)" class="event-action-btn delete-action-btn"><i class="fa fa-times" aria-hidden="true"></i> Remove event from my schedule</div> -->
               <div class="event-info-group">
                 <div class="event-content-title">Description</div>
                 <hr>
