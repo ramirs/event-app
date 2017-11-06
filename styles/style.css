@@ -24,7 +24,8 @@ body, html, #app-container {
 .text-bold,
 .text-header,
 .event-item-title,
-.event-item-time {
+.event-item-time,
+.menu-item-label {
   font-size: 16pt;
   color: #000000;
 }
@@ -167,7 +168,7 @@ div.purple {
 
 .menu-item-label {
   display: inline-block;
-  line-height: 48px;
+  line-height: 45px;
   vertical-align: top;
   margin-right: 12px;
 }
