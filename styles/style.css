@@ -1,15 +1,39 @@
 @font-face {
-  font-family: OpenSans;
-  src: url('../assets/opensans.ttf');
+  font-family: OpenSansLight;
+  src: url('../assets/opensans-light.ttf');
+}
+@font-face {
+  font-family: OpenSansReg;
+  src: url('../assets/opensans-regular.ttf');
+}
+@font-face {
+  font-family: OpenSansBold;
+  src: url('../assets/opensans-semibold.ttf');
 }
 
 body, html, #app-container {
   margin: 0;
   padding: 0;
-  font-family: OpenSans, Helvetica, sans-serif;
+  font-family: OpenSansReg, Helvetica, sans-serif;
   background-color: #ffffff;
-  font-size: 14px;
+  font-size: 14pt;
+  color: #666666;
   overflow: hidden;
+}
+
+.text-bold,
+.text-header,
+.event-item-title,
+.event-item-time {
+  font-size: 16pt;
+  color: #000000;
+}
+.text-bold {
+  font-family: OpenSansBold;
+}
+.text-small,
+.event-content-title {
+  font-size: 12pt;
 }
 
 hr {
@@ -53,7 +77,7 @@ hr {
   z-index: 1;
   line-height: 60px;
   text-align: center;
-  font-size: 1.4em;
+  font-size: 16pt;
 }
 #br_logo {
   position: relative;
@@ -62,17 +86,14 @@ hr {
 }
 
 #app-title {
-  font-size: 1.2em;
   padding-top: 10px;
   padding-bottom: 10px;
   box-sizing: border-box;
 }
 #app-title .main-content {
-  font-size: 1.2em;
   line-height: 60px;
 }
 #title-display {
-  font-size: 0.8em;
   line-height: 20px;
 }
 
@@ -98,15 +119,6 @@ hr {
   box-shadow: 0px 1px 4px 0px grey;
 }
 
-.event-information {
-  font-size: 1.1em;
-  color: #232323;
-}
-.event-content-title {
-  color: #95a5a6;
-  font-size: 0.8em;
-}
-
 .event-info-group {
   margin-top: 23px;
   position: relative;
@@ -121,14 +133,7 @@ hr {
   border-radius: 75px;
   text-align: center;
 }
-.ui-btn > i {
-  color: #fff;
-  line-height: 75px;
-}
 
-.event-action-btn i {
-  color: #fff;
-}
 .btn-save,
 .save-action-btn,
 div.green {
@@ -151,10 +156,6 @@ div.purple {
   text-align: center;
 }
 
-.btn-back {
-  font-size: 0.9em;
-}
-
 .filter-list {
   color: #232323;
   /*color: #34193f;*/
@@ -169,5 +170,4 @@ div.purple {
   line-height: 48px;
   vertical-align: top;
   margin-right: 12px;
-  font-size: 1.3em;
 }

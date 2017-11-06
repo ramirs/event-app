@@ -54,7 +54,7 @@ Darkness, yet light.
               <span class="event-item-subtitle">{{ev.subtitle}}</span>
             </div>
             <div class="event-item-data">
-              <div><img class="ic_clock" src="assets/ic_clock.svg" alt="Event Start Time"><span class="event-item-start">{{ev.start | timeFormat}}</span></div>
+              <div class="event-item-time"><img class="ic_clock" src="assets/ic_clock.svg" alt="Event Start Time"><span class="event-item-start">{{ev.start | timeFormat}}</span></div>
               <div>{{ev.location}}</div>
             </div>
             <div v-show="ev.checked" class="going-label"><img class="ic_checkmark" src="assets/ic_checkmark.svg" alt="You are attending this event"></div>
@@ -94,8 +94,8 @@ Darkness, yet light.
                 <div class="event-content-title">General Information</div>
                 <hr>
                 <div class="event-item-data">
-                  <div><img class="ic_clock" src="assets/ic_clock.svg" alt="Event Start Time"><span class="event-item-start">{{singleEvent.start | timeFormat}} - {{singleEvent.end | timeFormat}}<span></div>
-                  <div>{{singleEvent.location}}</div>
+                  <div class="text-header text-bold"><img class="ic_clock" src="assets/ic_clock.svg" alt="Event Start Time"><span class="event-item-start">{{singleEvent.start | timeFormat}} - {{singleEvent.end | timeFormat}}<span></div>
+                  <div class="event-item-loc">{{singleEvent.location}}</div>
                 </div>
                 <div v-show="!listToggle && storageAvailable" class="event-action-btn" v-on:click="saveEvent()"><img id="ic_add" src="assets/ic_add.svg" alt="Save event to my schedule"></div>
                 <div v-show="listToggle && storageAvailable" class="event-action-btn" v-on:click="deleteEvent(singleEvent)"><img id="ic_remove" src="assets/ic_remove.svg" alt="Remove event from my schedule"></div>
@@ -103,26 +103,26 @@ Darkness, yet light.
               <div class="event-info-group">
                 <div class="event-content-title">Description</div>
                 <hr>
-                <div>{{singleEvent.description}}</div>
+                <div class="text-header">{{singleEvent.description}}</div>
               </div>
               <div class="event-info-group">
                 <div class="event-content-title">Topic</div>
                 <hr>
-                <div>{{singleEvent.track}}</div>
+                <div class="text-header">{{singleEvent.track}}</div>
               </div>
               <div class="event-info-group" v-if="typeof singleEvent.speakers !== 'undefined'">
                 <div class="event-content-title">Speakers</div>
                 <hr>
                 <div v-for="host in singleEvent.speakers">
-                  <div class="info-content-title">{{host.name}}</div>
-                  <div>{{host.bio}}</div>
+                  <div class="info-content-title text-header">{{host.name}}</div>
+                  <div class="text-header">{{host.bio}}</div>
                 </div>
               </div>
               <div class="event-info-group" v-show="typeof singleEvent.organizations !== 'undefined'">
                 <div class="event-content-title">Sponsors / Organizations</div>
                 <hr>
                 <div v-for="org in singleEvent.organizations">
-                  <div class="info-content-title"><a v-bind:href="org.url" target="_blank">{{org.name}}</a></div>
+                  <div class="info-content-title text-header"><a v-bind:href="org.url" target="_blank">{{org.name}}</a></div>
                 </div>
               </div>
             </div>
