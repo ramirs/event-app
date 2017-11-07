@@ -7,6 +7,7 @@
 }
 
 #app-view-schedule {
+  overflow: hidden;
   overflow-y: scroll;
   height: calc(100vh);
 }
@@ -98,10 +99,7 @@
 }
 .event-calling-card {
   background-color: #8800bb;
-  background-image: url(../assets/brand/logo-background.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;  color: #fff;
+  color: #fff;
   position: fixed;
   top: 0px;
   left: 0px;
@@ -196,6 +194,6 @@
     margin-top: 70px;
   }
   .event-calling-card {
-    font-size: 16pt;
+    font-size: 16px;
   }
 }

@@ -1,8 +1,4 @@
 @font-face {
-  font-family: OpenSansLight;
-  src: url('../assets/opensans-light.ttf');
-}
-@font-face {
   font-family: OpenSansReg;
   src: url('../assets/opensans-regular.ttf');
 }
@@ -16,7 +12,7 @@ body, html, #app-container {
   padding: 0;
   font-family: OpenSansReg, Helvetica, sans-serif;
   background-color: #ffffff;
-  font-size: 14pt;
+  font-size: 14px;
   color: #666666;
   overflow: hidden;
 }
@@ -26,7 +22,7 @@ body, html, #app-container {
 .event-item-title,
 .event-item-time,
 .menu-item-label {
-  font-size: 16pt;
+  font-size: 16px;
   color: #000000;
 }
 .text-bold {
@@ -34,7 +30,7 @@ body, html, #app-container {
 }
 .text-small,
 .event-content-title {
-  font-size: 12pt;
+  font-size: 12px;
 }
 
 hr {
@@ -50,7 +46,7 @@ hr {
 
 #app-ui-header {
   background-color: #8800bb;
-  background-image: url('../assets/brand/logo-background.svg');
+  background-image: url('../assets/brand/background-splash.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: auto;
@@ -66,10 +62,6 @@ hr {
   left: 0px;
   width: 100vw;
   background-color: #8800bb;
-  background-image: url('../assets/brand/logo-background.svg');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
   color: #ffffff;
   -webkit-box-shadow: 0 6px 6px -6px #dadada;
   -moz-box-shadow: 0 6px 6px -6px #dadada;
@@ -78,7 +70,10 @@ hr {
   z-index: 1;
   line-height: 60px;
   text-align: center;
-  font-size: 16pt;
+  font-size: 16px;
+}
+#ic_sm_header {
+  height: 60px;
 }
 #br_logo {
   position: relative;
@@ -121,7 +116,7 @@ hr {
 }
 
 .event-info-group {
-  margin-top: 23px;
+  margin-top: 30px;
   position: relative;
 }
 .event-info-group > div {

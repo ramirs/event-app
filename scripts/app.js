@@ -105,7 +105,6 @@
             }
         });
         scheduleManager.setSchedule(this.userEvents);
-        // this.listSubtitle = this.userEvents.length + ' Saved Events';
       },
       toggleList: function(bool) {
         this.userListToggle = bool;
@@ -128,7 +127,7 @@
           this.filteredEventList = this.sortedEvents['Talk'];
           this.listSubtitle = 'Presentations';
         } else if(parseInt(sel) == 4) {
-          this.filteredEventList = this.sortedEvents['Hack Prep'];
+          this.filteredEventList = this.sortedEvents['Hack'];
           this.listSubtitle = 'Hack Day Prep';
         } else if(parseInt(sel) == 5) {
          this.filteredEventList = this.userEvents;

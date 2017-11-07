@@ -40,7 +40,7 @@ Darkness, yet light.
  -->
 <body>
   <div id="app-container">
-    <div id="app-ui-header-mini">SIX DISRUPT</div>
+    <div id="app-ui-header-mini"><img id="ic_sm_header" src="assets/brand/logo-text-title.svg" alt="SIX DISRUPT"></div>
     <!-- LIST EVENT VIEW -->
     <div id="app-view-schedule">
         <div id="app-ui-header" v-show="!singleToggle">
@@ -100,35 +100,26 @@ Darkness, yet light.
                 <div v-show="!listToggle && storageAvailable" class="event-action-btn" v-on:click="saveEvent()"><img id="ic_add" src="assets/ic_add.svg" alt="Save event to my schedule"></div>
                 <div v-show="listToggle && storageAvailable" class="event-action-btn" v-on:click="deleteEvent(singleEvent)"><img id="ic_remove" src="assets/ic_remove.svg" alt="Remove event from my schedule"></div>
               </div>
-              <div class="event-info-group">
+              <div class="event-info-group" v-if="typeof singleEvent.description !== 'undefined'">
                 <div class="event-content-title">Description</div>
-                <hr>
-                <div v-for="newLine in singleEvent.description">
-                  <div class="text-header">{{newLine}}</div>
+                <hr><div v-for="newLine in singleEvent.description">
+                  <p class="text-header">{{newLine}}</p>
                 </div>
               </div>
               <div class="event-info-group" v-if="typeof singleEvent.speakers !== 'undefined'">
                 <div class="event-content-title">Speakers</div>
-                <hr>
-                <div v-for="host in singleEvent.speakers">
+                <hr><div v-for="host in singleEvent.speakers">
                   <div class="info-content-title text-header">{{host.name}}</div>
-                  <div class="text-header">{{host.title}}, {{host.organization}}</div>
-                  <div class="text-header">{{host.bio}}</div>
+                  <div><span v-if="typeof host.title !== 'undefined'">{{host.title}},</span> {{host.organization}}</div>
+                  <p class="text-header">{{host.bio}}</p>
                 </div>
               </div>
               <div class="event-info-group" v-show="typeof singleEvent.organizations !== 'undefined'">
                 <div class="event-content-title">Sponsors / Organizations</div>
-                <hr>
-                <div v-for="org in singleEvent.organizations">
+                <hr><div v-for="org in singleEvent.organizations">
                   <div class="info-content-title text-header">{{org.name}}</div>
                 </div>
               </div>
-              <div class="event-info-group">
-                <div class="event-content-title">Type</div>
-                <hr>
-                <div class="text-header">{{singleEvent.type}}</div>
-              </div>
-            </div>
           </div>
       </div>
     </transition>

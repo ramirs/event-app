@@ -5,7 +5,7 @@ var eventFeed = [
   "end": "1000",
   "title": "CTO Welcome",
   "subtitle": "",
-  "type": "Opening Session",
+  "type": "Keynote",
   "location": "3rd Floor Conference Center",
   "speakers": [
     {
@@ -68,7 +68,6 @@ var eventFeed = [
   ],
   "title": "Trade Show",
   "subtitle": "",
-  "description": [""],
   "checked": false
 },
 {
@@ -115,7 +114,7 @@ var eventFeed = [
       "name": "Marc Mercuri",
       "title": "Director, Applied Innovation",
       "organization": "Microsoft",
-      "bio": "Marc is a Director in Microsoft\'s Applied Innovation team where he focuses on scaling emerging business and technology scenarios for Microsoft. His current focus areas include Blockchain and Smart Buildings. Marc’\'s career has included architecture, consulting, engineering, evangelism, and strategy leadership roles at startups, enterprises, ISVs and CSVs. He has worked in Europe, Latin America, Asia, and the United States and his work has been featured in a number of mainstream media outlets including ABC, Advertising Age, AdWeek, TechCrunch, Ars Technica, the BBC, CNET, the Telegraph, FastCompany, Mashable, Wired, and ZDNet. He has 12 issued patents and 15 patents pending in the areas of cloud, mobile, and social. Marc is the author of four books on services and identity. He is also the technical editor of a book on Microservices with Docker on Microsoft Azure."
+      "bio": "Marc is a Director in Microsoft\'s Applied Innovation team where he focuses on scaling emerging business and technology scenarios for Microsoft. His current focus areas include Blockchain and Smart Buildings. Marc\'s career has included architecture, consulting, engineering, evangelism, and strategy leadership roles at startups, enterprises, ISVs and CSVs. He has worked in Europe, Latin America, Asia, and the United States and his work has been featured in a number of mainstream media outlets including ABC, Advertising Age, AdWeek, TechCrunch, Ars Technica, the BBC, CNET, the Telegraph, FastCompany, Mashable, Wired, and ZDNet. He has 12 issued patents and 15 patents pending in the areas of cloud, mobile, and social. Marc is the author of four books on services and identity. He is also the technical editor of a book on Microservices with Docker on Microsoft Azure."
     }
   ],
   "title": "Build a Blockchain",
@@ -132,21 +131,19 @@ var eventFeed = [
   "speakers": [
     {
       "name": "John Kidd",
-      "title": "",
       "organization": "Develop Intelligence",
       "bio": ""
     }
   ],
   "title": "Python for Analysts",
   "subtitle": "",
-  "description": "",
   "checked": false
 },
 {
   "id":"2_009",
   "start": "1100",
   "end": "1140",
-  "type": "Presentation",
+  "type": "Talk",
   "location": "Kona West",
   "speakers": [
     {
@@ -165,7 +162,7 @@ var eventFeed = [
   "id":"2_010",
   "start": "1100",
   "end": "1140",
-  "type": "Workshop",
+  "type": "Hack",
   "location": "3rd Floor PDC",
   "speakers": [
     {
@@ -184,7 +181,7 @@ var eventFeed = [
   "id":"2_011",
   "start": "1145",
   "end": "1225",
-  "type": "Workshop",
+  "type": "Hack",
   "location": "3rd Floor PDC",
   "speakers": [
     {
@@ -196,7 +193,7 @@ var eventFeed = [
   ],
   "title": "Idea Validation",
   "subtitle": "",
-  "description": ["The secret to start-up success - and indeed any innovative endeavour - is to know what to go after. So, once you have your ideas generated it's time to validate them. Learn how Pioneer Square Labs thinks about this step in the process."],
+  "description": ["The secret to start-up success - and indeed any innovative endeavour - is to know what to go after. So, once you have your ideas generated it\'s time to validate them. Learn how Pioneer Square Labs thinks about this step in the process."],
   "checked": false
 },
 {
@@ -240,7 +237,7 @@ var eventFeed = [
   ],
   "title": "A Case Study Using Atlas",
   "subtitle": "Atlas Part I",
-  "description": ["Starbucks store site selections are key business decisions, which over the last few years have become truly data driven thanks to Atlas. This analytics platform used by our Store Development and Strategy teams, and built by our BI team, has disrupted how we do business. Come for a demo and to hear the story of how data science is driving this part of our business."],
+  "description": ["Starbucks store site selections are key business decisions, which over the last few years have become truly data driven thanks to Atlas.","This analytics platform used by our Store Development and Strategy teams, and built by our BI team, has disrupted how we do business.","Come for a demo and to hear the story of how data science is driving this part of our business."],
   "checked": false
 },
 {
@@ -316,7 +313,7 @@ var eventFeed = [
       "name": "Cynthia Tee",
       "title": "VP, Product Development",
       "organization": "PlayFab, Inc.",
-      "bio": "After 20 years as a program manager at Microsoft, Cynthia followed her passion for championing women in the technology industry. She led the Ada Developer Academy and was instrumental in creating this innovative training program in Seattle. She is now back in the product development space at PlayFab."
+      "bio": "After 20 years as a program manager at Microsoft, Cynthia followed her passion for championing women in the technology industry. She led the Ada Developer Academy and was instrumental in creating this innovative training program in Seattle. She is now back in the product development space at PlayFab."
     }
   ],
   "title": "Changing the Face of Software Development",
@@ -333,20 +330,18 @@ var eventFeed = [
   "speakers": [
     {
       "name": "Rick Hansel",
-      "title": "",
       "organization": "Global Cybersecurity Team",
       "bio": ""
     },
     {
       "name": "Eric Hammond",
-      "title": "",
       "organization": "Global Cybersecurity Team",
       "bio": ""
     }
   ],
   "title": "Security Workshop",
   "subtitle": "A Day in the Life of C-SOC",
-  "description": ["Ever wonder what happens in the Starbucks C-SOC? It’s a busy place where our mission comes to life daily. Join this session to learn what the team here does to maintain the overall security posture of Starbucks\' global enterprise.","We\'ll talk tools, and walk through an event where malicious code was inadvertently downloaded. Knowledge is truly power when it comes to security. Come get a peak."],
+  "description": ["Ever wonder what happens in the Starbucks C-SOC? It\'s a busy place where our mission comes to life daily. Join this session to learn what the team here does to maintain the overall security posture of Starbucks\' global enterprise.","We\'ll talk tools, and walk through an event where malicious code was inadvertently downloaded. Knowledge is truly power when it comes to security. Come get a peak."],
   "checked": false
 },
 {
@@ -358,7 +353,6 @@ var eventFeed = [
   "speakers": [
     {
       "name": "Seana Murray",
-      "title": "",
       "organization": "Microsoft Hololens Team",
       "bio": "Seana started her career in Philadelphia at TNS, one of the world\'s largest market research companies, where she focused on large-scale research for global technology companies. She supported IBM and Intel before moving to Redmond, WA and joining MSFT as a program manager in 2008. Seana\'s commercial background led her to a role at MSFT\'s Executive Briefing Center where she managed the Public Sector Executive Engagement Program. This role provided significant exposure to Microsoft\'s newest technologies and a her passion for holographic computing was uncovered! Seana is now the HoloLens Services Development Lead for the Americas. She works closely with Microsoft Account Teams and HoloLens Engineering to design custom HoloLens applications for customers of varying sizes and industries seeking to transform their businesses with HoloLens."
     }
@@ -391,7 +385,7 @@ var eventFeed = [
   "id":"2_021",
   "start": "1230",
   "end": "1310",
-  "type": "Hack Prep",
+  "type": "Hack",
   "location": "3rd Floor Conference Center",
   "title": "Hack Your Lunch",
   "subtitle": "Business Problems to Hack On (Lightning Talks)",
@@ -427,7 +421,7 @@ var eventFeed = [
   "id":"2_023",
   "start": "1315",
   "end": "1440",
-  "type": "Hack Day",
+  "type": "Hack",
   "location": "3rd Floor PDC",
   "speakers": [
     {
@@ -439,7 +433,7 @@ var eventFeed = [
   ],
   "title": "Pitch to Win",
   "subtitle": "Your Idea is Only as Good as Your Story",
-  "description": ["Telling a great story is the most under-developed skill for many brilliant technologists, and yet if you can\'t hook an audience, connect to emotion and articulate a business case quickly even your best idea may not gain traction. Learn some tips and tricks from our coaches led by Ryan Bruels, and get some practice time too."],
+  "description": ["Telling a great story is the most under-developed skill for many brilliant technologists, and yet if you can\'t hook an audience, connect to emotion and articulate a business case quickly even your best idea may not gain traction. Learn some tips and tricks from our coaches led by Ryan Bruels, and get some practice time too."],
   "checked": false
 },
 {
@@ -470,15 +464,9 @@ var eventFeed = [
   "speakers": [
     {
       "name": "Keri Kusznir",
-      "title": "",
       "organization": "Global Cybersecurity Team, STarbucks Technology",
       "bio": ""
     }
-  ],
-  "organizations": [
-    {
-      "name": "_name",
-    },
   ],
   "title": "Bug Bounty",
   "subtitle": "Security Workshop",
@@ -496,17 +484,12 @@ var eventFeed = [
       "name": "Michael Moore, Ph.D",
       "title": "Executive Director",
       "organization": "Advisory Services, EY",
-      "bio": "Michael Moore, Ph.D. is an Executive Director in the Advisory Services practice of Ernst & Young LLP. He is the National practice lead for Enterprise Knowledge Graphs + AI in EY\'s Data and Analytics (DnA) Group.  Michael helps EY clients deploy large-scale knowledge graphs using cutting-edge technologies, real-time architectures and advanced analytics, and has sector interests in financial services, insurance, consumer retail, high-tech and food processing. He\'s designed and built enterprise-scale graphs with billions of nodes and relationships for a number of use cases including customer 360 views, recommendation engines, streaming graph updates, master data management and digital marketing attribution. Michael is based in Seattle, and is a Neo4j Certified Professional with 18 years of experience in enterprise analytics, data strategy and solution architecture."
+      "bio": "Michael Moore, Ph.D. is an Executive Director in the Advisory Services practice of Ernst & Young LLP. He is the National practice lead for Enterprise Knowledge Graphs + AI in EY\'s Data and Analytics (DnA) Group. Michael helps EY clients deploy large-scale knowledge graphs using cutting-edge technologies, real-time architectures and advanced analytics, and has sector interests in financial services, insurance, consumer retail, high-tech and food processing. He\'s designed and built enterprise-scale graphs with billions of nodes and relationships for a number of use cases including customer 360 views, recommendation engines, streaming graph updates, master data management and digital marketing attribution. Michael is based in Seattle, and is a Neo4j Certified Professional with 18 years of experience in enterprise analytics, data strategy and solution architecture."
     }
-  ],
-  "organizations": [
-    {
-      "name": "_name",
-    },
   ],
   "title": "GA and AI",
   "subtitle": "Graph Analytics, Artificial Intelligence, and the Meaning of Life",
-  "description": ["Join Dr. Michael Moore, EY\'s Graph Analytics + AI practice leader for a hands-on experience learning and working with knowledge graphs – the foundation of enterprise AI.","Michael\'s expertise is in deploying large-scale knowledge graphs using cutting-edge technologies, real-time architectures and advanced analytics, and has sector interests in financial services, insurance, consumer retail, high-tech and food processing.","He\'s designed and built enterprise-scale graphs with billions of nodes and relationships for a number of use cases including customer 360 views, recommendation engines, streaming graph updates, master data management and digital marketing attribution.  Come get your graph on!"],
+  "description": ["Join Dr. Michael Moore, EY\'s Graph Analytics + AI practice leader for a hands-on experience learning and working with knowledge graphs - the foundation of enterprise AI.","Michael\'s expertise is in deploying large-scale knowledge graphs using cutting-edge technologies, real-time architectures and advanced analytics, and has sector interests in financial services, insurance, consumer retail, high-tech and food processing.","He\'s designed and built enterprise-scale graphs with billions of nodes and relationships for a number of use cases including customer 360 views, recommendation engines, streaming graph updates, master data management and digital marketing attribution. Come get your graph on!"],
   "checked": false
 },
 {
@@ -531,7 +514,6 @@ var eventFeed = [
   ],
   "title": "Slack Workshop",
   "subtitle": "Build a Slack Bot",
-  "description": [],
   "checked": false
 },
 {
@@ -569,7 +551,6 @@ var eventFeed = [
   ],
   "title": "Flow State & Innovation",
   "subtitle": "",
-  "description": [],
   "checked": false
 },
 {
@@ -581,13 +562,11 @@ var eventFeed = [
   "speakers": [
     {
       "name": "Greg Reevosh",
-      "title": "",
       "organization": "Global Cybersecurity Team",
       "bio": ""
     },
     {
       "name": "Andy Kirkland",
-      "title": "",
       "organization": "Global Cybersecurity Team",
       "bio": ""
     }
@@ -632,7 +611,7 @@ var eventFeed = [
   ],
   "title": "Seizing the Upside of Disruption",
   "subtitle": "",
-  "description": ["Generated by the intersections of technology, globalization and demographics, disruption is creating opportunity with unprecedented speed. In this environment, new agile, digitally-enabled companies quickly scale and compete effectively with industry incumbents. However, this upside is not only available to startups—incumbents, too, can disrupt their markets.","EYQ, a global think tank, recently completed as global study involving innovation executives, CEOs and investors focused on three key questions:","What are the attributes that enable a large global corporation to disrupt?","How ready are the world\'s largest corporations to seize the upside of disruption?","How do institutional investors value disruption readiness?","This session will explore the nature of disruption and share the findings of EYQ\'s corporate disruption readiness benchmark focused on dimensions of leadership, corporate culture, innovation practices and capabilities, and external sensing and collaboration."],
+  "description": ["Generated by the intersections of technology, globalization and demographics, disruption is creating opportunity with unprecedented speed. In this environment, new agile, digitally-enabled companies quickly scale and compete effectively with industry incumbents. However, this upside is not only available to startup-incumbents, too, can disrupt their markets.","EYQ, a global think tank, recently completed as global study involving innovation executives, CEOs and investors focused on three key questions:","What are the attributes that enable a large global corporation to disrupt?","How ready are the world\'s largest corporations to seize the upside of disruption?","How do institutional investors value disruption readiness?","This session will explore the nature of disruption and share the findings of EYQ\'s corporate disruption readiness benchmark focused on dimensions of leadership, corporate culture, innovation practices and capabilities, and external sensing and collaboration."],
   "checked": false
 },
 {
@@ -670,7 +649,6 @@ var eventFeed = [
   ],
   "title": "CTO Panel",
   "subtitle": "Closing Thoughts with Gerri and Guests",
-  "description": [],
   "checked": false
 },
 {
@@ -682,7 +660,6 @@ var eventFeed = [
   "speakers": [
     {
       "name": "",
-      "title": "",
       "organization": "Datastax",
       "bio": ""
     }
