@@ -35,6 +35,8 @@
     swapSvgForPngID('ic_preso', 'assets/fallback/ic_preso.png');
     swapSvgForPngID('ic_remove', 'assets/fallback/ic_remove.png');
     swapSvgForPngID('ic_workshop', 'assets/fallback/ic_workshop.png');
+    swapSvgForPngID('br_logo', 'assets/fallback/logo_text.png');
+    swapSvgForPngID('ic_sm_header', 'assets/fallback/logo_text_title.png');
   } else {
     //use this area for testing fallback
   }
