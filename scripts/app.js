@@ -1,9 +1,4 @@
 (function() {
-  //TODO
-  //email notifications(?)
-  //app state (loading, waiting messages, etc.)
-  // transitions for schedule and singe elements (click triggers)
-
   this.scheduleManager = new LocalScheduleManager();
 
   var startTimeSort = function(a, b) {
@@ -152,10 +147,7 @@
     }
   });
 
-  //IF localStorage, grab storage and map to userEvents
-  // ELSE notify user they won't be able to save events :(
   app.userEvents = this.scheduleManager.getSchedule();
-  // this.scheduleManager.showSchedule();
 
   if(app.userEvents.length == 0 && this.scheduleManager.storageAvailable) {
     app.initMsg = 'Your device can save events! Try adding events and they will appear here.';
@@ -170,6 +162,5 @@
   }
 
   app.storageAvailable = this.scheduleManager.storageAvailable;
-  alert(app.storageAvailable);
 
 })();
