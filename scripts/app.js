@@ -86,7 +86,7 @@
             uniqueEvent = false;
           }
         });
-        if(uniqueEvent) {
+        if(uniqueEvent && app.storageAvailable) {
           checkListItem(this.singleEvent.id);
           this.userEvents.push(this.singleEvent);
           scheduleManager.setSchedule(this.userEvents);
@@ -169,10 +169,7 @@
     });
   }
 
-  if(this.scheduleManager.storageAvailable) {
-    app.storageAvailable = true;
-  } else {
-    app.storageAvailable = false;
-  }
+  app.storageAvailable = this.scheduleManager.storageAvailable;
+  alert(app.storageAvailable);
 
 })();
