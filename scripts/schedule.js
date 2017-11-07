@@ -1,24 +1,31 @@
 function LocalScheduleManager() {
   this.storage = {};
   this.storageAvailable = false;
-
-  if(window.localStorage) {
-    //everything works as expected
-    this.storage = window.localStorage;
+  if(this.checkLocalStorage()) {
     this.storageAvailable = true;
   } else {
-    //TURN OFF STORAGE FEATURES??
-
-    //simulate storage, won't persist data
+    this.storage = {};
     this.storage['six-disrupt-localEvents'] = [];
   }
 }
 
+LocalScheduleManager.prototype.checkLocalStorage = function () {
+  try {
+    this.storage = window.localStorage;
+    this.storage.setItem('testkey1230', '1');
+    this.storage.removeItem('testkey1230');
+    return true;
+  } catch (error) {
+    return false;
+  }
+};
+
 LocalScheduleManager.prototype.getSchedule = function () {
   let savedEvents;
   let storageData = this.storage['six-disrupt-localEvents'];
+  console.log(this.storage);
 
-  if(typeof storageData !== 'undefined') {
+  if(typeof storageData !== 'undefined' && storageData.length > 0) {
     savedEvents = JSON.parse(storageData);
   } else {
     savedEvents = [];
