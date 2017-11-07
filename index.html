@@ -54,7 +54,7 @@ Darkness, yet light.
               <span class="event-item-subtitle">{{ev.subtitle}}</span>
             </div>
             <div class="event-item-data">
-              <div class="event-item-time"><img class="ic_clock" src="assets/ic_clock.svg" alt="Event Start Time"><span class="event-item-start">{{ev.start | timeFormat}}</span></div>
+              <div class="event-item-time"><img class="ic_clock" src="assets/ic_clock.svg" alt="Event Start Time"><span class="event-item-start text-bold">{{ev.start | timeFormat}}</span></div>
               <div>{{ev.location}}</div>
             </div>
             <div v-show="ev.checked" class="going-label"><img class="ic_checkmark" src="assets/ic_checkmark.svg" alt="You are attending this event"></div>
