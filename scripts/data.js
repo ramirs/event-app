@@ -32,7 +32,7 @@ var eventFeed = [
       "bio": "Robi Ganguly is Co-founder and CEO of Apptentive, the leading Mobile Customer Experience software. He\'s led the company from an idea to a venture-backed startup that powers millions of customer conversations every month for thousands of companies around the world including Concur, eBay, eHarmony, Intercontinental Hotels Group, Nordstrom, and Zillow."
     }
   ],
-  "title": "Digital Inside and Out",
+  "title": "Keynote: Digital Inside and Out",
   "subtitle": "Disrupting what we think we know, and reframing what is possible",
   "description": ["No force is more disruptive in today\'s digital business than the customer, for better and for worse.","Robi Ganguly, CEO at Apptentive, observes that companies who live and breathe this reality, win. They are different than companies of old. They are data driven. They are experience centric. They are relationship focused. They are digital.","What does it mean to embrace the realities of digital transformation as we strive to delight our customers and power the Starbucks business? Start your day with this exploration by a rising technology leader who has built his company around the idea of \'customer love\'."],
   "checked": false
@@ -487,7 +487,7 @@ var eventFeed = [
       "bio": "Michael Moore, Ph.D. is an Executive Director in the Advisory Services practice of Ernst & Young LLP. He is the National practice lead for Enterprise Knowledge Graphs + AI in EY\'s Data and Analytics (DnA) Group. Michael helps EY clients deploy large-scale knowledge graphs using cutting-edge technologies, real-time architectures and advanced analytics, and has sector interests in financial services, insurance, consumer retail, high-tech and food processing. He\'s designed and built enterprise-scale graphs with billions of nodes and relationships for a number of use cases including customer 360 views, recommendation engines, streaming graph updates, master data management and digital marketing attribution. Michael is based in Seattle, and is a Neo4j Certified Professional with 18 years of experience in enterprise analytics, data strategy and solution architecture."
     }
   ],
-  "title": "GA and AI",
+  "title": "Graph Analytics and AI",
   "subtitle": "Graph Analytics, Artificial Intelligence, and the Meaning of Life",
   "description": ["Join Dr. Michael Moore, EY\'s Graph Analytics + AI practice leader for a hands-on experience learning and working with knowledge graphs - the foundation of enterprise AI.","Michael\'s expertise is in deploying large-scale knowledge graphs using cutting-edge technologies, real-time architectures and advanced analytics, and has sector interests in financial services, insurance, consumer retail, high-tech and food processing.","He\'s designed and built enterprise-scale graphs with billions of nodes and relationships for a number of use cases including customer 360 views, recommendation engines, streaming graph updates, master data management and digital marketing attribution. Come get your graph on!"],
   "checked": false
@@ -622,15 +622,15 @@ var eventFeed = [
   "location": "3rd Floor Conference Center",
   "speakers": [
     {
-      "name": "Gurdeep Pall",
+      "name": "Gurdeep Singh Pall",
       "title": "Corporate Vice President",
       "organization": "Business AI, Microsoft",
-      "bio": "Gurdeep Pall joined Microsoft in January 1990 as a software design engineer. He leads the Business AI Group at Microsoft, a team comprising of Research Scientists, Engineers and Business leaders, bringing digital transformation to many industries thru the power of AI. Prior to this Gurdeep was responsible for Skype, Skype for Business and Microsoft Teams efforts, including creating Lync (now Skype for Business) and developing it into a multi-billion $ business."
+      "bio": "Gurdeep Singh Pall joined Microsoft in January 1990 as a software design engineer. He leads the Business AI Group at Microsoft, a team comprising of Research Scientists, Engineers and Business leaders, bringing digital transformation to many industries thru the power of AI. Prior to this Gurdeep was responsible for Skype, Skype for Business and Microsoft Teams efforts, including creating Lync (now Skype for Business) and developing it into a multi-billion $ business."
     }
   ],
-  "title": "Disrupting Business as Usual with AI",
+  "title": "Keynote: Disrupting Business as Usual with AI",
   "subtitle": "",
-  "description": ["End the day with Microsoft thought leader, Gurdeep Pall, as he shares his views on the promise of AI, looking ahead to a new era of business, and indeed engagement in all aspects of modern life.","\'We\'re in the golden era of digital transformation. It\'s changing everything we do; how we shop, how we bank, and how we date.\'","\'Forms over Data is evolving into Conversations over Knowledge.\'","\'What we are really doing is creating a system of intelligence rather than just systems of record.\'","- Gurdeep Singh Pall, CVP, Business AI, Microsoft"],
+  "description": ["End the day with Microsoft thought leader, Gurdeep Singh Pall, as he shares his views on the promise of AI, looking ahead to a new era of business, and indeed engagement in all aspects of modern life.","\'We\'re in the golden era of digital transformation. It\'s changing everything we do; how we shop, how we bank, and how we date.\'","\'Forms over Data is evolving into Conversations over Knowledge.\'","\'What we are really doing is creating a system of intelligence rather than just systems of record.\'","- Gurdeep Singh Pall, CVP, Business AI, Microsoft"],
   "checked": false
 },
 {
