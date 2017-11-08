@@ -82,7 +82,7 @@ var eventFeed = [
       "title": "Cloud Solution Architect",
       "organization": "Microsoft",
       "bio": [
-        "Tim Benroeck is Microsoft Cloud Solution Architect for Starbucks.","He specializes in Information Management and provides Azure expertise to customers enabling rapid deployment of Azure based solutions." 
+        "Tim Benroeck is Microsoft Cloud Solution Architect for Starbucks.","He specializes in Information Management and provides Azure expertise to customers enabling rapid deployment of Azure based solutions."
       ]
     },
     {
@@ -278,13 +278,11 @@ var eventFeed = [
     {
       "name": "Joseph Henderson",
       "title": "Data Scientist",
-      "organization": "Market Planning and Location Analytics",
       "bio": ""
     },
     {
       "name": "Gregory Baumgardner",
       "title": "Data Scientist",
-      "organization": "Market Planning and Location Analytics",
       "bio": ""
     }
   ],
