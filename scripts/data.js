@@ -155,7 +155,7 @@ var eventFeed = [
   ],
   "title": "Block Chain in Action",
   "subtitle": "Real World Use Cases",
-  "description": ["Blockchain technology is at an inflection point, with many large companies adopting it to build digital ledgers and digital identity, streamlining transactions and increasing traceability through supply chains. This talk considers real-world use cases and asks Starbucks partners to consider how we can embrace this disruption.","Blockchain technology is at an inflection point, with many large companies adopting it to build digital ledgers and digital identity, streamlining transactions and increasing traceability through supply chains. This talk considers real-world use cases and asks Starbucks partners to consider how we can embrace this disruption."],
+  "description": ["Blockchain technology is at an inflection point, with many large companies adopting it to build digital ledgers and digital identity, streamlining transactions and increasing traceability through supply chains. This talk considers real-world use cases and asks Starbucks partners to consider how we can embrace this disruption."],
   "checked": false
 },
 {
