@@ -153,7 +153,7 @@ var eventFeed = [
       "bio": "Joe Roets is a successful software and systems architect with experience as CIO, CTO, and Senior Vice President across industries. For over 20 years he has worked at companies such as Disney, Lockheed Martin, Sprint, FBI, DoD, and createTank, and has spearheaded new technology groups and led software engineering teams both large and small. He has been involved with blockchain and cryptocurrency projects since 2010, working with Coinbase, Overstock, Symbiont, Bloq, and Disney. He currently heads the Dragonchain Foundation and Dragonchain, Inc."
     }
   ],
-  "title": "Block Chain in Action",
+  "title": "Blockchain in Action",
   "subtitle": "Real World Use Cases",
   "description": ["Blockchain technology is at an inflection point, with many large companies adopting it to build digital ledgers and digital identity, streamlining transactions and increasing traceability through supply chains. This talk considers real-world use cases and asks Starbucks partners to consider how we can embrace this disruption."],
   "checked": false
