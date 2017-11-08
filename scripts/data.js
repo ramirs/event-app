@@ -698,7 +698,7 @@ var eventFeed = [
       "name": "Gurdeep Singh Pall",
       "title": "Corporate Vice President",
       "organization": "Business AI, Microsoft",
-      "bio": "Gurdeep Singh Pall joined Microsoft in January 1990 as a software design engineer. He leads the Business AI Group at Microsoft, a team comprising of Research Scientists, Engineers and Business leaders, bringing digital transformation to many industries thru the power of AI. Prior to this Gurdeep was responsible for Skype, Skype for Business and Microsoft Teams efforts, including creating Lync (now Skype for Business) and developing it into a multi-billion $ business."
+      "bio": ["Gurdeep Singh Pall joined Microsoft in January 1990 as a software design engineer.","He leads the Business AI Group at Microsoft, a team comprising of Research Scientists, Engineers and Business leaders, bringing digital transformation to many industries thru the power of AI.","Prior to this Gurdeep was responsible for Skype, Skype for Business and Microsoft Teams efforts, including creating Lync (now Skype for Business) and developing it into a multi-billion $ business."]
     }
   ],
   "title": "Keynote: Disrupting Business as Usual with AI",
