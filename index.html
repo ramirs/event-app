@@ -118,7 +118,7 @@ Darkness, yet light.
                 <hr><div v-for="host in singleEvent.speakers">
                   <div class="info-content-title text-header">{{host.name}}</div>
                   <div><span v-if="typeof host.title !== 'undefined'">{{host.title}},</span> {{host.organization}}</div>
-                  <p class="text-header">{{host.bio}}</p>
+                  <p class="text-header" v-for="bioLine in host.bio">{{bioLine}}</p>
                 </div>
               </div>
               <div class="event-info-group" v-show="typeof singleEvent.organizations !== 'undefined'">
