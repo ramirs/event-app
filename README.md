@@ -1,22 +1,25 @@
 # Starbucks Event App
 
-A single page application that helps Starbucks employees navigate the bi-annual Starbucks Innovation Expo event, an internal tech conference that regularly gets 1,000+ attendees
+A single page application that I wrote for the bi-annual Starbucks Innovation Expo event, an internal tech conference that regularly gets 1,000+ attendees
 
 ## Getting Started
 
-Visit [https://ramirs.github.io/event-app/](https://ramirs.github.io/event-app/) to see the app in action, or clone the repo and spin it up yourself!
+Visit [https://ramirs.github.io/event-app/](https://ramirs.github.io/event-app/) to see the app in action, or clone the repo and run it yourself
 
 ### Running Locally
 
-Cloning is simple, but requires you to spin up your own server. This event app isn't built with a standard CLI to keep the codebase lightweight and clean.
+Simply clone the repo and open the app (or host it yourself)
 
 ```
 $ git clone https://github.com/ramirs/event-app/
 ```
 
-In order to spin up the app, I recommend using a service like [http-server](https://www.npmjs.com/package/http-server) ...
 ```
-$ http-server event-app/
+$ cd event-app
+```
+
+```
+$ open index.html
 ```
 
 ## Built With
